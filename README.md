@@ -17,7 +17,7 @@ Using LibMoE, we extensively benchmarked five state-of-the-art MoE algorithms ov
 
 | Date           | Release Notes                                                                                              |
 |----------------|------------------------------------------------------------------------------------------------------------|
-| 2024-11-04 | - Additional feature metric analysis for MoE algorithms in the [LibMoE]() paper – *coming soon* ⏳ |
+| 2024-11-04 | - Additional feature metric analysis for MoE algorithms in the [LibMoE]() paper – ✅ |
 | 2024-11-01 | - Released LibMoE v1.0 preprint report [HERE]() ✅  <br> - LibMoE webpage [HERE](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/)  ✅  <br> - Publicly available checkpoints ✅ |
 
 
