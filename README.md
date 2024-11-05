@@ -187,7 +187,9 @@ python3 -m accelerate.commands.launch \
     --batch_size 1 \
     --log_samples \
     --log_samples_suffix llava_v1.5_mme \
-    --output_path ./logs/
+    --output_path ./logs/ \
+    --return_id_experts true \  # return selected expert IDs
+    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
 ```
 
 **Evaluation of LLaVA on multiple datasets**
@@ -202,7 +204,9 @@ python3 -m accelerate.commands.launch \
     --batch_size 1 \
     --log_samples \
     --log_samples_suffix llava_v1.5_mme_mmbenchen \
-    --output_path ./logs/
+    --output_path ./logs/ \
+    --return_id_experts true \  # return selected expert IDs
+    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
 ```
 
 **For other variants llava. Please change the `conv_template` in the `model_args`**
@@ -219,7 +223,9 @@ python3 -m accelerate.commands.launch \
     --batch_size 1 \
     --log_samples \
     --log_samples_suffix llava_v1.5_mme_mmbenchen \
-    --output_path ./logs/
+    --output_path ./logs/ \
+    --return_id_experts true \  # return selected expert IDs
+    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
 ```
 
 ## 📌 Citation
