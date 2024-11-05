@@ -226,7 +226,15 @@ python3 -m accelerate.commands.launch \
 If you find this repository useful, please consider citing our paper:
 
 ```
-...
+@misc{nguyen2024libmoelibrarycomprehensivebenchmarking,
+      title={LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models}, 
+      author={Nam V. Nguyen and Thong T. Doan and Luong Tran and Van Nguyen and Quang Pham},
+      year={2024},
+      eprint={2411.00918},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.00918}, 
+}
 ```
 
 
