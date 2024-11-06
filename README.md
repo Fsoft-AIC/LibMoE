@@ -1,4 +1,15 @@
 # LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS
+**Authors:** Nam V. Nguyen, Thong T. Doan, Luong Tran, Van Nguyen, Quang Pham
+
+<p align="center">
+  <a href="https://arxiv.org/abs/2411.00918">
+    <img src="https://img.shields.io/badge/arXiv-2411.00918-red?style=flat&label=arXiv">
+  </a>
+  <a href="https://fsoft-aic.github.io/fsoft-LibMoE.github.io/">
+    <img src="https://custom-icon-badges.demolab.com/badge/WebPage-1a4f76?style=flat&logo=web">
+  </a>
+</p>
+
 
 <p align="center">
     <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-release-notes" style="text-decoration: none;">📢 Release Notes</a> •
@@ -8,6 +19,7 @@
     <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#%EF%B8%8F%EF%B8%8F-training" style="text-decoration: none;">🏋️‍♂️ Training</a> •
     <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-evaluation" style="text-decoration: none;">🧪 Evaluation</a> •
     <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-citation" style="text-decoration: none;">📌 Citation</a>
+    
 </p>
 
 ## 📌 About
