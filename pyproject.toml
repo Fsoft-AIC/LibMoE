@@ -45,7 +45,3 @@ moe-train = "moe_model.train.train_mem:main"
 
 [tool.setuptools.packages.find]
 where = ["evaluate", "lmms_eval", "moe_model", "moe_model.*"]
-
-authors = [
-    { name = "Nam V. Nguyen", email = "namnv78@fpt.com" }
-]
