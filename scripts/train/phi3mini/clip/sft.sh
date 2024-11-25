@@ -15,7 +15,7 @@ deepspeed --include localhost:$ID_GPUS --master_port 60001 moe_model/train/train
     --clip_smoe true \
     --moe_name $TYPE_MOE \
     --num_experts 2 \
-    --num_selected 2 \
+    --num_selected 4 \
     --balance_loss_coef 0.1 \
     --router_z_loss_coef 0.01 \
     --mm_vision_select_layer -2 \
