@@ -34,7 +34,7 @@ class MoESigmoidGating(MoeLayer):
     
     def forward(self, x, return_id_experts = False):
         # compute output
-        gate_logits = self.sigmoid(-self.gate(x))
+        gate_logits = self.sigmoid(self.gate(x))
 
         output = torch.zeros(x.shape[0], x.shape[1], self.out_embed_dim, device=x.device, dtype=x.dtype)
         output = self.compute_moe(gate_logits, output, x)
