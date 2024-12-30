@@ -2,10 +2,6 @@ accelerate==0.31.0
 anls==0.0.2
 anthropic==0.37.1
 av==12.2.0
-<<<<<<< HEAD
-beautifulsoup4==4.12.3
-=======
->>>>>>> v1.1
 bitsandbytes==0.43.1
 capture_metric==0.1.13
 dashscope==1.20.12
