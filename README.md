@@ -29,9 +29,10 @@ Using LibMoE, we extensively benchmarked five state-of-the-art MoE algorithms ov
 
 | Date       | Release Notes                                                                                              |
 |------------|------------------------------------------------------------------------------------------------------------|
-| 2024-12-30 | - Release LibMoE v1.1:  <br> - Decrease training time by 70%, from approximately ~30h to ~9h.  <br> - Return more detailed information on MoE algorithms, including balancing loss, zloss, training time per step, FLOPs, language loss, total loss, aux loss, and more customizable metrics. |
-| 2024-11-04 | - Additional feature: Metric analysis for MoE algorithms in the [LibMoE]() paper ✅ |
-| 2024-11-01 | - Released LibMoE v1.0 preprint report: [HERE](https://arxiv.org/pdf/2411.00918) ✅  <br> - LibMoE webpage: [HERE](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/) ✅  <br> - Publicly available checkpoints ✅ |
+| 2024-12-30 | - Release LibMoE v1.1:  <br>   - Reduced training time by 70%, from approximately ~30h to ~9h.  <br>   - Provides more detailed information on MoE algorithms, including balancing loss, z-loss, training time per step, FLOPs, language loss, total loss, aux loss, and more customizable metrics. <br>   - Updated balance_loss_coef and router_z_loss_coef for better performance [More details](https://github.com/Fsoft-AIC/LibMoE/blob/main/scripts/train/phi35mini/siglip/sft.sh). |
+| 2024-11-04 | - New feature: Metric analysis for MoE algorithms, as detailed in the [LibMoE](#) paper ✅ |
+| 2024-11-01 | - Released LibMoE v1.0 preprint report: [Read Here](https://arxiv.org/pdf/2411.00918) ✅  <br>   - LibMoE webpage: [Visit Here](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/) ✅  <br>   - Publicly available checkpoints ✅ |
+
 
 
 ## 🔍 Checkpoints
