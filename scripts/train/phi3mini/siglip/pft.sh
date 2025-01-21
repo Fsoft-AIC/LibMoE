@@ -1,0 +1,44 @@
+#!/bin/bash
+
+deepspeed --include localhost:$ID_GPUS moe_model/train/train_mem.py \
+    --deepspeed ./scripts/zero3.json \
+    --model_name_or_path microsoft/Phi-3-mini-4k-instruct \
+    --version phi3 \
+    --data_path $TOOLKIT_DIR/data/jsons/cumo_pft_allava.json \
+    --image_folder $TOOLKIT_DIR/data \
+    --vision_tower google/siglip-so400m-patch14-384 \
+    --vision_tower_dir $TOOLKIT_DIR/checkpoints/siglip-so400m-patch14-384/model.safetensors \
+    --scales 1,3 \
+    --pretrain_mm_mlp_adapter $TOOLKIT_DIR/checkpoints/$MODELDIR/pretrain/mm_projector.bin \
+    --mm_projector_type mlp2x_gelu \
+    --pft True \
+    --mlp_smoe false \
+    --clip_smoe false \
+    --mm_vision_select_layer -2 \
+    --mm_use_im_start_end false \
+    --mm_use_im_patch_token false \
+    --image_aspect_ratio pad \
+    --group_by_modality_length True \
+    --bf16 True \
+    --output_dir $TOOLKIT_DIR/checkpoints/$MODELDIR/pft \
+    --num_train_epochs 1 \
+    --per_device_train_batch_size 6 \
+    --per_device_eval_batch_size 4 \
+    --gradient_accumulation_steps 4 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 100 \
+    --save_total_limit 1 \
+    --learning_rate 2e-6 \
+    --weight_decay 0. \
+    --warmup_ratio 0.03 \
+    --lr_scheduler_type "cosine" \
+    --logging_steps 1 \
+    --tf32 True \
+    --model_max_length 4096 \
+    --gradient_checkpointing True \
+    --dataloader_num_workers 4 \
+    --lazy_preprocess True \
+    --report_to none \
+    --cache_dir $TOOLKIT_DIR/checkpoints/phi-3-mini-4k-instruct \
+    --max_steps $MAX_STEPS
