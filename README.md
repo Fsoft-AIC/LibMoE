@@ -1,18 +1,66 @@
-# Tool Kit MoE
+# LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS
+**Authors:** Nam V. Nguyen, Thong T. Doan, Luong Tran, Van Nguyen, Quang Pham
 
-## Contents
-- [Installation](#installation)
-- [Dataset Preparation](#dataset-preparation)
-- [Training](#training)
-- [Evaluation](#evaluation)
+<p align="center">
+  <a href="https://arxiv.org/abs/2411.00918">
+    <img src="https://img.shields.io/badge/arXiv-2411.00918-red?style=flat&label=arXiv">
+  </a>
+  <a href="https://fsoft-aic.github.io/fsoft-LibMoE.github.io/">
+    <img src="https://custom-icon-badges.demolab.com/badge/WebPage-1a4f76?style=flat&logo=web">
+  </a>
+</p>
 
-## Installation
+
+<p align="center">
+    <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-release-notes" style="text-decoration: none;">📢 Release Notes</a> •
+    <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-quick-start" style="text-decoration: none;">🚀 Quick Start</a> •
+    <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-about" style="text-decoration: none;">📌 About</a> •
+    <a href="https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/model_guide.md" style="text-decoration: none;">🔧 Setup New MoE Layer</a> •
+    <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#%EF%B8%8F%EF%B8%8F-training" style="text-decoration: none;">🏋️‍♂️ Training</a> •
+    <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-evaluation" style="text-decoration: none;">🧪 Evaluation</a> •
+    <a href="https://github.com/Fsoft-AIC/LibMoE?tab=readme-ov-file#-citation" style="text-decoration: none;">📌 Citation</a>
+    
+</p>
+
+## 📌 About
+Mixture of Experts (MoEs) plays an important role in the development of more efficient and effective large language models (LLMs). Due to the enormous resource requirements, studying large scale MoE algorithms remain in-accessible to many researchers. This work develops LibMoE, a comprehensive and modular framework to streamline the research, training, and evaluation of MoE algorithms. Built upon three core principles: (i) modular design, (ii) efficient training; (iii) comprehensive evaluation, LibMoE brings MoE in LLMs more accessible to a wide range of researchers by standardizing the training and evaluation pipelines. 
+Using LibMoE, we extensively benchmarked five state-of-the-art MoE algorithms over three different LLMs and 11 datasets under the zero-shot setting. The results show that despite the unique characteristics, all MoE algorithms perform roughly similar when averaged across a wide range of tasks. With the modular design and extensive evaluation, we believe LibMoE will be invaluable for researchers to make meaningful progress towards the next generation of MoE and LLMs.
+## 📢 Release Notes
+
+| Date       | Release Notes                                                                                              |
+|------------|------------------------------------------------------------------------------------------------------------|
+| 2024-12-30 | - Release LibMoE v1.1:  <br>   - Reduced training time by 70%, from approximately ~30h to ~9h.  <br>   - Provides more detailed information on MoE algorithms, including balancing loss, z-loss, training time per step, FLOPs, language loss, total loss, aux loss, and more customizable metrics. <br>   - Updated balance_loss_coef and router_z_loss_coef for better performance [More details](https://github.com/Fsoft-AIC/LibMoE/blob/main/scripts/train/phi35mini/siglip/sft.sh). |
+| 2024-11-04 | - New feature: Metric analysis for MoE algorithms, as detailed in the [LibMoE](#) paper ✅ |
+| 2024-11-01 | - Released LibMoE v1.0 preprint report: [Read Here](https://arxiv.org/pdf/2411.00918) ✅  <br>   - LibMoE webpage: [Visit Here](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/) ✅  <br>   - Publicly available checkpoints ✅ |
+
+
+
+## 🔍 Checkpoints
+
+We are making our entire experiment checkpoints publicly available to contribute to the community's research on the topic of Mixture of Experts (MoE). By reusing our checkpoints at the **Pre-Training** and **Pre-FineTuning** stages, we hope to help others save time and computational resources in their own experiments.
+
+|      Method     | Stage              | Siglip 224 + Phi3.5 | Siglip 224 + Phi3 | CLIP 336 + Phi3|
+|:---------------:|:------------------:|:---------------------------------------------------------:|:-------------------------------------------------------:|:-----------------------------------------------------:|
+| **Pre-Training**  |                    | [Link](https://huggingface.co/Fsoft-AIC/Phi3.5-Siglip-MoE/tree/main/pretrain)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/pretrain)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-CLIP-MoE/tree/main/pft)            |
+| **Pre-FineTuning** |                    | [Link](https://huggingface.co/Fsoft-AIC/Phi3.5-Siglip-MoE/tree/main/pft)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/pft)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-CLIP-MoE/tree/main/pretrain)            |
+| **VIT 665K**    | SMoE-R             | [Link](https://huggingface.co/Fsoft-AIC/Phi3.5-Siglip-MoE/tree/main/sft_full/smoe)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft/smoe)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-CLIP-MoE/tree/main/sft_full/smoe)            |
+|                 | Cosine-R           | [Link](https://huggingface.co/Fsoft-AIC/Phi3.5-Siglip-MoE/tree/main/sft_full/smoe_cosinegating)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft/smoe_cosinegating)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-CLIP-MoE/tree/main/sft_full/smoe_cosinegating)            |
+|                 | Sigmoid-R          | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft)            |
+|                 | Hyper-R            | [Link](https://huggingface.co/Fsoft-AIC/Phi3.5-Siglip-MoE/tree/main/sft_full/hyperrouter)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft/hyperrouter)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-CLIP-MoE/tree/main/sft_full/hyperrouter)            |
+|                 | Perturbed Cosine-R | [Link](https://huggingface.co/Fsoft-AIC/Phi3.5-Siglip-MoE/tree/main/sft_full/smoe_perturbed)                | [Link](https://huggingface.co/Fsoft-AIC/Phi3-SigLiP-MoE/tree/main/sft/smoe_perturbed)              | [Link](https://huggingface.co/Fsoft-AIC/Phi3-CLIP-MoE/tree/main/sft_full/smoe_perturbed)            
+---
+*VIT stands for Visual Instruction Tuning.
+
+[more ...](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/checkpoint_list.md)
+## 🚀 Quick Start
+
+### 📥 Installation
 
 1. **Clone this repository:**
 
     ```bash
-    git clone https://gitlab.com/DAVID-NGUYEN-S16/toolkitmoe.git
-    cd toolkitmoe
+    git clone https://github.com/Fsoft-AIC/LibMoE.git
+    cd LibMoE
     ```
 
 2. **Install dependencies:**
@@ -29,8 +77,8 @@
     - Using `Anaconda`:
 
         ```bash
-        conda create -n test python=3.9 -y
-        conda activate test
+        conda create -n moe python=3.9 -y
+        conda activate moe
         ```
 
     Then, install the required packages:
@@ -50,32 +98,13 @@
     ```bash
     pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.6.3/flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
     ```
+### 📊 Dataset Preparation
+For a detailed, step-by-step guide on setting up the dataset, please refer to the [dataset guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/dataset_guide.md).
 
-## Dataset Preparation
+### 🔧 Setup New MoE Layer
+For a detailed step-by-step guide on setting up a new MoE layer, please refer to the [model guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/model_guide.md).
 
-**Stage 1: Pre-Training**
-
-For pre-training, we use the [LLaVA-558K](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) dataset to pretrain the MLP connector.
-
-**Stage 2: Pre-FineTuning**
-
-For pre-finetuning, we use the [ALLaVA](https://huggingface.co/datasets/FreedomIntelligence/ALLaVA-4V) caption data to warm-up the model.
-
-**Stage 3: Visual Instruction Tuning**
-
-For the visual instruction tuning stage, we use a mixture of datasets:
-
-- [LLaVA-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json)
-- [LLaVA-332K](https://huggingface.co/datasets/DavidNguyen/LLAVAHALF/blob/main/llava_v1_5_mix665k_half.json)
-
-
-We are using LLaVA-332K for our experiments. You can set the `$TOOLKIT_DIR` environment variable to specify the path to the parent directory of the project root (e.g., `cm/namnv/toolkitmoe` -> `TOOLKIT_DIR=cm/namnv`).
-
-## Setup New MoE Layer
-
-For a detailed step-by-step guide on setting up a new MoE layer, please refer to the [model guide](https://gitlab.com/DAVID-NGUYEN-S16/toolkitmoe/-/blob/main/docs/model_guide.md).
-
-## Training
+### 🏋️‍♂️ Training
 
 After downloading the datasets and the corresponding JSON files, you can proceed to train the model using the following commands. Below is an example using the `Phi3` configuration.
 
@@ -136,7 +165,7 @@ bash ./scripts/train/phi3mini/sft_phi3mini.sh
 
 ```
 
-## Evaluation
+### 🧪 Evaluation
 We are evaluate multi-benchmark
 - AI2D	
 - ChartQA	
@@ -172,7 +201,9 @@ python3 -m accelerate.commands.launch \
     --batch_size 1 \
     --log_samples \
     --log_samples_suffix llava_v1.5_mme \
-    --output_path ./logs/
+    --output_path ./logs/ \
+    --return_id_experts true \  # return selected expert IDs
+    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
 ```
 
 **Evaluation of LLaVA on multiple datasets**
@@ -187,7 +218,9 @@ python3 -m accelerate.commands.launch \
     --batch_size 1 \
     --log_samples \
     --log_samples_suffix llava_v1.5_mme_mmbenchen \
-    --output_path ./logs/
+    --output_path ./logs/ \
+    --return_id_experts true \  # return selected expert IDs
+    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
 ```
 
 **For other variants llava. Please change the `conv_template` in the `model_args`**
@@ -204,17 +237,22 @@ python3 -m accelerate.commands.launch \
     --batch_size 1 \
     --log_samples \
     --log_samples_suffix llava_v1.5_mme_mmbenchen \
-    --output_path ./logs/
+    --output_path ./logs/ \
+    --return_id_experts true \  # return selected expert IDs
+    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
 ```
 
+## 📌 Citation
+If you find this repository useful, please consider citing our paper:
 
-
-
-
-
-
-
-
-
-
+```
+@misc{nguyen2024libmoelibrarycomprehensivebenchmarking,
+      title={LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models}, 
+      author={Nam V. Nguyen and Thong T. Doan and Luong Tran and Van Nguyen and Quang Pham},
+      year={2024},
+      eprint={2411.00918},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.00918}, 
+}
 
