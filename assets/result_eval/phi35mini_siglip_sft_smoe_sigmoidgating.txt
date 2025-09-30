@@ -1,0 +1,1973 @@
+language loss:  0.7210631966590881
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7306, 'grad_norm': 1.8566650389019848, 'learning_rate': 6.686206250120729e-09, 'epoch': 0.97}
+ 97%|█████████████████████████████████████████████████████████████▍ | 8106/8316 [31:40:16<1:54:42, 32.78s/it]
+language loss:  0.7632222175598145
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5823555588722229
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7471, 'grad_norm': 2.053537024926539, 'learning_rate': 6.622714793210749e-09, 'epoch': 0.97}
+ 97%|█████████████████████████████████████████████████████████████▍ | 8107/8316 [31:40:26<1:30:38, 26.02s/it]
+language loss:  0.7510161995887756
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7671121954917908
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7854, 'grad_norm': 1.69838095871794, 'learning_rate': 6.559525730050364e-09, 'epoch': 0.97}
+ 97%|█████████████████████████████████████████████████████████████▍ | 8108/8316 [31:40:36<1:13:38, 21.24s/it]
+language loss:  0.8343247771263123
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6535452604293823
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7642, 'grad_norm': 1.8741816960273945, 'learning_rate': 6.496639070224574e-09, 'epoch': 0.98}
+ 98%|█████████████████████████████████████████████████████████████▍ | 8109/8316 [31:40:46<1:02:02, 17.98s/it]
+language loss:  0.7778863906860352
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8215780854225159
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8416, 'grad_norm': 2.5487285024532387, 'learning_rate': 6.4340548232739714e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8110/8316 [31:40:57<54:45, 15.95s/it]
+language loss:  0.7593725323677063
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8880626559257507
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7946, 'grad_norm': 1.7383596338322733, 'learning_rate': 6.371772998692071e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8111/8316 [31:41:08<48:34, 14.22s/it]
+language loss:  0.7565542459487915
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7723416686058044
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6532, 'grad_norm': 4.962410775638869, 'learning_rate': 6.309793605927094e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8112/8316 [31:41:18<44:01, 12.95s/it]
+language loss:  0.7249836921691895
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9259384870529175
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8027, 'grad_norm': 2.772346389408916, 'learning_rate': 6.248116654381297e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8113/8316 [31:41:28<40:52, 12.08s/it]
+language loss:  0.7747653722763062
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7402665019035339
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7289, 'grad_norm': 2.0905282584075344, 'learning_rate': 6.186742153410751e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8114/8316 [31:41:38<38:51, 11.54s/it]
+language loss:  0.8142207264900208
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9895861744880676
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8764, 'grad_norm': 1.9298822713927803, 'learning_rate': 6.125670112326453e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8115/8316 [31:41:49<37:44, 11.27s/it]
+language loss:  0.8212055563926697
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5307854413986206
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7066, 'grad_norm': 2.429262473658224, 'learning_rate': 6.064900540392548e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8116/8316 [31:41:59<36:42, 11.01s/it]
+language loss:  0.9197872281074524
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.0152485370635986
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7887, 'grad_norm': 1.9251668387110137, 'learning_rate': 6.0044334468278835e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8117/8316 [31:42:09<35:39, 10.75s/it]
+language loss:  0.5258715152740479
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8960069417953491
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7173, 'grad_norm': 5.653234362875528, 'learning_rate': 5.944268840805345e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8118/8316 [31:42:19<34:47, 10.54s/it]
+language loss:  0.3091928958892822
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.638495683670044
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6451, 'grad_norm': 3.162237097627072, 'learning_rate': 5.88440673145163e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8119/8316 [31:42:29<34:15, 10.43s/it]
+language loss:  1.0761841535568237
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7274934649467468
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8306, 'grad_norm': 2.54188113532394, 'learning_rate': 5.824847127848142e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8120/8316 [31:42:40<34:06, 10.44s/it]
+language loss:  0.738991379737854
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7472660541534424
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7914, 'grad_norm': 1.9090060962481747, 'learning_rate': 5.765590039029433e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8121/8316 [31:42:51<34:25, 10.59s/it]
+language loss:  0.37371698021888733
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8066033720970154
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7109, 'grad_norm': 1.6594738803289488, 'learning_rate': 5.706635473985422e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8122/8316 [31:43:02<34:40, 10.73s/it]
+language loss:  0.9493709802627563
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.876446008682251
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8523, 'grad_norm': 2.5787115181267333, 'learning_rate': 5.6479834416591764e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8123/8316 [31:43:12<34:04, 10.59s/it]
+language loss:  0.9325331449508667
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6092996001243591
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6903, 'grad_norm': 1.9037707105625918, 'learning_rate': 5.589633950947803e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▍ | 8124/8316 [31:43:23<34:09, 10.67s/it]
+language loss:  0.7329017519950867
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6031603217124939
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7123, 'grad_norm': 2.115577676939688, 'learning_rate': 5.5315870107035535e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8125/8316 [31:43:33<33:44, 10.60s/it]
+language loss:  0.8010522723197937
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8605772852897644
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7905, 'grad_norm': 1.7564348714054312, 'learning_rate': 5.473842629731607e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8126/8316 [31:43:43<33:00, 10.42s/it]
+language loss:  0.7899491786956787
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9777005910873413
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7853, 'grad_norm': 2.179403854017201, 'learning_rate': 5.416400816792066e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8127/8316 [31:43:54<32:33, 10.33s/it]
+language loss:  0.9071382880210876
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.620256781578064
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7843, 'grad_norm': 2.3544725427555626, 'learning_rate': 5.359261580598407e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8128/8316 [31:44:04<32:18, 10.31s/it]
+language loss:  0.5968455672264099
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7497162222862244
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.782, 'grad_norm': 3.6975916473399972, 'learning_rate': 5.302424929819027e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8129/8316 [31:44:14<32:15, 10.35s/it]
+language loss:  0.8407720923423767
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.798711895942688
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7316, 'grad_norm': 2.1216680546606437, 'learning_rate': 5.24589087307592e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8130/8316 [31:44:24<31:53, 10.29s/it]
+language loss:  0.22655124962329865
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5833792686462402
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6503, 'grad_norm': 1.5482533796764157, 'learning_rate': 5.189659418944891e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8131/8316 [31:44:35<31:57, 10.37s/it]
+language loss:  0.9162979125976562
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7179502844810486
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7864, 'grad_norm': 2.39218477713681, 'learning_rate': 5.133730575956674e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8132/8316 [31:44:46<32:40, 10.65s/it]
+language loss:  0.8735419511795044
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6807539463043213
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.724, 'grad_norm': 1.9674415478875726, 'learning_rate': 5.0781043525953696e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8133/8316 [31:44:56<31:53, 10.45s/it]
+language loss:  0.8995185494422913
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5745770931243896
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7412, 'grad_norm': 1.9587374195895035, 'learning_rate': 5.0227807572995605e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8134/8316 [31:45:06<31:13, 10.29s/it]
+language loss:  0.6868916749954224
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8572618365287781
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6831, 'grad_norm': 2.693166126956158, 'learning_rate': 4.967759798461646e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8135/8316 [31:45:17<31:08, 10.32s/it]
+language loss:  0.15475362539291382
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8941509127616882
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7498, 'grad_norm': 24.76682888438246, 'learning_rate': 4.913041484428282e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8136/8316 [31:45:27<30:42, 10.24s/it]
+language loss:  0.12906360626220703
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7655783891677856
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7443, 'grad_norm': 1.8359025667803544, 'learning_rate': 4.858625823500384e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8137/8316 [31:45:37<30:21, 10.17s/it]
+language loss:  0.3825215697288513
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7743435502052307
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7356, 'grad_norm': 2.0461142487607904, 'learning_rate': 4.80451282393246e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8138/8316 [31:45:47<30:06, 10.15s/it]
+language loss:  0.23539629578590393
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5771623253822327
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6812, 'grad_norm': 1.989783478368122, 'learning_rate': 4.750702493933722e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8139/8316 [31:45:57<29:59, 10.17s/it]
+language loss:  0.7511287331581116
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7088332176208496
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8562, 'grad_norm': 1.946009499568825, 'learning_rate': 4.697194841666974e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▌ | 8140/8316 [31:46:07<30:09, 10.28s/it]
+language loss:  0.9522413611412048
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8777151107788086
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8229, 'grad_norm': 1.8294208856841936, 'learning_rate': 4.6439898752492764e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8141/8316 [31:46:18<29:55, 10.26s/it]
+language loss:  0.683640718460083
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6544448137283325
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.637, 'grad_norm': 0.7634032574600866, 'learning_rate': 4.591087602751731e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8142/8316 [31:46:29<30:56, 10.67s/it]
+language loss:  0.7387871146202087
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8308730125427246
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7226, 'grad_norm': 1.7569431443978158, 'learning_rate': 4.538488032199916e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8143/8316 [31:46:40<30:40, 10.64s/it]
+language loss:  0.7634762525558472
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8874620795249939
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6931, 'grad_norm': 2.036004942027991, 'learning_rate': 4.486191171572784e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8144/8316 [31:46:50<29:53, 10.43s/it]
+language loss:  0.8328948020935059
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8579251170158386
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7794, 'grad_norm': 1.7173293744973543, 'learning_rate': 4.434197028803766e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8145/8316 [31:47:00<29:32, 10.36s/it]
+language loss:  0.8168651461601257
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.725342869758606
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.819, 'grad_norm': 2.045427815426425, 'learning_rate': 4.3825056117805514e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8146/8316 [31:47:10<29:09, 10.29s/it]
+language loss:  0.9757477641105652
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8084321022033691
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7945, 'grad_norm': 2.1863893141506674, 'learning_rate': 4.331116928344425e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8147/8316 [31:47:21<29:36, 10.51s/it]
+language loss:  0.7484459280967712
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5825825333595276
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.633, 'grad_norm': 2.160724254796834, 'learning_rate': 4.28003098629115e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8148/8316 [31:47:31<29:04, 10.38s/it]
+language loss:  0.8176566958427429
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7749664783477783
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.785, 'grad_norm': 1.8544791383369557, 'learning_rate': 4.229247793370305e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8149/8316 [31:47:41<28:44, 10.33s/it]
+language loss:  0.692511260509491
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9362143874168396
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7036, 'grad_norm': 1.820225725848017, 'learning_rate': 4.178767357285951e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8150/8316 [31:47:52<28:41, 10.37s/it]
+language loss:  0.7513400316238403
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7666757702827454
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7186, 'grad_norm': 1.8435032566291139, 'learning_rate': 4.128589685695516e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8151/8316 [31:48:02<28:20, 10.31s/it]
+language loss:  0.9114967584609985
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7450602054595947
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8464, 'grad_norm': 1.8515944981123873, 'learning_rate': 4.078714786211135e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8152/8316 [31:48:12<28:00, 10.25s/it]
+language loss:  0.655264139175415
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.46117040514945984
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7693, 'grad_norm': 7.868164971550307, 'learning_rate': 4.029142666398977e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8153/8316 [31:48:22<27:48, 10.24s/it]
+language loss:  0.9138196110725403
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5862243175506592
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8011, 'grad_norm': 2.022084730257749, 'learning_rate': 3.979873333778805e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8154/8316 [31:48:33<27:36, 10.22s/it]
+language loss:  0.10546362400054932
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7452674508094788
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7411, 'grad_norm': 1.9357304028939537, 'learning_rate': 3.930906795824862e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8155/8316 [31:48:44<28:37, 10.67s/it]
+language loss:  0.6384586691856384
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9270010590553284
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7703, 'grad_norm': 2.0621469368885545, 'learning_rate': 3.882243059965207e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▋ | 8156/8316 [31:48:54<28:00, 10.50s/it]
+language loss:  0.6682805418968201
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5495771765708923
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6563, 'grad_norm': 2.242878239266032, 'learning_rate': 3.833882133582156e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8157/8316 [31:49:05<27:35, 10.41s/it]
+language loss:  0.8344904184341431
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8501269221305847
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7832, 'grad_norm': 6.783201437877706, 'learning_rate': 3.785824024012285e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8158/8316 [31:49:15<27:20, 10.38s/it]
+language loss:  0.8774726390838623
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.603866457939148
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7868, 'grad_norm': 1.629623584463165, 'learning_rate': 3.738068738545541e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8159/8316 [31:49:25<27:08, 10.38s/it]
+language loss:  0.6761986017227173
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.0238169431686401
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7941, 'grad_norm': 2.511196242308198, 'learning_rate': 3.6906162844265733e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8160/8316 [31:49:36<26:57, 10.37s/it]
+language loss:  0.8464676737785339
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8946593403816223
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7171, 'grad_norm': 1.735747816433605, 'learning_rate': 3.643466668853845e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8161/8316 [31:49:46<26:33, 10.28s/it]
+language loss:  0.6506451964378357
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.3456718623638153
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7583, 'grad_norm': 2.561178843755771, 'learning_rate': 3.59661989898008e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8162/8316 [31:49:56<26:17, 10.25s/it]
+language loss:  0.6165229678153992
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9248569011688232
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7722, 'grad_norm': 1.7881612714964046, 'learning_rate': 3.5500759819115934e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8163/8316 [31:50:07<26:51, 10.53s/it]
+language loss:  0.9850764274597168
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9442349672317505
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8146, 'grad_norm': 1.8411292507462618, 'learning_rate': 3.5038349247094034e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8164/8316 [31:50:18<27:09, 10.72s/it]
+language loss:  0.7222118377685547
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5378096699714661
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7792, 'grad_norm': 2.012459805484066, 'learning_rate': 3.4578967343878994e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8165/8316 [31:50:28<26:28, 10.52s/it]
+language loss:  0.9430671334266663
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6856535077095032
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8144, 'grad_norm': 1.7970742820030063, 'learning_rate': 3.4122614179161733e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8166/8316 [31:50:39<26:05, 10.44s/it]
+language loss:  0.7471316456794739
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.0378731489181519
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7859, 'grad_norm': 1.7956959712458793, 'learning_rate': 3.36692898221691e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8167/8316 [31:50:49<25:46, 10.38s/it]
+language loss:  1.0226653814315796
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7976328730583191
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7375, 'grad_norm': 1.7082152287045462, 'learning_rate': 3.3218994341668305e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8168/8316 [31:50:59<25:32, 10.35s/it]
+language loss:  0.9010910987854004
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.708938479423523
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.753, 'grad_norm': 1.5446438352296663, 'learning_rate': 3.2771727805971373e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8169/8316 [31:51:10<25:56, 10.59s/it]
+language loss:  0.9128429293632507
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8880473375320435
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7771, 'grad_norm': 1.7358474666894856, 'learning_rate': 3.232749028292847e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8170/8316 [31:51:20<25:24, 10.44s/it]
+language loss:  0.8975452780723572
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8582617044448853
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8885, 'grad_norm': 1.7028262375032264, 'learning_rate': 3.188628183992792e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8171/8316 [31:51:30<24:57, 10.33s/it]
+language loss:  0.8947477340698242
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5773254632949829
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6255, 'grad_norm': 0.7498144476559142, 'learning_rate': 3.1448102543902844e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▊ | 8172/8316 [31:51:41<25:13, 10.51s/it]
+language loss:  0.8865583539009094
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.874832808971405
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6822, 'grad_norm': 1.9339930883005974, 'learning_rate': 3.1012952461324515e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8173/8316 [31:51:52<24:59, 10.48s/it]
+language loss:  0.3401019275188446
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.0423694849014282
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7403, 'grad_norm': 2.205059095356329, 'learning_rate': 3.0580831658204575e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8174/8316 [31:52:02<24:34, 10.38s/it]
+language loss:  0.5799773335456848
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6916220784187317
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7796, 'grad_norm': 1.776415437836835, 'learning_rate': 3.015174020009281e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8175/8316 [31:52:12<24:09, 10.28s/it]
+language loss:  0.8133236169815063
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6991448402404785
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7511, 'grad_norm': 1.8684292419118391, 'learning_rate': 2.9725678152086043e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8176/8316 [31:52:22<23:53, 10.24s/it]
+language loss:  0.8059883713722229
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9696160554885864
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8283, 'grad_norm': 2.9019645350765053, 'learning_rate': 2.930264557881257e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8177/8316 [31:52:32<23:47, 10.27s/it]
+language loss:  0.5940532684326172
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5775484442710876
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5818, 'grad_norm': 0.946323043795744, 'learning_rate': 2.8882642544452163e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8178/8316 [31:52:45<25:01, 10.88s/it]
+language loss:  0.7873020768165588
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7793242335319519
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.751, 'grad_norm': 2.281927974757841, 'learning_rate': 2.8465669112716083e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8179/8316 [31:52:55<24:29, 10.73s/it]
+language loss:  0.8622903227806091
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9308716654777527
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.764, 'grad_norm': 1.8512938743198601, 'learning_rate': 2.8051725346858177e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8180/8316 [31:53:05<23:53, 10.54s/it]
+language loss:  0.37757083773612976
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7605053782463074
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7107, 'grad_norm': 2.227604779349002, 'learning_rate': 2.7640811309674883e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8181/8316 [31:53:15<23:28, 10.44s/it]
+language loss:  0.8583365678787231
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5821540355682373
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8086, 'grad_norm': 1.5840892827563124, 'learning_rate': 2.7232927063498557e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8182/8316 [31:53:26<23:15, 10.41s/it]
+language loss:  0.3063579201698303
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6139847636222839
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6924, 'grad_norm': 1.8324992348746125, 'learning_rate': 2.682807267020859e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8183/8316 [31:53:36<22:59, 10.37s/it]
+language loss:  0.9260108470916748
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6456286907196045
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6251, 'grad_norm': 1.7129116426785649, 'learning_rate': 2.642624819121808e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8184/8316 [31:53:47<23:14, 10.56s/it]
+language loss:  0.8537824749946594
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5730587244033813
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6242, 'grad_norm': 2.1103935890655663, 'learning_rate': 2.6027453687487154e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8185/8316 [31:53:57<22:48, 10.45s/it]
+language loss:  0.2920975387096405
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7788628339767456
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5403, 'grad_norm': 2.277736204693196, 'learning_rate': 2.5631689219509643e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8186/8316 [31:54:08<23:10, 10.70s/it]
+language loss:  0.7511584162712097
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7568995356559753
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8373, 'grad_norm': 1.7347385609677464, 'learning_rate': 2.523895484732197e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8187/8316 [31:54:19<22:35, 10.51s/it]
+language loss:  0.7248479723930359
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6199880242347717
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7495, 'grad_norm': 1.938761700238869, 'learning_rate': 2.4849250630505357e-09, 'epoch': 0.98}
+ 98%|███████████████████████████████████████████████████████████████▉ | 8188/8316 [31:54:29<22:07, 10.37s/it]
+language loss:  0.8456377983093262
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.4575267434120178
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7321, 'grad_norm': 1.903765763776691, 'learning_rate': 2.4462576628172528e-09, 'epoch': 0.98}
+ 98%|████████████████████████████████████████████████████████████████ | 8189/8316 [31:54:39<22:01, 10.41s/it]
+language loss:  0.7267240881919861
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6467701196670532
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7461, 'grad_norm': 1.9258576352830896, 'learning_rate': 2.407893289898766e-09, 'epoch': 0.98}
+ 98%|████████████████████████████████████████████████████████████████ | 8190/8316 [31:54:50<21:51, 10.41s/it]
+language loss:  0.9038153886795044
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7047349214553833
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.844, 'grad_norm': 2.1483433928252937, 'learning_rate': 2.3698319501144202e-09, 'epoch': 0.98}
+ 98%|████████████████████████████████████████████████████████████████ | 8191/8316 [31:55:01<22:07, 10.62s/it]
+language loss:  0.9361670017242432
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.709488570690155
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7351, 'grad_norm': 1.9642120619998278, 'learning_rate': 2.3320736492382644e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8192/8316 [31:55:11<21:35, 10.44s/it]
+language loss:  0.4857947528362274
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.3158385455608368
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6817, 'grad_norm': 2.006804454398729, 'learning_rate': 2.29461839299816e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8193/8316 [31:55:21<21:12, 10.35s/it]
+language loss:  0.8420625925064087
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9182508587837219
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8043, 'grad_norm': 1.5861157096370049, 'learning_rate': 2.257466187076229e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8194/8316 [31:55:31<21:04, 10.37s/it]
+language loss:  0.838584303855896
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7630302309989929
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7152, 'grad_norm': 1.8894748184129113, 'learning_rate': 2.2206170371081854e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8195/8316 [31:55:41<20:47, 10.31s/it]
+language loss:  0.925187349319458
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.0964305400848389
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8518, 'grad_norm': 1.710884267597261, 'learning_rate': 2.1840709486842247e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8196/8316 [31:55:52<20:40, 10.34s/it]
+language loss:  0.8611598610877991
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7146108746528625
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7952, 'grad_norm': 1.9269054296356949, 'learning_rate': 2.1478279273481335e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8197/8316 [31:56:02<20:25, 10.30s/it]
+language loss:  0.8972841501235962
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6498898267745972
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7988, 'grad_norm': 2.110870283455774, 'learning_rate': 2.1118879785981815e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8198/8316 [31:56:12<20:19, 10.34s/it]
+language loss:  0.9796686768531799
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9640440940856934
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7971, 'grad_norm': 1.829173512833397, 'learning_rate': 2.0762511078862288e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8199/8316 [31:56:22<19:56, 10.23s/it]
+language loss:  0.7848635911941528
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7103918790817261
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6534, 'grad_norm': 2.2982277552103785, 'learning_rate': 2.0409173206186183e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████ | 8200/8316 [31:56:34<20:18, 10.51s/it]
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py:1898: UserWarn
+ing: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/gener
+ated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/checkpoint.py:464: UserWarnin
+g: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will ra
+ise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to prese
+rve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the diff
+erences between the two variants.
+  warnings.warn(
+language loss:  0.8391317129135132
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5369349718093872
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.877, 'grad_norm': 2.005851292431379, 'learning_rate': 2.0058866221550617e-09, 'epoch': 0.99}
+ 99%|█████████████████████████████████████████████████████████████▏| 8201/8316 [32:04:18<4:41:04, 146.65s/it]
+language loss:  0.8807920217514038
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6060420870780945
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.755, 'grad_norm': 2.1268596365903707, 'learning_rate': 1.971159017809976e-09, 'epoch': 0.99}
+ 99%|█████████████████████████████████████████████████████████████▏| 8202/8316 [32:04:28<3:20:44, 105.66s/it]
+language loss:  0.8077618479728699
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8639233112335205
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7846, 'grad_norm': 2.4645182399156043, 'learning_rate': 1.93673451285159e-09, 'epoch': 0.99}
+ 99%|██████████████████████████████████████████████████████████████▏| 8203/8316 [32:04:38<2:24:58, 76.98s/it]
+language loss:  0.6215688586235046
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5980061292648315
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5655, 'grad_norm': 0.7546056556945698, 'learning_rate': 1.9026131125019495e-09, 'epoch': 0.99}
+ 99%|██████████████████████████████████████████████████████████████▏| 8204/8316 [32:04:49<1:46:35, 57.10s/it]
+language loss:  0.9933714866638184
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9629436135292053
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8734, 'grad_norm': 1.8153009148410435, 'learning_rate': 1.8687948219371363e-09, 'epoch': 0.99}
+ 99%|██████████████████████████████████████████████████████████████▏| 8205/8316 [32:04:59<1:19:38, 43.05s/it]
+language loss:  1.015968918800354
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7355863451957703
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8923, 'grad_norm': 2.3018959855245043, 'learning_rate': 1.835279646287491e-09, 'epoch': 0.99}
+ 99%|██████████████████████████████████████████████████████████████▏| 8206/8316 [32:05:10<1:01:14, 33.40s/it]
+language loss:  0.9540741443634033
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9153567552566528
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7677, 'grad_norm': 1.7429669608017626, 'learning_rate': 1.8020675906371685e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8207/8316 [32:05:20<47:57, 26.40s/it]
+language loss:  0.6827765703201294
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6082059741020203
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7582, 'grad_norm': 2.0948797565631323, 'learning_rate': 1.7691586600243612e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8208/8316 [32:05:31<39:05, 21.71s/it]
+language loss:  0.7438232898712158
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7554209232330322
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8769, 'grad_norm': 2.4594134743382106, 'learning_rate': 1.7365528594415202e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8209/8316 [32:05:41<32:34, 18.27s/it]
+language loss:  0.08759365975856781
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.78415846824646
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6747, 'grad_norm': 1.5748863603073335, 'learning_rate': 1.7042501938346888e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8210/8316 [32:05:51<28:05, 15.90s/it]
+language loss:  0.7620350122451782
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6460790634155273
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.77, 'grad_norm': 2.0437762850783074, 'learning_rate': 1.6722506681043913e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8211/8316 [32:06:01<24:44, 14.14s/it]
+language loss:  0.8380430936813354
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.919553816318512
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6917, 'grad_norm': 2.109049567090952, 'learning_rate': 1.640554287104745e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8212/8316 [32:06:11<22:23, 12.92s/it]
+language loss:  0.9550037980079651
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9393339157104492
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8016, 'grad_norm': 2.0052457203207656, 'learning_rate': 1.609161055644348e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8213/8316 [32:06:22<21:00, 12.23s/it]
+language loss:  0.30380821228027344
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7735180258750916
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6879, 'grad_norm': 2.7504266928047136, 'learning_rate': 1.5780709784849467e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8214/8316 [32:06:32<19:50, 11.68s/it]
+language loss:  0.8612233996391296
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8859671354293823
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8262, 'grad_norm': 37.61451265801539, 'learning_rate': 1.5472840603436565e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8215/8316 [32:06:42<18:47, 11.17s/it]
+language loss:  0.7988029718399048
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8194133043289185
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7811, 'grad_norm': 1.9876044119993403, 'learning_rate': 1.5168003058900757e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8216/8316 [32:06:52<18:04, 10.84s/it]
+language loss:  0.841017484664917
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.782412052154541
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.9221, 'grad_norm': 2.1590519267309336, 'learning_rate': 1.4866197197491715e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8217/8316 [32:07:02<17:29, 10.60s/it]
+language loss:  0.6917534470558167
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9619064927101135
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7875, 'grad_norm': 3.0989891926914583, 'learning_rate': 1.4567423064988371e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8218/8316 [32:07:13<17:12, 10.54s/it]
+language loss:  0.6170480251312256
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8085584044456482
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7838, 'grad_norm': 2.0328514242000852, 'learning_rate': 1.4271680706718913e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8219/8316 [32:07:23<16:48, 10.40s/it]
+language loss:  0.7104642987251282
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9554867744445801
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8327, 'grad_norm': 2.0751509645996618, 'learning_rate': 1.3978970167543013e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▏| 8220/8316 [32:07:34<17:10, 10.73s/it]
+language loss:  1.0352767705917358
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9420276880264282
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7745, 'grad_norm': 1.948715909570394, 'learning_rate': 1.3689291491867372e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8221/8316 [32:07:44<16:40, 10.53s/it]
+language loss:  0.8811979293823242
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6212118268013
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7424, 'grad_norm': 2.6947063261973914, 'learning_rate': 1.3402644723636836e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8222/8316 [32:07:55<16:27, 10.50s/it]
+language loss:  0.6588104963302612
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9564759731292725
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8386, 'grad_norm': 2.049653009961119, 'learning_rate': 1.311902990633218e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8223/8316 [32:08:05<16:05, 10.38s/it]
+language loss:  0.9307298064231873
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.830226719379425
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7157, 'grad_norm': 1.6940740465376913, 'learning_rate': 1.2838447082978987e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8224/8316 [32:08:15<15:50, 10.33s/it]
+language loss:  0.9146888256072998
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.906437337398529
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8328, 'grad_norm': 2.8107876121164415, 'learning_rate': 1.2560896296143208e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8225/8316 [32:08:25<15:26, 10.18s/it]
+language loss:  0.7759997248649597
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7023875117301941
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8231, 'grad_norm': 2.243162468198443, 'learning_rate': 1.2286377587926722e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8226/8316 [32:08:35<15:07, 10.08s/it]
+language loss:  0.9608009457588196
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6610341668128967
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7529, 'grad_norm': 2.423071879310622, 'learning_rate': 1.2014890999973992e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8227/8316 [32:08:46<15:14, 10.28s/it]
+language loss:  0.8232100605964661
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.868272602558136
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7885, 'grad_norm': 1.8433018155820948, 'learning_rate': 1.1746436573472073e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8228/8316 [32:08:56<15:06, 10.31s/it]
+language loss:  0.9439846873283386
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7614262104034424
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6995, 'grad_norm': 2.0418008124468803, 'learning_rate': 1.1481014349141726e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8229/8316 [32:09:07<15:12, 10.49s/it]
+language loss:  0.6393415927886963
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.748282790184021
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.847, 'grad_norm': 1.8287903968588939, 'learning_rate': 1.121862436724852e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8230/8316 [32:09:17<14:54, 10.41s/it]
+language loss:  0.4055025279521942
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.799819827079773
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7056, 'grad_norm': 1.712727624843085, 'learning_rate': 1.0959266667598388e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8231/8316 [32:09:27<14:39, 10.34s/it]
+language loss:  0.6358599066734314
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7449286580085754
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7537, 'grad_norm': 2.283853273525665, 'learning_rate': 1.0702941289533196e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8232/8316 [32:09:38<14:30, 10.37s/it]
+language loss:  0.6907401084899902
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8320499062538147
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8916, 'grad_norm': 1.9802077382859553, 'learning_rate': 1.0449648271939615e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8233/8316 [32:09:48<14:11, 10.26s/it]
+language loss:  0.8917126655578613
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5320898294448853
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7292, 'grad_norm': 1.8185702651311992, 'learning_rate': 1.0199387653240243e-09, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8234/8316 [32:09:58<13:55, 10.19s/it]
+language loss:  0.7298665642738342
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7967775464057922
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7101, 'grad_norm': 1.570478743678017, 'learning_rate': 9.952159471400267e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8235/8316 [32:10:09<13:59, 10.36s/it]
+language loss:  0.7573762536048889
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8539007306098938
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8454, 'grad_norm': 2.220131135280756, 'learning_rate': 9.707963763923022e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▎| 8236/8316 [32:10:19<13:44, 10.31s/it]
+language loss:  0.9849560856819153
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8200308680534363
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7933, 'grad_norm': 1.7166279958177866, 'learning_rate': 9.466800567854427e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8237/8316 [32:10:29<13:26, 10.20s/it]
+language loss:  0.7900874018669128
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.4096226096153259
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6794, 'grad_norm': 2.042563053497896, 'learning_rate': 9.228669919778553e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8238/8316 [32:10:39<13:12, 10.16s/it]
+language loss:  0.8376988172531128
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8271743059158325
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7958, 'grad_norm': 3.5290747500313158, 'learning_rate': 8.993571855817617e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8239/8316 [32:10:49<13:00, 10.14s/it]
+language loss:  0.9945825338363647
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5699505805969238
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7514, 'grad_norm': 2.575051620114137, 'learning_rate': 8.761506411638642e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8240/8316 [32:10:59<12:55, 10.21s/it]
+language loss:  0.7489821314811707
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9556490182876587
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.747, 'grad_norm': 1.7542175152703692, 'learning_rate': 8.53247362244236e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8241/8316 [32:11:09<12:42, 10.17s/it]
+language loss:  0.8360639214515686
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6389576196670532
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.686, 'grad_norm': 1.7641187336205677, 'learning_rate': 8.306473522976532e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8242/8316 [32:11:20<12:52, 10.44s/it]
+language loss:  0.4901268482208252
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6618473529815674
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7164, 'grad_norm': 1.7738345873760557, 'learning_rate': 8.083506147522623e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8243/8316 [32:11:30<12:32, 10.31s/it]
+language loss:  0.8996773362159729
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7476261258125305
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8599, 'grad_norm': 2.084940239761141, 'learning_rate': 7.863571529906909e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8244/8316 [32:11:40<12:16, 10.23s/it]
+language loss:  0.6056954860687256
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.568993091583252
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5974, 'grad_norm': 0.7370344664693734, 'learning_rate': 7.646669703489372e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8245/8316 [32:11:52<12:25, 10.50s/it]
+language loss:  0.5185994505882263
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.514132022857666
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5751, 'grad_norm': 2.0626787050451125, 'learning_rate': 7.432800701177023e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8246/8316 [32:12:02<12:06, 10.38s/it]
+language loss:  0.6544233560562134
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5652022361755371
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5783, 'grad_norm': 0.8184932699352083, 'learning_rate': 7.221964555415017e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8247/8316 [32:12:12<12:04, 10.50s/it]
+language loss:  0.724101185798645
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.3893209993839264
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7506, 'grad_norm': 1.766433125780312, 'learning_rate': 7.01416129818222e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8248/8316 [32:12:23<12:01, 10.61s/it]
+language loss:  0.21192827820777893
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6550472378730774
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5923, 'grad_norm': 2.3691268379583894, 'learning_rate': 6.809390961006745e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8249/8316 [32:12:34<11:44, 10.52s/it]
+language loss:  0.7865350246429443
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.35721397399902344
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6868, 'grad_norm': 1.7684299839990514, 'learning_rate': 6.607653574948191e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8250/8316 [32:12:44<11:27, 10.41s/it]
+language loss:  0.8916321396827698
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7852579355239868
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8201, 'grad_norm': 1.7818500779575657, 'learning_rate': 6.408949170613187e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8251/8316 [32:12:55<11:26, 10.56s/it]
+language loss:  0.782817542552948
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7801241874694824
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8226, 'grad_norm': 1.9493800767329168, 'learning_rate': 6.213277778144288e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▍| 8252/8316 [32:13:05<11:07, 10.44s/it]
+language loss:  0.7445899844169617
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.811130940914154
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6748, 'grad_norm': 2.036316992756534, 'learning_rate': 6.020639427224416e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8253/8316 [32:13:15<10:54, 10.39s/it]
+language loss:  0.28920453786849976
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8417999148368835
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7383, 'grad_norm': 2.0609898674062, 'learning_rate': 5.831034147076864e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8254/8316 [32:13:25<10:40, 10.32s/it]
+language loss:  0.5968546271324158
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6216351985931396
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5575, 'grad_norm': 0.7021808855520223, 'learning_rate': 5.644461966463065e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8255/8316 [32:13:37<10:46, 10.61s/it]
+language loss:  0.8227218389511108
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7417716979980469
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7614, 'grad_norm': 1.8089011406906659, 'learning_rate': 5.460922913687049e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8256/8316 [32:13:47<10:32, 10.55s/it]
+language loss:  0.8493419289588928
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7212398052215576
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7562, 'grad_norm': 2.0264577822368954, 'learning_rate': 5.280417016593208e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8257/8316 [32:13:58<10:33, 10.74s/it]
+language loss:  0.8537795543670654
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6739460229873657
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7524, 'grad_norm': 1.7490322979692512, 'learning_rate': 5.102944302559642e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8258/8316 [32:14:08<10:13, 10.57s/it]
+language loss:  0.5937759280204773
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6516119837760925
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7992, 'grad_norm': 2.0496997706445383, 'learning_rate': 4.9285047985137e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8259/8316 [32:14:18<09:53, 10.41s/it]
+language loss:  0.43276163935661316
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.920591413974762
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7443, 'grad_norm': 1.6344973983300508, 'learning_rate': 4.757098530916436e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8260/8316 [32:14:29<09:39, 10.35s/it]
+language loss:  0.3695269525051117
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7719854116439819
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7822, 'grad_norm': 2.4462636249613077, 'learning_rate': 4.5887255257670563e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8261/8316 [32:14:39<09:31, 10.39s/it]
+language loss:  0.6103754639625549
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8413740992546082
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7694, 'grad_norm': 3.6179087766298954, 'learning_rate': 4.4233858086117906e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8262/8316 [32:14:49<09:19, 10.35s/it]
+language loss:  1.0091768503189087
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8792691826820374
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6783, 'grad_norm': 2.184257283674847, 'learning_rate': 4.261079404528356e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8263/8316 [32:15:01<09:27, 10.71s/it]
+language loss:  0.8683216571807861
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9499822854995728
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6885, 'grad_norm': 1.6927602515450366, 'learning_rate': 4.1018063381437205e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8264/8316 [32:15:11<09:06, 10.51s/it]
+language loss:  0.6769120097160339
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5581018924713135
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6115, 'grad_norm': 0.8739620251098305, 'learning_rate': 3.9455666336141167e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8265/8316 [32:15:22<09:02, 10.64s/it]
+language loss:  0.9066252112388611
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8728058934211731
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8363, 'grad_norm': 2.6292293627760475, 'learning_rate': 3.7923603146450267e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8266/8316 [32:15:33<08:52, 10.65s/it]
+language loss:  0.8275037407875061
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7978238463401794
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8066, 'grad_norm': 2.013686201338768, 'learning_rate': 3.642187404473418e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8267/8316 [32:15:43<08:32, 10.47s/it]
+language loss:  0.9065737724304199
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9493414759635925
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8662, 'grad_norm': 2.5785921540538825, 'learning_rate': 3.495047925885508e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▌| 8268/8316 [32:15:53<08:16, 10.34s/it]
+language loss:  0.9725569486618042
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.1030820608139038
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8342, 'grad_norm': 2.2958811990925576, 'learning_rate': 3.350941901199e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▋| 8269/8316 [32:16:02<07:59, 10.21s/it]
+language loss:  0.9271469116210938
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8920739889144897
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8311, 'grad_norm': 2.4201390105116265, 'learning_rate': 3.2098693522764066e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▋| 8270/8316 [32:16:13<07:59, 10.42s/it]
+language loss:  1.0608808994293213
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6962478756904602
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8107, 'grad_norm': 1.840483989398257, 'learning_rate': 3.071830300516165e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▋| 8271/8316 [32:16:24<07:51, 10.47s/it]
+language loss:  0.8023895621299744
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.816865861415863
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7147, 'grad_norm': 2.4030061134327285, 'learning_rate': 2.9368247668615234e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▋| 8272/8316 [32:16:34<07:38, 10.41s/it]
+language loss:  0.9246199131011963
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.20038825273513794
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6171, 'grad_norm': 2.862691154927219, 'learning_rate': 2.804852771789434e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▋| 8273/8316 [32:16:44<07:23, 10.32s/it]
+language loss:  0.5125342011451721
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.42806118726730347
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5584, 'grad_norm': 1.825175979699645, 'learning_rate': 2.675914335321661e-10, 'epoch': 0.99}
+ 99%|████████████████████████████████████████████████████████████████▋| 8274/8316 [32:16:55<07:22, 10.54s/it]
+language loss:  0.9161509871482849
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7852543592453003
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7972, 'grad_norm': 2.750482516872732, 'learning_rate': 2.550009477018111e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8275/8316 [32:17:06<07:12, 10.55s/it]
+language loss:  0.3801354467868805
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.40713363885879517
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.631, 'grad_norm': 1.9010351172208098, 'learning_rate': 2.4271382159790634e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8276/8316 [32:17:16<06:58, 10.46s/it]
+language loss:  0.9240705966949463
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6748166680335999
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8608, 'grad_norm': 1.9110474798910542, 'learning_rate': 2.3073005708429406e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8277/8316 [32:17:27<06:46, 10.42s/it]
+language loss:  0.7657524347305298
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9145824909210205
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7278, 'grad_norm': 1.8944742410478683, 'learning_rate': 2.190496559788535e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8278/8316 [32:17:37<06:32, 10.32s/it]
+language loss:  0.6845079660415649
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7101967930793762
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7667, 'grad_norm': 2.546309144986292, 'learning_rate': 2.0767262005372265e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8279/8316 [32:17:47<06:20, 10.29s/it]
+language loss:  0.763643205165863
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5745413303375244
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7544, 'grad_norm': 2.079669808442195, 'learning_rate': 1.965989510346322e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8280/8316 [32:17:58<06:15, 10.44s/it]
+language loss:  0.8895621299743652
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.498585969209671
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7162, 'grad_norm': 2.1260578663900507, 'learning_rate': 1.8582865060134955e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8281/8316 [32:18:08<06:02, 10.35s/it]
+language loss:  0.6036396622657776
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5020627379417419
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5581, 'grad_norm': 0.7919688568253643, 'learning_rate': 1.7536172038790098e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8282/8316 [32:18:19<05:58, 10.54s/it]
+language loss:  0.1187589094042778
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7798609137535095
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6928, 'grad_norm': 2.948157436571695, 'learning_rate': 1.651981619819054e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8283/8316 [32:18:29<05:44, 10.45s/it]
+language loss:  0.2162630409002304
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7567180395126343
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7113, 'grad_norm': 2.7809573244553563, 'learning_rate': 1.5533797692546257e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▋| 8284/8316 [32:18:39<05:31, 10.35s/it]
+language loss:  0.7483394742012024
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8348172903060913
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8421, 'grad_norm': 1.936307232320587, 'learning_rate': 1.4578116671404296e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8285/8316 [32:18:51<05:30, 10.68s/it]
+language loss:  0.643218994140625
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7225626111030579
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7157, 'grad_norm': 2.0337130358806257, 'learning_rate': 1.3652773279759777e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8286/8316 [32:19:01<05:14, 10.48s/it]
+language loss:  0.22739651799201965
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7171813249588013
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6319, 'grad_norm': 1.6169787285985657, 'learning_rate': 1.2757767657989305e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8287/8316 [32:19:11<05:01, 10.41s/it]
+language loss:  0.9803023338317871
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6422168016433716
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.871, 'grad_norm': 5.226283318286337, 'learning_rate': 1.1893099941850948e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8288/8316 [32:19:21<04:48, 10.29s/it]
+language loss:  0.5422033667564392
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6900418400764465
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7793, 'grad_norm': 2.1796507473379982, 'learning_rate': 1.105877026252866e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8289/8316 [32:19:31<04:38, 10.31s/it]
+language loss:  0.8509581685066223
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5626314878463745
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7244, 'grad_norm': 1.8889210486323424, 'learning_rate': 1.0254778746565663e-10, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8290/8316 [32:19:41<04:26, 10.26s/it]
+language loss:  0.8767457008361816
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.660723865032196
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7363, 'grad_norm': 2.022963774028164, 'learning_rate': 9.481125515953259e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8291/8316 [32:19:52<04:20, 10.44s/it]
+language loss:  0.9255038499832153
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5889602303504944
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7996, 'grad_norm': 1.7213150304672729, 'learning_rate': 8.737810688064228e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8292/8316 [32:20:02<04:07, 10.33s/it]
+language loss:  0.7814540863037109
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8611515760421753
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7974, 'grad_norm': 3.683070350913465, 'learning_rate': 8.024834375608414e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8293/8316 [32:20:13<03:56, 10.30s/it]
+language loss:  0.7496685981750488
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5208812355995178
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6284, 'grad_norm': 0.8203717891520426, 'learning_rate': 7.342196686788149e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8294/8316 [32:20:23<03:49, 10.43s/it]
+language loss:  0.8205514550209045
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7999112010002136
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6881, 'grad_norm': 1.9391778633418464, 'learning_rate': 6.689897725142834e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8295/8316 [32:20:33<03:37, 10.37s/it]
+language loss:  1.0946890115737915
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7633544206619263
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8883, 'grad_norm': 2.075545351911882, 'learning_rate': 6.067937589615545e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8296/8316 [32:20:45<03:31, 10.58s/it]
+language loss:  0.5346657633781433
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6653059720993042
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5773, 'grad_norm': 0.7667505981970345, 'learning_rate': 5.476316374575241e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8297/8316 [32:20:56<03:23, 10.70s/it]
+language loss:  0.6565420031547546
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8899062871932983
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7313, 'grad_norm': 3.4164807028675583, 'learning_rate': 4.9150341697723476e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8298/8316 [32:21:06<03:08, 10.49s/it]
+language loss:  0.1337721049785614
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6517465114593506
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6673, 'grad_norm': 1.6757754879298883, 'learning_rate': 4.384091060338768e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8299/8316 [32:21:16<02:58, 10.49s/it]
+language loss:  0.7989336848258972
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.675227165222168
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7372, 'grad_norm': 3.151373239942282, 'learning_rate': 3.883487126810081e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▊| 8300/8316 [32:21:26<02:46, 10.40s/it]
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py:1898: UserWarn
+ing: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/gener
+ated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/checkpoint.py:464: UserWarnin
+g: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.4 we will ra
+ise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to prese
+rve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the diff
+erences between the two variants.
+  warnings.warn(
+language loss:  0.8124592304229736
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9554298520088196
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7922, 'grad_norm': 1.6811575910279712, 'learning_rate': 3.41322244516995e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████▉| 8301/8316 [32:27:21<28:27, 113.84s/it]
+language loss:  0.308579683303833
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6179243922233582
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6331, 'grad_norm': 1.6653384479284328, 'learning_rate': 2.9732970866946925e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8302/8316 [32:27:32<19:21, 83.00s/it]
+language loss:  0.946746826171875
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.673815906047821
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.788, 'grad_norm': 2.4895014623058076, 'learning_rate': 2.563711118175327e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8303/8316 [32:27:42<13:14, 61.11s/it]
+language loss:  1.0496714115142822
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.8601253032684326
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8421, 'grad_norm': 2.083245873204864, 'learning_rate': 2.184464601717728e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8304/8316 [32:27:53<09:10, 45.90s/it]
+language loss:  0.5469057559967041
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.768057107925415
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7775, 'grad_norm': 2.9791592862409035, 'learning_rate': 1.8355575948758585e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8305/8316 [32:28:03<06:26, 35.18s/it]
+language loss:  0.7973067760467529
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.30061158537864685
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7334, 'grad_norm': 2.011422203947182, 'learning_rate': 1.5169901505407424e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8306/8316 [32:28:14<04:40, 28.02s/it]
+language loss:  0.5559019446372986
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  1.0084635019302368
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.744, 'grad_norm': 2.230753491293024, 'learning_rate': 1.228762317073695e-11, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8307/8316 [32:28:25<03:24, 22.73s/it]
+language loss:  0.7472333908081055
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9143034815788269
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7998, 'grad_norm': 2.0141082498046505, 'learning_rate': 9.70874138195299e-12, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8308/8316 [32:28:35<02:31, 18.95s/it]
+language loss:  0.8538563251495361
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7603331208229065
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7499, 'grad_norm': 1.5173114949874482, 'learning_rate': 7.433256530076093e-12, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8309/8316 [32:28:45<01:54, 16.35s/it]
+language loss:  0.8038142919540405
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6019915342330933
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7603, 'grad_norm': 2.182631169558123, 'learning_rate': 5.46116896038562e-12, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8310/8316 [32:28:55<01:27, 14.52s/it]
+language loss:  0.2529778480529785
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6661862730979919
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6223, 'grad_norm': 2.006686477478852, 'learning_rate': 3.792478972197699e-12, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8311/8316 [32:29:06<01:06, 13.29s/it]
+language loss:  0.9037413597106934
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5601435899734497
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7012, 'grad_norm': 2.1219844739311786, 'learning_rate': 2.4271868181990895e-12, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8312/8316 [32:29:16<00:49, 12.28s/it]
+language loss:  0.3971347212791443
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.7856272459030151
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.8153, 'grad_norm': 2.16334626502045, 'learning_rate': 1.3652927060014973e-12, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8313/8316 [32:29:27<00:35, 11.84s/it]
+language loss:  0.5494375228881836
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.6294450163841248
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.6444, 'grad_norm': 2.449754671542567, 'learning_rate': 6.067967965872612e-13, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8314/8316 [32:29:37<00:22, 11.42s/it]
+language loss:  0.12759926915168762
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.9138105511665344
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.7736, 'grad_norm': 1.6151239618020978, 'learning_rate': 1.5169920497548615e-13, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████▉| 8315/8316 [32:29:48<00:11, 11.22s/it]
+language loss:  0.7068008184432983
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+language loss:  0.5733734965324402
+mlp auxiliary loss:  0.0
+clip auxiliary loss:  0.0
+{'loss': 0.5503, 'grad_norm': 1.1435982087516565, 'learning_rate': 0.0, 'epoch': 1.0}
+100%|█████████████████████████████████████████████████████████████████| 8316/8316 [32:29:58<00:00, 11.07s/it]
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py:1898: UserWarn
+ing: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/gener
+ated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000014c96ca56000a41d0'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e186903000a41d1'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014dffc29e000a41cc'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e46116d000a41d2'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+OSError: [Errno 16] Device or resource busy: '.nfs000000014c97daa7000a41cb'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e46116b000a41cd'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e186902000a41cf'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e46116f000a41c9'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014c97daa9000a41c8'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e3b25ed000a41ce'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014c98f997000a41d3'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e461170000a41ca'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014c96ca57000a41d4'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014dffc2a2000a41d5'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e3b25f0000a41d6'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_fin
+alizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_
+temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014e3b25f2000a41d7'
+{'train_runtime': 117446.8965, 'train_samples_per_second': 2.832, 'train_steps_per_second': 0.071, 'train_los
+s': 0.7759840532836287, 'epoch': 1.0}
+100%|█████████████████████████████████████████████████████████████████| 8316/8316 [32:37:26<00:00, 14.12s/it]
+[2024-09-03 03:57:34,025] [INFO] [launch.py:348:main] Process 3577435 exits successfully.
+[2024-09-03 03:57:35,026] [INFO] [launch.py:348:main] Process 3577437 exits successfully.
+[2024-09-03 03:57:35,026] [INFO] [launch.py:348:main] Process 3577436 exits successfully.
+[2024-09-03 03:58:30,083] [INFO] [launch.py:348:main] Process 3577434 exits successfully.
+

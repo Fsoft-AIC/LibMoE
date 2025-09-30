@@ -1,0 +1,103 @@
+program: main.py
+command:
+  - ${env}
+  - python3
+  - ${program}
+  - ${args}
+method: grid
+metric:
+  name: validation/mean_accuracy
+  goal: maximize
+parameters:
+  log:
+    value: wandb
+  task:
+    value: slimpajama_transformer
+  test_interval:
+    value: 2000
+  state_size:
+    value: 412
+  transformer.encoder_n_layers:
+    value: 16
+  transformer.n_heads:
+    value: 4
+  dropout:
+    value: 0.0
+  moe.drop_expert:
+    value: 0.0
+  lr:
+    value: 0.00025
+  optimizer:
+    value: adamw
+  lm.unroll:
+    value: 1024
+  batch_size:
+    value: 64
+  grad_clip:
+    value: 0.1
+  amp:
+    value: 1
+  save_interval:
+    value: 10000
+  transformer.variant:
+    value: preln_moe_universal
+  stop_after:
+    value: 100000
+  moe.n_experts:
+    value: 155
+  moe.expert_size:
+    value: 128
+  pkm.n_heads:
+    value: 12
+  transformer.p_drop_layer:
+    value: 0.0
+  moe.selection_mode:
+    value: sigmoid
+  moe.perplexity_reg_mode:
+    value: layers_time
+  moe.perplexity_reg:
+    value: 0.01
+  moe.att.perplexity_reg:
+    value: 0.001
+  moe.att.selection_dropout:
+    value: 0.0
+  lr_sched.type:
+    value: cos
+  lmds.valid_ratio:
+    value: 0.005
+  moe.att.enable:
+    value: 1
+  moe.att.n_experts:
+    value: 8
+  moe.att.selection_mode:
+    value: sigmoid
+  moe.att.k:
+    value: 2
+  moe.att.expert_dropout:
+    value: 0.0
+  n_microbatch:
+    value: 1
+  transformer.head_projection_size:
+    value: 82
+  transformer.universal.group_size:
+    value: 2
+  wd:
+    value: 0.01
+  moe.att.q_expert:
+    value: 0
+  moe.att.k_expert:
+    value: 0
+  moe.att.v_expert:
+    value: 1
+  moe.att.o_expert:
+    value: 1
+  lm.trafo.context_blocks:
+    value: 0
+  min_lr_multiplier:
+    value: 0.1
+  details_log_interval:
+    value: 500
+  lm.eval.enabled:
+    value: 0
+  moe.nonorm:
+    value: 1

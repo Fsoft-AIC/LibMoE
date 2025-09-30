@@ -1,0 +1,362 @@
+os': 25318342032360.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 174919360}
+ 99%|██████████████████████████████████████████
+███████████████████████████████████████████████
+█████████████████████▌ | 8210/8316 [7:45:04<11:
+07,  6.29s/it]Language loss: 0.7395172119140625
+mlp auxiliary loss: 0.11972726136445999
+clip auxiliary loss: 0.11972726136445999
+Language loss: 0.6446492075920105
+mlp auxiliary loss: 0.11977005004882812
+clip auxiliary loss: 0.11977005004882812
+{'loss': 0.9937, 'grad_norm': 2.239381074905395
+5, 'learning_rate': 1.6722506681043913e-09, 'fl
+os': 15222911054520.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 174938040}
+ 99%|██████████████████████████████████████████
+███████████████████████████████████████████████
+█████████████████████▌ | 8211/8316 [7:45:10<11:
+03,  6.32s/it]Language loss: 0.7727529406547546
+mlp auxiliary loss: 0.1198183000087738
+clip auxiliary loss: 0.1198183000087738
+Language loss: 0.9222544431686401
+mlp auxiliary loss: 0.11978469043970108
+clip auxiliary loss: 0.11978469043970108
+[2024-10-25 13:58:28,909] [WARNING] [stage3.py:
+2104:step] 1 pytorch allocator cache flushes si
+nce last step. this happens when there is high
+memory pressure and is detrimental to performan
+ce. if this is happening frequently consider ad
+justing settings to reduce memory consumption.
+If you are unable to make the cache flushes go
+away consider adding get_accelerator().empty_ca
+che() calls in your training loop to ensure tha
+t all ranks flush their caches at the same time
+{'loss': 0.9066, 'grad_norm': 2.616816759109497
+, 'learning_rate': 1.640554287104745e-09, 'flos
+': 11552129560680.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 174956035}
+ 99%|██████████████████████████████████████████
+███████████████████████████████████████████████
+█████████████████████▌ | 8212/8316 [7:45:17<11:
+22,  6.56s/it]Language loss: 0.9262990355491638
+mlp auxiliary loss: 0.11973560601472855
+clip auxiliary loss: 0.11973560601472855
+Language loss: 0.9140028953552246
+mlp auxiliary loss: 0.11970806866884232
+clip auxiliary loss: 0.11970806866884232
+ 99%|█████████▉| 8213/8316 [7:45:23<10:58,  6.4
+0s/it]
+            {'loss': 0.9986, 'grad_norm': 2.321
+9292163848877, 'learning_rate': 1.6091610556443
+48e-09, 'flos': 12647532180120.0, 'epoch': 0.99
+, 'num_input_tokens_seen': 174971680}
+ 99%|█████████▉| 8213/8316 [7:45:23<10:58,  6.4
+0s/it]Language loss: 0.24974147975444794
+mlp auxiliary loss: 0.1198674812912941
+clip auxiliary loss: 0.1198674812912941
+Language loss: 0.788150429725647
+mlp auxiliary loss: 0.11975032836198807
+clip auxiliary loss: 0.11975032836198807
+{'loss': 0.895, 'grad_norm': 3.044771909713745,
+ 'learning_rate': 1.5780709784849467e-09, 'flos
+': 18598667312280.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 174988420}
+ 99%|█████████▉| 8214/8316 [7:45:29<10:41,  6.2
+9s/it]Language loss: 0.8541434407234192
+mlp auxiliary loss: 0.11988033354282379
+clip auxiliary loss: 0.11988033354282379
+Language loss: 0.8899428248405457
+mlp auxiliary loss: 0.11986774951219559
+clip auxiliary loss: 0.11986774951219559
+{'loss': 1.045, 'grad_norm': 3.151672840118408,
+ 'learning_rate': 1.5472840603436565e-09, 'flos
+': 11310343888920.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 175005370}
+ 99%|█████████▉| 8215/8316 [7:45:35<10:23,  6.1
+8s/it]Language loss: 0.7962762117385864
+mlp auxiliary loss: 0.11977895349264145
+clip auxiliary loss: 0.11977895349264145
+Language loss: 0.8071091175079346
+mlp auxiliary loss: 0.11976750195026398
+clip auxiliary loss: 0.11976750195026398
+[2024-10-25 13:58:53,861] [WARNING] [stage3.py:
+2104:step] 1 pytorch allocator cache flushes si
+nce last step. this happens when there is high
+memory pressure and is detrimental to performan
+ce. if this is happening frequently consider ad
+justing settings to reduce memory consumption.
+If you are unable to make the cache flushes go
+away consider adding get_accelerator().empty_ca
+che() calls in your training loop to ensure tha
+t all ranks flush their caches at the same time
+{'loss': 1.0186, 'grad_norm': 2.093361854553222
+7, 'learning_rate': 1.5168003058900757e-09, 'fl
+os': 13334556697320.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 175023090}
+ 99%|█████████▉| 8216/8316 [7:45:42<10:42,  6.4
+2s/it]Language loss: 0.8408281803131104
+mlp auxiliary loss: 0.11979761719703674
+clip auxiliary loss: 0.11979761719703674
+Language loss: 0.7528736591339111
+mlp auxiliary loss: 0.11978098750114441
+clip auxiliary loss: 0.11978098750114441
+{'loss': 1.1439, 'grad_norm': 2.095332384109497
+, 'learning_rate': 1.4866197197491715e-09, 'flo
+s': 15903987229080.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175042170}
+ 99%|█████████▉| 8217/8316 [7:45:48<10:26,  6.3
+3s/it]Language loss: 0.6760271787643433
+mlp auxiliary loss: 0.11974267661571503
+clip auxiliary loss: 0.11974267661571503
+Language loss: 0.9513599276542664
+mlp auxiliary loss: 0.11979254335165024
+clip auxiliary loss: 0.11979254335165024
+{'loss': 0.9759, 'grad_norm': 3.499281644821167
+, 'learning_rate': 1.4567423064988371e-09, 'flo
+s': 11079351086280.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175059240}
+ 99%|█████████▉| 8218/8316 [7:45:54<10:09,  6.2
+2s/it]Language loss: 0.6025468111038208
+mlp auxiliary loss: 0.11979146301746368
+clip auxiliary loss: 0.11979146301746368
+Language loss: 0.8125880360603333
+mlp auxiliary loss: 0.11977427452802658
+clip auxiliary loss: 0.11977427452802658
+{'loss': 1.0044, 'grad_norm': 2.26381778717041,
+ 'learning_rate': 1.4271680706718913e-09, 'flos
+': 15269313090960.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 175076635}
+ 99%|█████████▉| 8219/8316 [7:46:00<09:59,  6.1
+9s/it]Language loss: 0.6954307556152344
+mlp auxiliary loss: 0.11977171152830124
+clip auxiliary loss: 0.11977171152830124
+Language loss: 0.9393165111541748
+mlp auxiliary loss: 0.11979518830776215
+clip auxiliary loss: 0.11979518830776215
+[2024-10-25 13:59:18,370] [WARNING] [stage3.py:
+2104:step] 1 pytorch allocator cache flushes si
+nce last step. this happens when there is high
+memory pressure and is detrimental to performan
+ce. if this is happening frequently consider ad
+justing settings to reduce memory consumption.
+If you are unable to make the cache flushes go
+away consider adding get_accelerator().empty_ca
+che() calls in your training loop to ensure tha
+t all ranks flush their caches at the same time
+{'loss': 1.047, 'grad_norm': 1.9693584442138672
+, 'learning_rate': 1.3978970167543013e-09, 'flo
+s': 19966001465040.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175096535}
+ 99%|█████████▉| 8220/8316 [7:46:07<09:57,  6.2
+3s/it]Language loss: 1.0168838500976562
+mlp auxiliary loss: 0.11970770359039307
+clip auxiliary loss: 0.11970770359039307
+Language loss: 0.9236564040184021
+mlp auxiliary loss: 0.11990627646446228
+clip auxiliary loss: 0.11990627646446228
+{'loss': 0.987, 'grad_norm': 2.741213321685791,
+ 'learning_rate': 1.3689291491867372e-09, 'flos
+': 9950675126160.0, 'epoch': 0.99, 'num_input_t
+okens_seen': 175114570}
+ 99%|█████████▉| 8221/8316 [7:46:14<10:16,  6.4
+9s/it]Language loss: 0.8767572045326233
+mlp auxiliary loss: 0.11970779299736023
+clip auxiliary loss: 0.11970779299736023
+Language loss: 0.6089244484901428
+mlp auxiliary loss: 0.1197592169046402
+clip auxiliary loss: 0.1197592169046402
+{'loss': 0.964, 'grad_norm': 2.973095417022705,
+ 'learning_rate': 1.3402644723636836e-09, 'flos
+': 18814630402440.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 175136320}
+ 99%|█████████▉| 8222/8316 [7:46:20<09:58,  6.3
+7s/it]Language loss: 0.6393038034439087
+mlp auxiliary loss: 0.11970722675323486
+clip auxiliary loss: 0.11970722675323486
+Language loss: 0.9336227774620056
+mlp auxiliary loss: 0.11969216167926788
+clip auxiliary loss: 0.11969216167926788
+{'loss': 1.0475, 'grad_norm': 2.280035257339477
+5, 'learning_rate': 1.311902990633218e-09, 'flo
+s': 17950281908760.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175155005}
+ 99%|█████████▉| 8223/8316 [7:46:26<09:44,  6.2
+8s/it]Language loss: 0.9071997404098511
+mlp auxiliary loss: 0.11983086913824081
+clip auxiliary loss: 0.11983086913824081
+Language loss: 0.7923619747161865
+mlp auxiliary loss: 0.1197429671883583
+clip auxiliary loss: 0.1197429671883583
+{'loss': 0.9307, 'grad_norm': 1.828683733940124
+5, 'learning_rate': 1.2838447082978987e-09, 'fl
+os': 18762188038680.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 175175880}
+ 99%|█████████▉| 8224/8316 [7:46:32<09:34,  6.2
+4s/it]Language loss: 0.9018045663833618
+mlp auxiliary loss: 0.11966036260128021
+clip auxiliary loss: 0.11966036260128021
+Language loss: 0.8254736065864563
+mlp auxiliary loss: 0.11980409920215607
+clip auxiliary loss: 0.11980409920215607
+{'loss': 1.0403, 'grad_norm': 3.131252288818359
+4, 'learning_rate': 1.2560896296143208e-09, 'fl
+os': 17294016484320.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 175194065}
+ 99%|█████████▉| 8225/8316 [7:46:38<09:21,  6.1
+7s/it]Language loss: 0.7465163469314575
+mlp auxiliary loss: 0.11970441788434982
+clip auxiliary loss: 0.11970441788434982
+Language loss: 0.6339908242225647
+mlp auxiliary loss: 0.119798943400383
+clip auxiliary loss: 0.119798943400383
+{'loss': 1.0283, 'grad_norm': 2.273009777069092
+, 'learning_rate': 1.2286377587926722e-09, 'flo
+s': 13438030993080.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175210575}
+ 99%|█████████▉| 8226/8316 [7:46:44<09:10,  6.1
+2s/it]Language loss: 0.9666154384613037
+mlp auxiliary loss: 0.11981894075870514
+clip auxiliary loss: 0.11981894075870514
+Language loss: 0.66822749376297
+mlp auxiliary loss: 0.11977031081914902
+clip auxiliary loss: 0.11977031081914902
+{'loss': 0.9788, 'grad_norm': 2.577095985412597
+7, 'learning_rate': 1.2014890999973992e-09, 'fl
+os': 18631051467720.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 175227215}
+ 99%|█████████▉| 8227/8316 [7:46:50<09:02,  6.1
+0s/it]Language loss: 0.7931668758392334
+mlp auxiliary loss: 0.11972484737634659
+clip auxiliary loss: 0.11972484737634659
+Language loss: 0.8615057468414307
+mlp auxiliary loss: 0.11980229616165161
+clip auxiliary loss: 0.11980229616165161
+{'loss': 1.002, 'grad_norm': 1.6284446716308594
+, 'learning_rate': 1.1746436573472073e-09, 'flo
+s': 18108958108680.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175248670}
+ 99%|█████████▉| 8228/8316 [7:46:56<08:59,  6.1
+3s/it]Language loss: 0.9439900517463684
+mlp auxiliary loss: 0.11971729248762131
+clip auxiliary loss: 0.11971729248762131
+Language loss: 0.7212684750556946
+mlp auxiliary loss: 0.11984457075595856
+clip auxiliary loss: 0.11984457075595856
+{'loss': 0.9144, 'grad_norm': 2.385124683380127
+, 'learning_rate': 1.1481014349141726e-09, 'flo
+s': 14327619498720.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175265610}
+ 99%|█████████▉| 8229/8316 [7:47:03<09:12,  6.3
+6s/it]Language loss: 0.6009717583656311
+mlp auxiliary loss: 0.11974380910396576
+clip auxiliary loss: 0.11974380910396576
+Language loss: 0.7312790155410767
+mlp auxiliary loss: 0.11976246535778046
+clip auxiliary loss: 0.11976246535778046
+ 99%|██████████████████████████████████████████
+
+{'loss': 1.0616, 'grad_norm': 2.081494092941284
+, 'learning_rate': 1.121862436724852e-09, 'flos
+': 17529853813440.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 175284170}
+ 99%|██████████████████████████████████████████
+▌| 8230/8316 [7:47:09<08:58,  6.26s/it]Language
+ loss: 0.4084818363189697
+mlp auxiliary loss: 0.11989309638738632
+clip auxiliary loss: 0.11989309638738632
+Language loss: 0.7267800569534302
+mlp auxiliary loss: 0.11983177065849304
+clip auxiliary loss: 0.11983177065849304
+ 99%|███▉| 8231/8316 [7:47:15<08:47,  6.20s/it]
+{'loss': 0.9411, 'grad_norm': 2.249102830886841
+, 'learning_rate': 1.0959266667598388e-09, 'flo
+s': 15485092211760.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175302705}
+ 99%|███▉| 8231/8316 [7:47:15<08:47,  6.20s/it]
+Language loss: 0.6329724788665771
+mlp auxiliary loss: 0.11974140256643295
+clip auxiliary loss: 0.11974140256643295
+Language loss: 0.7034875750541687
+mlp auxiliary loss: 0.11976885050535202
+clip auxiliary loss: 0.11976885050535202
+{'loss': 0.9623, 'grad_norm': 2.429203271865844
+7, 'learning_rate': 1.0702941289533196e-09, 'fl
+os': 15144646109160.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 175321100}
+ 99%|███▉| 8232/8316 [7:47:22<09:01,  6.45s/it]
+Language loss: 0.7088679075241089
+mlp auxiliary loss: 0.11977612227201462
+clip auxiliary loss: 0.11977612227201462
+Language loss: 0.8015034794807434
+mlp auxiliary loss: 0.11980210244655609
+clip auxiliary loss: 0.11980210244655609
+{'loss': 1.1078, 'grad_norm': 2.286875009536743
+, 'learning_rate': 1.0449648271939615e-09, 'flo
+s': 13145581328040.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175337165}
+ 99%|███▉| 8233/8316 [7:47:28<08:43,  6.31s/it]
+Language loss: 0.8919788599014282
+mlp auxiliary loss: 0.1197056919336319
+clip auxiliary loss: 0.1197056919336319
+Language loss: 0.529738187789917
+mlp auxiliary loss: 0.11978119611740112
+clip auxiliary loss: 0.11978119611740112
+{'loss': 0.9585, 'grad_norm': 1.743863344192504
+9, 'learning_rate': 1.0199387653240243e-09, 'fl
+os': 16898889724080.0, 'epoch': 0.99, 'num_inpu
+t_tokens_seen': 175356575}
+ 99%|███▉| 8234/8316 [7:47:34<08:30,  6.23s/it]
+Language loss: 0.7102274894714355
+mlp auxiliary loss: 0.11982537806034088
+clip auxiliary loss: 0.11982537806034088
+Language loss: 0.7721285223960876
+mlp auxiliary loss: 0.11979030817747116
+clip auxiliary loss: 0.11979030817747116
+{'loss': 0.9265, 'grad_norm': 2.113807201385498
+, 'learning_rate': 9.952159471400267e-10, 'flos
+': 11604326631960.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 175373335}
+ 99%|███▉| 8235/8316 [7:47:40<08:19,  6.16s/it]
+Language loss: 0.727990448474884
+mlp auxiliary loss: 0.11969688534736633
+clip auxiliary loss: 0.11969688534736633
+Language loss: 0.8479176163673401
+mlp auxiliary loss: 0.11979538947343826
+clip auxiliary loss: 0.11979538947343826
+{'loss': 1.0653, 'grad_norm': 1.781829118728637
+7, 'learning_rate': 9.707963763923022e-10, 'flo
+s': 16030984489440.0, 'epoch': 0.99, 'num_input
+_tokens_seen': 175392105}
+ 99%|███▉| 8236/8316 [7:47:46<08:07,  6.10s/it]
+Language loss: 0.9902327656745911
+mlp auxiliary loss: 0.11969312280416489
+clip auxiliary loss: 0.11969312280416489
+Language loss: 0.7743993997573853
+mlp auxiliary loss: 0.11976281553506851
+clip auxiliary loss: 0.11976281553506851
+[2024-10-25 14:01:05,118] [WARNING] [stage3.py:
+2104:step] 1 pytorch allocator cache flushes si
+nce last step. this happens when there is high
+memory pressure and is detrimental to performan
+ce. if this is happening frequently consider ad
+justing settings to reduce memory consumption.
+If you are unable to make the cache flushes go
+away consider adding get_accelerator().empty_ca
+che() calls in your training loop to ensure tha
+t all ranks flush their caches at the same time
+{'loss': 1.0122, 'grad_norm': 2.623976230621338
+, 'learning_rate': 9.466800567854427e-10, 'flos
+': 11420962328160.0, 'epoch': 0.99, 'num_input_
+tokens_seen': 175410425}
+ 99%|███▉| 8237/8316 [7:47:53<08:25,  6.39s/it]
+Language loss: 0.7632814645767212
+mlp auxiliary loss: 0.11962690949440002
+clip auxiliary loss: 0.11962690949440002
+Language loss: 0.43656301498413086
+mlp auxiliary loss: 0.11972358822822571
+clip auxiliary loss: 0.11972358822822571
+{'loss': 0.9139, 'grad_norm': 2.269793033599853
+5, 'learning_rate': 9.228669919778553e-10, 'flo
+s': 18972448078680.0, 'epoch': 0.99, 'num_input
+_tokens

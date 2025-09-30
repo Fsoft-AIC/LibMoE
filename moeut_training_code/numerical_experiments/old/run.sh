@@ -1,0 +1,13 @@
+python experiment.py \
+    --model 1 \
+    --n_components 2 \
+    --topK 2 \
+    --reps 10 \
+    --nproc 1 \
+    --maxit 2000 \
+    --eps 1e-6 \
+    --n_num 200 \
+    --ns_max 1000 \
+    --ns_min 100 \
+    --errorbar 0 \
+    --verbose 0

@@ -1,0 +1,1883 @@
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7399, 'grad_norm': 11.17831333546698, 'learning_rate': 7.01416129818222e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▏| 8248/8316 [29:48:57<11:37, 10.26s/it]language loss:  0.1799929291009903
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.623347818851471
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5761, 'grad_norm': 6.297153362624425, 'learning_rate': 6.809390961006745e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▏| 8249/8316 [29:49:08<11:33, 10.35s/it]language loss:  0.7729321718215942
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.37353774905204773
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6825, 'grad_norm': 4.14806736446112, 'learning_rate': 6.607653574948191e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▏| 8250/8316 [29:49:18<11:21, 10.33s/it]language loss:  0.9027698040008545
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7762358784675598
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8118, 'grad_norm': 8.329985849063938, 'learning_rate': 6.408949170613187e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▏| 8251/8316 [29:49:28<11:07, 10.27s/it]language loss:  0.762937068939209
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7885195016860962
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8105, 'grad_norm': 2.739209680253375, 'learning_rate': 6.213277778144288e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8252/8316 [29:49:38<10:52, 10.19s/it]language loss:  0.7509450912475586
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7986166477203369
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6693, 'grad_norm': 3.6654612264771833, 'learning_rate': 6.020639427224416e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8253/8316 [29:49:48<10:33, 10.06s/it]language loss:  0.2479940503835678
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8254429697990417
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7119, 'grad_norm': 26.86917519544643, 'learning_rate': 5.831034147076864e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8254/8316 [29:49:57<10:13,  9.89s/it]language loss:  0.5880150198936462
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6073384284973145
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5647, 'grad_norm': 0.7112316738643805, 'learning_rate': 5.644461966463065e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8255/8316 [29:50:08<10:20, 10.17s/it]language loss:  0.8069642186164856
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7719275951385498
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7476, 'grad_norm': 6.620642614608577, 'learning_rate': 5.460922913687049e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8256/8316 [29:50:19<10:30, 10.51s/it]language loss:  0.8167749643325806
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.710966169834137
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7347, 'grad_norm': 4.559571672032085, 'learning_rate': 5.280417016593208e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8257/8316 [29:50:30<10:17, 10.47s/it]language loss:  0.8517547845840454
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6629929542541504
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7412, 'grad_norm': 18.082275547199355, 'learning_rate': 5.102944302559642e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8258/8316 [29:50:39<09:53, 10.23s/it]language loss:  0.5947223901748657
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6275677680969238
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7705, 'grad_norm': 4.9545058963904935, 'learning_rate': 4.9285047985137e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8259/8316 [29:50:50<09:43, 10.23s/it]language loss:  0.44519931077957153
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9259511232376099
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7472, 'grad_norm': 3.504759685642022, 'learning_rate': 4.757098530916436e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8260/8316 [29:51:00<09:33, 10.24s/it]language loss:  0.39286574721336365
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.727541446685791
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7782, 'grad_norm': 8.527834924871575, 'learning_rate': 4.5887255257670563e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▎| 8261/8316 [29:51:10<09:14, 10.08s/it]language loss:  0.5934411287307739
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8508968353271484
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7605, 'grad_norm': 4.136540309094034, 'learning_rate': 4.4233858086117906e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8262/8316 [29:51:20<09:02, 10.05s/it]language loss:  1.0001626014709473
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8396908044815063
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6566, 'grad_norm': 4.674542230235583, 'learning_rate': 4.261079404528356e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8263/8316 [29:51:30<09:03, 10.25s/it]language loss:  0.8492163419723511
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.966172993183136
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6774, 'grad_norm': 4.681521455969223, 'learning_rate': 4.1018063381437205e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8264/8316 [29:51:40<08:42, 10.06s/it]language loss:  0.7187808156013489
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5426125526428223
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.65, 'grad_norm': 0.8990991560935302, 'learning_rate': 3.9455666336141167e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8265/8316 [29:51:52<09:03, 10.67s/it]language loss:  0.8626635074615479
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8865572810173035
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8091, 'grad_norm': 84.29645649803436, 'learning_rate': 3.7923603146450267e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8266/8316 [29:52:02<08:35, 10.31s/it]language loss:  0.7946214079856873
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7985772490501404
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7825, 'grad_norm': 3.1119115250177942, 'learning_rate': 3.642187404473418e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8267/8316 [29:52:11<08:14, 10.09s/it]language loss:  0.8909393548965454
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9263124465942383
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8424, 'grad_norm': 6.8550842351210735, 'learning_rate': 3.495047925885508e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8268/8316 [29:52:22<08:16, 10.34s/it]language loss:  0.9768133759498596
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.112289547920227
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8298, 'grad_norm': 3.479312520577122, 'learning_rate': 3.350941901199e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8269/8316 [29:52:32<07:54, 10.09s/it]language loss:  0.9297810196876526
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8697618842124939
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8281, 'grad_norm': 5.38760813451877, 'learning_rate': 3.2098693522764066e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8270/8316 [29:52:41<07:34,  9.88s/it]language loss:  1.0418763160705566
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7147362232208252
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8125, 'grad_norm': 4.008977590534915, 'learning_rate': 3.071830300516165e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8271/8316 [29:52:52<07:35, 10.13s/it]language loss:  0.7935281991958618
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7777517437934875
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6909, 'grad_norm': 5.262951271117121, 'learning_rate': 2.9368247668615234e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▍| 8272/8316 [29:53:02<07:31, 10.27s/it]language loss:  0.9507022500038147
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.20457106828689575
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5952, 'grad_norm': 4.4817339732907655, 'learning_rate': 2.804852771789434e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8273/8316 [29:53:12<07:13, 10.07s/it]language loss:  0.5106156468391418
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.39608925580978394
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5519, 'grad_norm': 17.11471805840663, 'learning_rate': 2.675914335321661e-10, 'epoch': 0.99}
+ 99%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8274/8316 [29:53:22<07:08, 10.21s/it]language loss:  0.9184590578079224
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7169695496559143
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7736, 'grad_norm': 3.6574356895315443, 'learning_rate': 2.550009477018111e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8275/8316 [29:53:32<06:49,  9.99s/it]language loss:  0.4108491539955139
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.4310988783836365
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6292, 'grad_norm': 4.625807201980803, 'learning_rate': 2.4271382159790634e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8276/8316 [29:53:41<06:32,  9.81s/it]language loss:  0.9302862882614136
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6796068549156189
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8487, 'grad_norm': 7.982771919701367, 'learning_rate': 2.3073005708429406e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8277/8316 [29:53:52<06:39, 10.24s/it]language loss:  0.731651246547699
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9070297479629517
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7124, 'grad_norm': 3.9074484245620944, 'learning_rate': 2.190496559788535e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8278/8316 [29:54:02<06:22, 10.07s/it]language loss:  0.6658725142478943
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6766147017478943
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7524, 'grad_norm': 10.959986998278849, 'learning_rate': 2.0767262005372265e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8279/8316 [29:54:12<06:05,  9.89s/it]language loss:  0.7300743460655212
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5701074600219727
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.745, 'grad_norm': 9.510820350282701, 'learning_rate': 1.965989510346322e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8280/8316 [29:54:22<06:03, 10.10s/it]language loss:  0.8568623661994934
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.49662747979164124
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7007, 'grad_norm': 4.402278760888981, 'learning_rate': 1.8582865060134955e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8281/8316 [29:54:32<05:48,  9.96s/it]language loss:  0.6796789169311523
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5344136953353882
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5791, 'grad_norm': 0.7896975992369875, 'learning_rate': 1.7536172038790098e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8282/8316 [29:54:42<05:44, 10.15s/it]language loss:  0.13033823668956757
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7763872146606445
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6777, 'grad_norm': 16.25367671746727, 'learning_rate': 1.651981619819054e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▌| 8283/8316 [29:54:52<05:31, 10.05s/it]language loss:  0.2089768797159195
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6187857985496521
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.681, 'grad_norm': 4.117253283096386, 'learning_rate': 1.5533797692546257e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8284/8316 [29:55:02<05:19,  9.98s/it]language loss:  0.7590570449829102
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8405502438545227
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8218, 'grad_norm': 4.7409690535942834, 'learning_rate': 1.4578116671404296e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8285/8316 [29:55:12<05:05,  9.86s/it]language loss:  0.6568424701690674
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7035682797431946
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7078, 'grad_norm': 5.464906224513337, 'learning_rate': 1.3652773279759777e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8286/8316 [29:55:22<05:04, 10.15s/it]language loss:  0.22166723012924194
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7209380865097046
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6155, 'grad_norm': 5.913588390218394, 'learning_rate': 1.2757767657989305e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8287/8316 [29:55:32<04:51, 10.06s/it]language loss:  0.9498085379600525
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6464943885803223
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8568, 'grad_norm': 4.617906440233179, 'learning_rate': 1.1893099941850948e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8288/8316 [29:55:42<04:37,  9.93s/it]language loss:  0.5132161378860474
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.672667920589447
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7607, 'grad_norm': 4.202253854091115, 'learning_rate': 1.105877026252866e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8289/8316 [29:55:52<04:30, 10.02s/it]language loss:  0.8391169309616089
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5489689707756042
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7126, 'grad_norm': 5.724562395853804, 'learning_rate': 1.0254778746565663e-10, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8290/8316 [29:56:02<04:17,  9.90s/it]language loss:  0.8789494037628174
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.610920786857605
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7252, 'grad_norm': 6.241318738922895, 'learning_rate': 9.481125515953259e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8291/8316 [29:56:12<04:08,  9.95s/it]language loss:  0.9222375154495239
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.603848397731781
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.791, 'grad_norm': 4.741667415750687, 'learning_rate': 8.737810688064228e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8292/8316 [29:56:23<04:03, 10.17s/it]language loss:  0.7629432082176208
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.819984495639801
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.779, 'grad_norm': 5.707536553605434, 'learning_rate': 8.024834375608414e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8293/8316 [29:56:33<03:56, 10.29s/it]language loss:  0.8574145436286926
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5378226041793823
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6521, 'grad_norm': 0.8208287748865364, 'learning_rate': 7.342196686788149e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▋| 8294/8316 [29:56:43<03:45, 10.25s/it]language loss:  0.816876232624054
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7785228490829468
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6694, 'grad_norm': 31.12608145554695, 'learning_rate': 6.689897725142834e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8295/8316 [29:56:54<03:38, 10.43s/it]language loss:  1.0770175457000732
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7720076441764832
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8647, 'grad_norm': 7.158821277027107, 'learning_rate': 6.067937589615545e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8296/8316 [29:57:04<03:23, 10.17s/it]language loss:  0.545788586139679
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6238200664520264
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5724, 'grad_norm': 0.7787283446483495, 'learning_rate': 5.476316374575241e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8297/8316 [29:57:15<03:17, 10.38s/it]language loss:  0.6762221455574036
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8980795741081238
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7242, 'grad_norm': 8.062156965661536, 'learning_rate': 4.9150341697723476e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8298/8316 [29:57:25<03:07, 10.40s/it]language loss:  0.159053772687912
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6277685165405273
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6519, 'grad_norm': 7.894702062028267, 'learning_rate': 4.384091060338768e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8299/8316 [29:57:35<02:55, 10.31s/it]language loss:  0.7845156788825989
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6612553000450134
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7221, 'grad_norm': 11.165685430278327, 'learning_rate': 3.883487126810081e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8300/8316 [29:57:45<02:41, 10.09s/it]/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/sit
+e-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Refer to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Mo
+dule.state_dict for details.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False expl
+icitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer
+ to docs for more details on the differences between the two variants.
+  warnings.warn(
+language loss:  0.8208270072937012
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9562975168228149
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7906, 'grad_norm': 6.217058267949568, 'learning_rate': 3.41322244516995e-11, 'epoch': 1.0}
+100%|██████████████████████████████████████████████████████████████████████████████████████████████▊| 8301/8316 [30:03:23<27:08, 108.54s/it]language loss:  0.31334587931632996
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5926818251609802
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6206, 'grad_norm': 3.7466255264014587, 'learning_rate': 2.9732970866946925e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8302/8316 [30:03:33<18:24, 78.92s/it]language loss:  0.8945315480232239
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.689227283000946
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7717, 'grad_norm': 5.681234073092018, 'learning_rate': 2.563711118175327e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8303/8316 [30:03:42<12:35, 58.14s/it]language loss:  1.0354275703430176
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8460491895675659
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8248, 'grad_norm': 8.454588363255176, 'learning_rate': 2.184464601717728e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8304/8316 [30:03:52<08:44, 43.73s/it]language loss:  0.5622649192810059
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7790650725364685
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7593, 'grad_norm': 5.595369072707756, 'learning_rate': 1.8355575948758585e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▊| 8305/8316 [30:04:02<06:08, 33.53s/it]language loss:  0.7955241799354553
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.2862812578678131
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7271, 'grad_norm': 5.674723264694004, 'learning_rate': 1.5169901505407424e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8306/8316 [30:04:12<04:22, 26.28s/it]language loss:  0.5530561208724976
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9958494901657104
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7368, 'grad_norm': 3.8014659362896452, 'learning_rate': 1.228762317073695e-11, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8307/8316 [30:04:22<03:13, 21.55s/it]language loss:  0.7347024083137512
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9075629711151123
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7708, 'grad_norm': 31.34987068697164, 'learning_rate': 9.70874138195299e-12, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8308/8316 [30:04:32<02:25, 18.16s/it]language loss:  0.8264374732971191
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.729089081287384
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7315, 'grad_norm': 4.738157064724123, 'learning_rate': 7.433256530076093e-12, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8309/8316 [30:04:42<01:50, 15.74s/it]language loss:  0.806080162525177
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5814922451972961
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7497, 'grad_norm': 9.704246173651415, 'learning_rate': 5.46116896038562e-12, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8310/8316 [30:04:52<01:24, 14.01s/it]language loss:  0.2533533275127411
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6453383564949036
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6228, 'grad_norm': 6.962678599506751, 'learning_rate': 3.792478972197699e-12, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8311/8316 [30:05:02<01:04, 12.80s/it]language loss:  0.8872098326683044
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5968772172927856
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6784, 'grad_norm': 8.581250231160093, 'learning_rate': 2.4271868181990895e-12, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8312/8316 [30:05:12<00:47, 11.84s/it]language loss:  0.36905616521835327
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7914291620254517
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7962, 'grad_norm': 6.255664852189567, 'learning_rate': 1.3652927060014973e-12, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8313/8316 [30:05:23<00:34, 11.48s/it]language loss:  0.5537604689598083
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6265071630477905
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.64, 'grad_norm': 5.432151005046341, 'learning_rate': 6.067967965872612e-13, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8314/8316 [30:05:33<00:22, 11.02s/it]language loss:  0.12263223528862
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9068960547447205
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7648, 'grad_norm': 2.8462231958707824, 'learning_rate': 1.5169920497548615e-13, 'epoch': 1.0}
+100%|███████████████████████████████████████████████████████████████████████████████████████████████▉| 8315/8316 [30:05:43<00:10, 10.77s/it]language loss:  0.687623143196106
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5691185593605042
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.5591, 'grad_norm': 1.7841394646447846, 'learning_rate': 0.0, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 8316/8316 [30:05:55<00:00, 11.18s/it]Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000014851f26c00050bfd'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs00000001488170b100050bf5'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014851f26a00050bf3'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014869cca900050bf9'
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489335d400050bef'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489e2f7500050bfc'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489335d500050bfa'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014869ccaa00050bfb'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001487b85e600050bf2'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148997e1100050bf4'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001487b85ea00050bf8'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489f29d900050bf1'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014851f26900050bee'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489f29dd00050bf0'
+OSError: [Errno 16] Device or resource busy: '.nfs00000001487b85eb00050bf7'
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489f29da00050bf6'
+{'train_runtime': 108355.9038, 'train_samples_per_second': 3.07, 'train_steps_per_second': 0.077, 'train_loss': 0.7593615416252826, 'epoch': 1.0}
+100%|████████████████████████████████████████████████████████████████████████████████████████████████| 8316/8316 [30:05:55<00:00, 13.03s/it]
+[2024-07-26 23:24:24,674] [INFO] [launch.py:348:main] Process 4052154 exits successfully.
+[2024-07-26 23:24:24,674] [INFO] [launch.py:348:main] Process 4052156 exits successfully.
+[2024-07-26 23:24:27,678] [INFO] [launch.py:348:main] Process 4052155 exits successfully.
+[2024-07-26 23:25:12,722] [INFO] [launch.py:348:main] Process 4052153 exits successfully.
+(cumo) anonymous@ithndgx004:/cm/archive/anonymous/CUMO$ bash /cm/archive/anonymous/CUMO/scripts/cumo/eval/sqa_m.sh
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading CuMo Phi3 model...
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [01:24<00:00, 42.27s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [01:24<00:00, 42.24s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [01:24<00:00, 42.33s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [01:24<00:00, 42.27s/it]
+  0%|                                                                                                                                                                        | 0/1061 [00:00<?, ?it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+You are not running the flash-attention implementation, expect numerical differences.
+You are not running the flash-attention implementation, expect numerical differences.
+You are not running the flash-attention implementation, expect numerical differences.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1058/1058 [02:28<00:00,  7.12it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1061/1061 [02:31<00:00,  6.98it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1061/1061 [02:35<00:00,  6.82it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1061/1061 [02:36<00:00,  6.77it/s]
+Total: 4241, Correct: 3400, Accuracy: 80.17%, IMG-Accuracy: 71.94%
+(cumo) anonymous@ithndgx004:/cm/archive/anonymous/CUMO$ bash /cm/archive/anonymous/CUMO/scripts/cumo/eval/textvqa_m.sh
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.19s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:04<00:00,  2.48s/it]
+  0%|                                                                                                                                                                        | 0/2500 [00:00<?, ?it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+  0%|▏                                                                                                                                                               | 3/2500 [00:02<25:08,  1.66it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [11:06<00:00,  3.94it/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014871c2f500050c01'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826d8d00050c00'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148998e1300050c02'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826d9000050c03'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [11:06<00:00,  3.75it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [11:16<00:00,  3.50it/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826d9200050c06'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826d9300050c05'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs000000014871c2f800050c04'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001488190fc00050c04'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2500/2500 [11:16<00:00,  3.70it/s]
+cumo_phi3_mini_half
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5000/5000 [00:01<00:00, 2918.59it/s]
+Samples: 5000
+Accuracy: 55.38%
+
+(cumo) anonymous@ithndgx004:/cm/archive/anonymous/CUMO$ bash /cm/archive/anonymous/CUMO/scripts/cumo/eval/gqa.sh
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:10<00:00,  5.39s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.65s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.68s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.66s/it]
+  0%|                                                                                                                                                                        | 0/3145 [00:00<?, ?it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+  0%|▏                                                                                                                                                               | 4/3145 [00:02<24:21,  2.15it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+You are not running the flash-attention implementation, expect numerical differences.
+You are not running the flash-attention implementation, expect numerical differences.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3145/3145 [11:47<00:00,  4.04it/s]
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489d531500050c0a'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826d9f00050c0b'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000014870c2e800050c09'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489d531600050c08'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3145/3145 [11:47<00:00,  4.44it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3145/3145 [11:51<00:00,  4.07it/s]
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489d531700050c0d'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000014869eea900050c0c'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148998e2b00050c0e'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014870c2ea00050c0f'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3145/3145 [11:51<00:00,  4.42it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3145/3145 [11:53<00:00,  4.56it/s]
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148998e2600050c10'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148998e2900050c12'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148998e2700050c11'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148998e2800050c13'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3145/3145 [11:54<00:00,  4.40it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3143/3143 [11:59<00:00,  4.73it/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826d9e00050c15'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014871c30000050c16'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001487ba5e100050c14'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014869eea800050c17'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3143/3143 [11:59<00:00,  4.37it/s]
+Please make sure to use our provided visual features as gqadataset.org for better comparability. We provide both spatial and object-based features trained on GQA train set.
+In particular please avoid using features from https://github.com/peteanderson80/bottom-up-attention since they were trained on images contained in the GQA validation set and thus may give false sco
+res improvement.
+
+Please consider using --consistency to compute consistency scores for entailed questions.
+If you do so, please provide answers to all questions in val_all_questions.json.
+
+Please consider using --grounding to compute attention scores.
+If you do so, please provide attention maps through --attentions.
+
+Loading questions...
+Loading predictions...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12578/12578 [00:00<00:00, 114781.18it/s]
+
+Binary: 76.62%
+Open: 45.00%
+Accuracy: 59.51%
+Validity: 0.00%
+Plausibility: 0.00%
+Distribution: 1.65 (lower is better)
+
+Accuracy / structural type:
+  choose: 80.51% (1129 questions)
+  compare: 61.97% (589 questions)
+  logical: 73.32% (1803 questions)
+  query: 45.00% (6805 questions)
+  verify: 81.13% (2252 questions)
+
+Accuracy / semantic type:
+  attr: 65.91% (5186 questions)
+  cat: 49.43% (1149 questions)
+  global: 58.60% (157 questions)
+  obj: 83.42% (778 questions)
+  rel: 51.96% (5308 questions)
+
+Accuracy / steps number:
+  1: 76.37% (237 questions)
+  2: 54.70% (6395 questions)
+  3: 62.14% (4266 questions)
+  4: 66.33% (793 questions)
+  5: 70.07% (822 questions)
+  6: 80.49% (41 questions)
+  7: 80.00% (20 questions)
+  8: 100.00% (3 questions)
+  9: 100.00% (1 questions)
+
+Accuracy / words number:
+  3: 35.76% (151 questions)
+  4: 52.38% (630 questions)
+  5: 48.29% (1290 questions)
+  6: 56.27% (2074 questions)
+  7: 59.38% (1642 questions)
+  8: 60.25% (1185 questions)
+  9: 64.40% (1281 questions)
+  10: 64.37% (1249 questions)
+  11: 60.46% (994 questions)
+  12: 66.46% (638 questions)
+  13: 64.50% (462 questions)
+  14: 66.96% (345 questions)
+  15: 65.40% (237 questions)
+  16: 74.36% (117 questions)
+  17: 67.02% (94 questions)
+  18: 71.05% (76 questions)
+  19: 76.74% (43 questions)
+  20: 65.62% (32 questions)
+  21: 73.68% (19 questions)
+  22: 66.67% (12 questions)
+  23: 25.00% (4 questions)
+  24: 100.00% (2 questions)
+  25: 100.00% (1 questions)
+(cumo) anonymous@ithndgx004:/cm/archive/anonymous/CUMO$ bash /cm/archive/anonymous/CUMO/scripts/cumo/eval/pope_m.sh
+Loading from full model...
+Loading CuMo Phi3 model...
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading from full model...
+Loading CuMo Phi3 model...
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading from full model...
+Loading CuMo Phi3 model...
+Loading from full model...
+Loading CuMo Phi3 model...
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using MLP MoE
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.11s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:12<00:00,  6.02s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.84s/it]
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:11<00:00,  5.89s/it]
+  0%|                                                                                                                                                                        | 0/2228 [00:00<?, ?it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+You are not running the flash-attention implementation, expect numerical differences.
+  0%|                                                                                                                                                              | 1/2226 [00:01<1:02:42,  1.69s/it]
+You are not running the flash-attention implementation, expect numerical differences.
+  0%|▏                                                                                                                                                               | 2/2228 [00:01<28:33,  1.30it/s]
+You are not running the flash-attention implementation, expect numerical differences.
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2228/2228 [07:33<00:00,  4.80it/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+Traceback (most recent call last):
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489e59e500050c1e'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826db500050c1b'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826db700050c1c'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826db800050c1d'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2228/2228 [07:34<00:00,  4.91it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2228/2228 [07:35<00:00,  4.78it/s]
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014869ef2100050c1f'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826dad00050c22'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826da600050c20'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489342d700050c21'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2228/2228 [07:35<00:00,  4.89it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2228/2228 [07:35<00:00,  4.90it/s]
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489f4eb000050c24'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489f4eb100050c23'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001489f4eb200050c26'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826db200050c25'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2228/2228 [07:35<00:00,  4.89it/s]
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2226/2226 [07:36<00:00,  4.99it/s]
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826da900050c29'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148826dab00050c27'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148bc094200050c28'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000148bc094300050c2a'
+100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 2226/2226 [07:36<00:00,  4.88it/s]
+Category: random, # samples: 2910
+TP      FP      TN      FN
+1224    44      1366    276
+Accuracy: 0.8900343642611683
+Precision: 0.9652996845425867
+Recall: 0.816
+F1 score: 0.8843930635838149
+Yes ratio: 0.4357388316151203
+0.884, 0.890, 0.965, 0.816, 0.436
+====================================
+Category: adversarial, # samples: 3000
+TP      FP      TN      FN
+1224    187     1313    276
+Accuracy: 0.8456666666666667
+Precision: 0.8674698795180723
+Recall: 0.816
+F1 score: 0.840948127791137
+Yes ratio: 0.4703333333333333
+0.841, 0.846, 0.867, 0.816, 0.470
+====================================
+Category: popular, # samples: 3000
+TP      FP      TN      FN
+1224    124     1376    276
+Accuracy: 0.8666666666666667
+Precision: 0.9080118694362018
+Recall: 0.816
+F1 score: 0.8595505617977529
+Yes ratio: 0.4493333333333333
+0.860, 0.867, 0.908, 0.816, 0.449
+====================================
+Average Acc: 0.8674558991981672, Average F1: 0.8616305843909017
+(cumo) anonymous@ithndgx004:/cm/archive/anonymous/CUMO$ bash /cm/archive/anonymous/CUMO/scripts/cumo/phi3mini/sft_phi3mini.sh

@@ -1,0 +1,2000 @@
+{'loss': 0.9559, 'grad_norm': 0.7669724654461416, 'learning_rate': 6.9431958219321464e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  1.1055128574371338
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7805181741714478
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9732, 'grad_norm': 1.6531407663786937, 'learning_rate': 6.878494886800146e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  1.0714153051376343
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8013820648193359
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9325, 'grad_norm': 2.753062710181853, 'learning_rate': 6.814096306615669e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  0.7025010585784912
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9469714760780334
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7876, 'grad_norm': 2.5446005184313076, 'learning_rate': 6.750000091148011e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  0.38258233666419983
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.872459888458252
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8662, 'grad_norm': 2.0375945554920394, 'learning_rate': 6.686206250120729e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  0.9190578460693359
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7106003761291504
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8734, 'grad_norm': 1.7970972338371094, 'learning_rate': 6.622714793210749e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  1.036960244178772
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8951869010925293
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0085, 'grad_norm': 1.7165786205168843, 'learning_rate': 6.559525730050364e-09, 'epoch': 0.97}
+ ... (more hidden) ...language loss:  1.0523686408996582
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8562909960746765
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9053, 'grad_norm': 1.9686740678948882, 'learning_rate': 6.496639070224574e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9367942810058594
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9895511269569397
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9975, 'grad_norm': 2.733010785525075, 'learning_rate': 6.4340548232739714e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9938626885414124
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9603444933891296
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0037, 'grad_norm': 1.7061941508001395, 'learning_rate': 6.371772998692071e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.8892777562141418
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9512647390365601
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7591, 'grad_norm': 3.1367299992987885, 'learning_rate': 6.309793605927094e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.8921542167663574
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2333017587661743
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9981, 'grad_norm': 2.052416805016981, 'learning_rate': 6.248116654381297e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0204321146011353
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8877391219139099
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8929, 'grad_norm': 2.4876613353760892, 'learning_rate': 6.186742153410751e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0967686176300049
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.111619472503662
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0764, 'grad_norm': 2.401528122307775, 'learning_rate': 6.125670112326453e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1150414943695068
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5933622121810913
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8592, 'grad_norm': 1.4977573478058768, 'learning_rate': 6.064900540392548e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1227673292160034
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.209267020225525
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9822, 'grad_norm': 1.734977823604924, 'learning_rate': 6.0044334468278835e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.7623420357704163
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0673694610595703
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8587, 'grad_norm': 1.8235638441494075, 'learning_rate': 5.944268840805345e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.35473665595054626
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7980253100395203
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7833, 'grad_norm': 2.7845328169601498, 'learning_rate': 5.88440673145163e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.2801975011825562
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8040434718132019
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9551, 'grad_norm': 2.2837605705496826, 'learning_rate': 5.824847127848142e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9328255653381348
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9291921257972717
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9484, 'grad_norm': 3.7764828479023294, 'learning_rate': 5.765590039029433e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.442752867937088
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9120906591415405
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8734, 'grad_norm': 2.1592841431512104, 'learning_rate': 5.706635473985422e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.2731657028198242
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0553791522979736
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0658, 'grad_norm': 1.824667571112999, 'learning_rate': 5.6479834416591764e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.148026466369629
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7109730243682861
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8471, 'grad_norm': 2.0943837132012266, 'learning_rate': 5.589633950947803e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9382955431938171
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5875799059867859
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8654, 'grad_norm': 4.220015046513206, 'learning_rate': 5.5315870107035535e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9588040113449097
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.010288953781128
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9479, 'grad_norm': 2.341487657304711, 'learning_rate': 5.473842629731607e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1060353517532349
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2387464046478271
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9592, 'grad_norm': 2.3999473963376756, 'learning_rate': 5.416400816792066e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.152587652206421
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7600604891777039
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9191, 'grad_norm': 4.080097759048019, 'learning_rate': 5.359261580598407e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.7577794194221497
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8929211497306824
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9583, 'grad_norm': 13.107787844363806, 'learning_rate': 5.302424929819027e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.097475290298462
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8972206115722656
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8888, 'grad_norm': 2.135725219268443, 'learning_rate': 5.24589087307592e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.3010619282722473
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7164129614830017
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.836, 'grad_norm': 1.6338898239484718, 'learning_rate': 5.189659418944891e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.2002501487731934
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8490844964981079
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9625, 'grad_norm': 2.9426221626740907, 'learning_rate': 5.133730575956674e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1241564750671387
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8281751275062561
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9021, 'grad_norm': 2.1206585910159275, 'learning_rate': 5.0781043525953696e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0957906246185303
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6324237585067749
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8697, 'grad_norm': 1.7879062564392394, 'learning_rate': 5.0227807572995605e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9194755554199219
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9710594415664673
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8233, 'grad_norm': 2.8975634632286313, 'learning_rate': 4.967759798461646e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.18530501425266266
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0979640483856201
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9139, 'grad_norm': 2.1088004000734286, 'learning_rate': 4.913041484428282e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.14168262481689453
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9777053594589233
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.958, 'grad_norm': 1.8781792072718448, 'learning_rate': 4.858625823500384e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.4542182981967926
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.026817798614502
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8994, 'grad_norm': 2.04532127524199, 'learning_rate': 4.80451282393246e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.25528600811958313
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6797683238983154
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8252, 'grad_norm': 2.192470570870241, 'learning_rate': 4.750702493933722e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0576578378677368
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8245742917060852
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0659, 'grad_norm': 1.7813538638167223, 'learning_rate': 4.697194841666974e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.197487711906433
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2310999631881714
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0154, 'grad_norm': 2.8000469442246967, 'learning_rate': 4.6439898752492764e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1153301000595093
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9800276160240173
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0516, 'grad_norm': 0.44488535020261727, 'learning_rate': 4.591087602751731e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9792290329933167
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0042592287063599
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8933, 'grad_norm': 1.73150362711567, 'learning_rate': 4.538488032199916e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0018647909164429
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1230329275131226
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8635, 'grad_norm': 2.6517441174289136, 'learning_rate': 4.486191171572784e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1096593141555786
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0288386344909668
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9862, 'grad_norm': 1.7417360413650276, 'learning_rate': 4.434197028803766e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.18622887134552
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8121948838233948
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0203, 'grad_norm': 2.070267241361143, 'learning_rate': 4.3825056117805514e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1469961404800415
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8386617302894592
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9545, 'grad_norm': 2.938709740405556, 'learning_rate': 4.331116928344425e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0079796314239502
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6926512122154236
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7854, 'grad_norm': 2.665129417154196, 'learning_rate': 4.28003098629115e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1086143255233765
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9353688359260559
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9727, 'grad_norm': 2.041160585649123, 'learning_rate': 4.229247793370305e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.954460620880127
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.001557469367981
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8555, 'grad_norm': 2.2120614042744196, 'learning_rate': 4.178767357285951e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9908574223518372
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9275926947593689
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8664, 'grad_norm': 2.545137620214054, 'learning_rate': 4.128589685695516e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.2194840908050537
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9096361994743347
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0543, 'grad_norm': 2.0493108800668582, 'learning_rate': 4.078714786211135e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.8665493726730347
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.502316951751709
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9593, 'grad_norm': 2.123542510208725, 'learning_rate': 4.029142666398977e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1935161352157593
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6248211860656738
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9799, 'grad_norm': 1.8717540619109203, 'learning_rate': 3.979873333778805e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.21043036878108978
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9253721833229065
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9282, 'grad_norm': 2.188605546873883, 'learning_rate': 3.930906795824862e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.7354028820991516
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1559979915618896
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9144, 'grad_norm': 2.2612823961424544, 'learning_rate': 3.882243059965207e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9141111373901367
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6617519855499268
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8212, 'grad_norm': 2.520322784762319, 'learning_rate': 3.833882133582156e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0719058513641357
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9870931506156921
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9632, 'grad_norm': 1.818619231147067, 'learning_rate': 3.785824024012285e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.140855312347412
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6320761442184448
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9803, 'grad_norm': 1.7632568817415435, 'learning_rate': 3.738068738545541e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.7789803147315979
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2240098714828491
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9327, 'grad_norm': 2.4767956548741394, 'learning_rate': 3.6906162844265733e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.115517020225525
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0245217084884644
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8934, 'grad_norm': 2.2448086719503135, 'learning_rate': 3.643466668853845e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.7606526613235474
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.3939123749732971
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.95, 'grad_norm': 1.8743363795510388, 'learning_rate': 3.59661989898008e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.8365004062652588
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1611329317092896
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9581, 'grad_norm': 1.8653597644781121, 'learning_rate': 3.5500759819115934e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.323124647140503
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1884794235229492
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0132, 'grad_norm': 2.4997389657118196, 'learning_rate': 3.5038349247094034e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9475067257881165
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5865853428840637
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9688, 'grad_norm': 2.4557674293058778, 'learning_rate': 3.4578967343878994e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.127589225769043
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7668775916099548
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9733, 'grad_norm': 3.133148860235579, 'learning_rate': 3.4122614179161733e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.015289068222046
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.3055360317230225
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.967, 'grad_norm': 1.7131378795719971, 'learning_rate': 3.36692898221691e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.3427081108093262
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9219471216201782
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9153, 'grad_norm': 2.787556645112909, 'learning_rate': 3.3218994341668305e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0682233572006226
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9556002020835876
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9513, 'grad_norm': 1.6325119691091603, 'learning_rate': 3.2771727805971373e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.16172194480896
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.094497799873352
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9571, 'grad_norm': 1.9009046810038128, 'learning_rate': 3.232749028292847e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1438912153244019
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0348386764526367
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0923, 'grad_norm': 2.3574211670527623, 'learning_rate': 3.188628183992792e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.151764988899231
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9303343892097473
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9316, 'grad_norm': 0.3850318839445144, 'learning_rate': 3.1448102543902844e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9144577383995056
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0197795629501343
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7778, 'grad_norm': 2.013605096340588, 'learning_rate': 3.1012952461324515e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.37115028500556946
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2970339059829712
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8962, 'grad_norm': 2.531210439867368, 'learning_rate': 3.0580831658204575e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.6811144948005676
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.885030210018158
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9942, 'grad_norm': 1.5440565692885764, 'learning_rate': 3.015174020009281e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.082504391670227
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8495306968688965
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9431, 'grad_norm': 2.6591324369482283, 'learning_rate': 2.9725678152086043e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0375877618789673
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2635995149612427
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.984, 'grad_norm': 2.9486775489046866, 'learning_rate': 2.930264557881257e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.8555716872215271
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9503490328788757
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9171, 'grad_norm': 0.385280110250064, 'learning_rate': 2.8882642544452163e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9881775975227356
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.861765444278717
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8958, 'grad_norm': 2.439238295246804, 'learning_rate': 2.8465669112716083e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1027425527572632
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0861748456954956
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9399, 'grad_norm': 1.993682360323875, 'learning_rate': 2.8051725346858177e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.31726330518722534
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9292806386947632
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.832, 'grad_norm': 2.1906866568297403, 'learning_rate': 2.7640811309674883e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.074893593788147
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6617290377616882
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0361, 'grad_norm': 1.715257738058975, 'learning_rate': 2.7232927063498557e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.34820300340652466
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6438072919845581
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8244, 'grad_norm': 2.169465299379361, 'learning_rate': 2.682807267020859e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.2253220081329346
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8512186408042908
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8131, 'grad_norm': 2.067322727892524, 'learning_rate': 2.642624819121808e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.1260470151901245
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7207175493240356
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7426, 'grad_norm': 2.338708873001826, 'learning_rate': 2.6027453687487154e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.22959008812904358
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8640634417533875
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.606, 'grad_norm': 2.4216160789644023, 'learning_rate': 2.5631689219509643e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9616188406944275
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8226549625396729
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0083, 'grad_norm': 1.6002088827635415, 'learning_rate': 2.523895484732197e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  0.9007980227470398
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7880355715751648
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9145, 'grad_norm': 2.131790419270411, 'learning_rate': 2.4849250630505357e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0762830972671509
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.4805171489715576
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8901, 'grad_norm': 1.9862928359236218, 'learning_rate': 2.4462576628172528e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.0638291835784912
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7240088582038879
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9215, 'grad_norm': 2.5384997874048163, 'learning_rate': 2.407893289898766e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.196905493736267
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8271341323852539
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0624, 'grad_norm': 2.207990859724559, 'learning_rate': 2.3698319501144202e-09, 'epoch': 0.98}
+ ... (more hidden) ...language loss:  1.2297784090042114
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8816054463386536
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.923, 'grad_norm': 2.1252014962200954, 'learning_rate': 2.3320736492382644e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.5391246676445007
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.3655478358268738
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8297, 'grad_norm': 1.6260931299713703, 'learning_rate': 2.29461839299816e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0711241960525513
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2376257181167603
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0171, 'grad_norm': 1.9080143252380788, 'learning_rate': 2.257466187076229e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1008472442626953
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.901093065738678
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8564, 'grad_norm': 1.9107011825152975, 'learning_rate': 2.2206170371081854e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.30914306640625
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.4263453483581543
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.1252, 'grad_norm': 1.7627208084418229, 'learning_rate': 2.1840709486842247e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1267338991165161
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.849487841129303
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0005, 'grad_norm': 2.3258545320374657, 'learning_rate': 2.1478279273481335e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2127026319503784
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8579508662223816
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0195, 'grad_norm': 2.431051772796166, 'learning_rate': 2.1118879785981815e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.4129161834716797
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1130657196044922
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.031, 'grad_norm': 2.196201782392031, 'learning_rate': 2.0762511078862288e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0389049053192139
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8209322094917297
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7989, 'grad_norm': 2.018090684303062, 'learning_rate': 2.0409173206186183e-09, 'epoch': 0.99}
+ ... (more hidden) .../cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Ref
+er to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False expl
+icitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer
+ to docs for more details on the differences between the two variants.
+  warnings.warn(
+language loss:  1.062787413597107
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6017638444900513
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0348, 'grad_norm': 2.231849470203514, 'learning_rate': 2.0058866221550617e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0897990465164185
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7033185362815857
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9222, 'grad_norm': 2.5050217736795997, 'learning_rate': 1.971159017809976e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1234549283981323
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0240137577056885
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9774, 'grad_norm': 2.7218144126481905, 'learning_rate': 1.93673451285159e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9219441413879395
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8442765474319458
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8743, 'grad_norm': 0.3916747864260304, 'learning_rate': 1.9026131125019495e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.3000959157943726
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2298369407653809
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0841, 'grad_norm': 2.1588709285685104, 'learning_rate': 1.8687948219371363e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.3044511079788208
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8681429624557495
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0918, 'grad_norm': 2.3271906469105343, 'learning_rate': 1.835279646287491e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.238098382949829
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1929477453231812
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9805, 'grad_norm': 2.5479595472876446, 'learning_rate': 1.8020675906371685e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8751317262649536
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6711927056312561
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.906, 'grad_norm': 2.245250457352465, 'learning_rate': 1.7691586600243612e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9564414620399475
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.826246440410614
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0399, 'grad_norm': 3.365908917677668, 'learning_rate': 1.7365528594415202e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.14395365118980408
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8855313062667847
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.832, 'grad_norm': 2.1224818175203164, 'learning_rate': 1.7042501938346888e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.855003297328949
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8534218668937683
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9615, 'grad_norm': 1.9324586561352661, 'learning_rate': 1.6722506681043913e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.973730206489563
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0624812841415405
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8106, 'grad_norm': 2.6833886924703862, 'learning_rate': 1.640554287104745e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.3008058071136475
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2855550050735474
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9848, 'grad_norm': 2.2519969555442922, 'learning_rate': 1.609161055644348e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.29648974537849426
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9668543934822083
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8094, 'grad_norm': 2.54214553282551, 'learning_rate': 1.5780709784849467e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1250638961791992
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.12058687210083
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0268, 'grad_norm': 2.824478158605359, 'learning_rate': 1.5472840603436565e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.091066837310791
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0013267993927002
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9496, 'grad_norm': 1.847621409307477, 'learning_rate': 1.5168003058900757e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.092748761177063
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8916743397712708
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.1465, 'grad_norm': 1.9153567551055894, 'learning_rate': 1.4866197197491715e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8503409624099731
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.097108244895935
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8823, 'grad_norm': 3.4981063079470895, 'learning_rate': 1.4567423064988371e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.6897830367088318
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1209328174591064
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9982, 'grad_norm': 2.600622425403526, 'learning_rate': 1.4271680706718913e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9663698077201843
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1891655921936035
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0361, 'grad_norm': 2.0390099997357094, 'learning_rate': 1.3978970167543013e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2720763683319092
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1074661016464233
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9091, 'grad_norm': 2.347623345625274, 'learning_rate': 1.3689291491867372e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2237324714660645
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.717317521572113
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9106, 'grad_norm': 2.1589875465730053, 'learning_rate': 1.3402644723636836e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8850293755531311
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0958459377288818
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9944, 'grad_norm': 2.6239526566619062, 'learning_rate': 1.311902990633218e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1779812574386597
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.044770359992981
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8438, 'grad_norm': 1.776321150490923, 'learning_rate': 1.2838447082978987e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1556971073150635
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0725983381271362
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0376, 'grad_norm': 3.4594221737340827, 'learning_rate': 1.2560896296143208e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.063449740409851
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7692090272903442
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0287, 'grad_norm': 2.4979017035062925, 'learning_rate': 1.2286377587926722e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2904770374298096
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7547508478164673
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9507, 'grad_norm': 3.4106745549971462, 'learning_rate': 1.2014890999973992e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.095097541809082
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1233731508255005
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9906, 'grad_norm': 1.5078592243762343, 'learning_rate': 1.1746436573472073e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1806854009628296
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8450003266334534
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8303, 'grad_norm': 3.605746207921792, 'learning_rate': 1.1481014349141726e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8443936109542847
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8869248032569885
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0851, 'grad_norm': 2.303851580561371, 'learning_rate': 1.121862436724852e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.41002100706100464
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8815382719039917
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8622, 'grad_norm': 1.9775018683809311, 'learning_rate': 1.0959266667598388e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.6909085512161255
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.889634907245636
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9056, 'grad_norm': 2.464736186490177, 'learning_rate': 1.0702941289533196e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8530469536781311
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1142314672470093
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0802, 'grad_norm': 2.3255829726258184, 'learning_rate': 1.0449648271939615e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0507676601409912
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5919898748397827
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9044, 'grad_norm': 1.4632217582507305, 'learning_rate': 1.0199387653240243e-09, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9343306422233582
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0016896724700928
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8852, 'grad_norm': 1.7980069782770882, 'learning_rate': 9.952159471400267e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9074029922485352
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0846463441848755
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0453, 'grad_norm': 2.2742108999134527, 'learning_rate': 9.707963763923022e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.3327596187591553
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9459289908409119
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9846, 'grad_norm': 1.603022435645852, 'learning_rate': 9.466800567854427e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1214056015014648
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.44015249609947205
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8607, 'grad_norm': 1.9902406641867325, 'learning_rate': 9.228669919778553e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1079282760620117
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9670529961585999
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9617, 'grad_norm': 2.4515285278067123, 'learning_rate': 8.993571855817617e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2176387310028076
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6223536133766174
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8663, 'grad_norm': 1.75785610568744, 'learning_rate': 8.761506411638642e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8949251770973206
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0980395078659058
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8987, 'grad_norm': 1.9018678794524462, 'learning_rate': 8.53247362244236e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.082992672920227
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.743484616279602
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8343, 'grad_norm': 1.7766735783645902, 'learning_rate': 8.306473522976532e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.725007951259613
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7475998401641846
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9123, 'grad_norm': 1.8911969919585818, 'learning_rate': 8.083506147522623e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1618186235427856
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7747134566307068
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0661, 'grad_norm': 1.9084128320229377, 'learning_rate': 7.863571529906909e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9132715463638306
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8975239396095276
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9677, 'grad_norm': 0.4494062612852012, 'learning_rate': 7.646669703489372e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.6475228667259216
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5991635322570801
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7046, 'grad_norm': 2.05841689101078, 'learning_rate': 7.432800701177023e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9514898061752319
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8305364847183228
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9154, 'grad_norm': 0.4550547286801552, 'learning_rate': 7.221964555415017e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9329721927642822
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.3980374038219452
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9031, 'grad_norm': 2.263053855757489, 'learning_rate': 7.01416129818222e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.2528296411037445
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7391220927238464
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6677, 'grad_norm': 3.4608794954489595, 'learning_rate': 6.809390961006745e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.146966814994812
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.39341285824775696
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.843, 'grad_norm': 2.4713544989620155, 'learning_rate': 6.607653574948191e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0901055335998535
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.873146116733551
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0001, 'grad_norm': 2.524586230075566, 'learning_rate': 6.408949170613187e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9851276278495789
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0021518468856812
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0196, 'grad_norm': 3.3982622474119117, 'learning_rate': 6.213277778144288e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.017501950263977
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9827747941017151
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8417, 'grad_norm': 2.607202504963124, 'learning_rate': 6.020639427224416e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.2650637924671173
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9919388294219971
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8816, 'grad_norm': 2.7313902340990013, 'learning_rate': 5.831034147076864e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.864229679107666
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0138394832611084
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.888, 'grad_norm': 0.38588976391079427, 'learning_rate': 5.644461966463065e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8603144884109497
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9245167374610901
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8945, 'grad_norm': 2.172995518405469, 'learning_rate': 5.460922913687049e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1325653791427612
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8819270730018616
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8878, 'grad_norm': 2.120937390825576, 'learning_rate': 5.280417016593208e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0411536693572998
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.840691864490509
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9261, 'grad_norm': 1.6911349530501996, 'learning_rate': 5.102944302559642e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.8243303298950195
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.698608934879303
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9645, 'grad_norm': 2.927200604642903, 'learning_rate': 4.9285047985137e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.4338453710079193
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1788562536239624
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8885, 'grad_norm': 2.0525069469190305, 'learning_rate': 4.757098530916436e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.3639063537120819
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8539499044418335
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9061, 'grad_norm': 5.324992671477957, 'learning_rate': 4.5887255257670563e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.9009185433387756
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.084909200668335
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9562, 'grad_norm': 1.9826682853709225, 'learning_rate': 4.4233858086117906e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.3597638607025146
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0186136960983276
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8056, 'grad_norm': 2.6572544667027596, 'learning_rate': 4.261079404528356e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1462477445602417
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1608420610427856
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8528, 'grad_norm': 2.3928628059271393, 'learning_rate': 4.1018063381437205e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0965654850006104
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8884488344192505
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0248, 'grad_norm': 0.4638186138219444, 'learning_rate': 3.9455666336141167e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1032824516296387
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0338250398635864
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9742, 'grad_norm': 3.1203592555746043, 'learning_rate': 3.7923603146450267e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.094531774520874
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.880064845085144
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9469, 'grad_norm': 1.8398017635535642, 'learning_rate': 3.642187404473418e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.233628511428833
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.070914387702942
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0317, 'grad_norm': 2.0860457374408328, 'learning_rate': 3.495047925885508e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2810850143432617
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.5077927112579346
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0419, 'grad_norm': 2.931983475330203, 'learning_rate': 3.350941901199e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.2486398220062256
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0304250717163086
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0577, 'grad_norm': 6.539547846384814, 'learning_rate': 3.2098693522764066e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.3036470413208008
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8012136816978455
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9547, 'grad_norm': 3.2105298305587686, 'learning_rate': 3.071830300516165e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.0768837928771973
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9894285202026367
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8408, 'grad_norm': 4.223744014973957, 'learning_rate': 2.9368247668615234e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.176591396331787
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.24978262186050415
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7478, 'grad_norm': 3.089341230074762, 'learning_rate': 2.804852771789434e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  0.6015666127204895
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.4866011440753937
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.6519, 'grad_norm': 1.836804059642366, 'learning_rate': 2.675914335321661e-10, 'epoch': 0.99}
+ ... (more hidden) ...language loss:  1.1971442699432373
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9133344888687134
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9688, 'grad_norm': 2.6949987256501817, 'learning_rate': 2.550009477018111e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.2801479399204254
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5707489848136902
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7628, 'grad_norm': 1.719880373919969, 'learning_rate': 2.4271382159790634e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.2162069082260132
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.89737868309021
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0865, 'grad_norm': 1.558053594698214, 'learning_rate': 2.3073005708429406e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.9588882923126221
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.186531901359558
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8797, 'grad_norm': 1.8450379479907064, 'learning_rate': 2.190496559788535e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.8635321259498596
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8055905103683472
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9071, 'grad_norm': 2.8467249138774418, 'learning_rate': 2.0767262005372265e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.0089294910430908
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6732699275016785
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.911, 'grad_norm': 3.282201574492058, 'learning_rate': 1.965989510346322e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.1088807582855225
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5936243534088135
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8724, 'grad_norm': 2.007904050647148, 'learning_rate': 1.8582865060134955e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.1469389200210571
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.846396803855896
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9141, 'grad_norm': 0.4029027518414416, 'learning_rate': 1.7536172038790098e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.17937655746936798
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8735876679420471
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8166, 'grad_norm': 3.008966714925295, 'learning_rate': 1.651981619819054e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.3063337802886963
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8758403658866882
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8693, 'grad_norm': 2.4172773466568542, 'learning_rate': 1.5533797692546257e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.1046215295791626
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0526559352874756
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0429, 'grad_norm': 2.334162212922781, 'learning_rate': 1.4578116671404296e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.982774019241333
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8599773049354553
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9206, 'grad_norm': 2.620038475307388, 'learning_rate': 1.3652773279759777e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.2814333140850067
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8916317820549011
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7719, 'grad_norm': 2.6463902305383495, 'learning_rate': 1.2757767657989305e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.2406834363937378
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7906667590141296
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0868, 'grad_norm': 2.339603469050903, 'learning_rate': 1.1893099941850948e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.6083325743675232
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8856058716773987
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9533, 'grad_norm': 2.8791573361927854, 'learning_rate': 1.105877026252866e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.0887956619262695
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7584747076034546
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8736, 'grad_norm': 2.277451998459165, 'learning_rate': 1.0254778746565663e-10, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.218615174293518
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7293701171875
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8901, 'grad_norm': 2.187330729883643, 'learning_rate': 9.481125515953259e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.2758331298828125
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7708954811096191
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0101, 'grad_norm': 2.430182894036582, 'learning_rate': 8.737810688064228e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.005333423614502
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9592536687850952
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9892, 'grad_norm': 2.148343614781027, 'learning_rate': 8.024834375608414e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.2786650657653809
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9346198439598083
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9633, 'grad_norm': 0.4542983418356519, 'learning_rate': 7.342196686788149e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.1193643808364868
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9987046718597412
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8045, 'grad_norm': 2.305703873312857, 'learning_rate': 6.689897725142834e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.3285030126571655
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0048314332962036
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0587, 'grad_norm': 2.2243523587400715, 'learning_rate': 6.067937589615545e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.8529024720191956
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9355449676513672
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8701, 'grad_norm': 0.3969163843039507, 'learning_rate': 5.476316374575241e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.9534085392951965
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.0845426321029663
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.905, 'grad_norm': 1.9492959903557407, 'learning_rate': 4.9150341697723476e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.18750426173210144
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7742374539375305
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.797, 'grad_norm': 1.6234703934451482, 'learning_rate': 4.384091060338768e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.102236270904541
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.729069709777832
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9442, 'grad_norm': 2.0831753734469034, 'learning_rate': 3.883487126810081e-11, 'epoch': 1.0}
+ ... (more hidden) .../cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/torch/nn/modules/module.py:1879: UserWarning: Positional args are being deprecated, use kwargs instead. Ref
+er to https://pytorch.org/docs/master/generated/torch.nn.Module.html#torch.nn.Module.state_dict for details.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/torch/utils/checkpoint.py:429: UserWarning: torch.utils.checkpoint: please pass in use_reentrant=True or use_reentrant=False expl
+icitly. The default value of use_reentrant will be updated to be False in the future. To maintain current behavior, pass use_reentrant=True. It is recommended that you use use_reentrant=False. Refer
+ to docs for more details on the differences between the two variants.
+  warnings.warn(
+language loss:  1.089611291885376
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.1221083402633667
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.978, 'grad_norm': 1.9424832156522795, 'learning_rate': 3.41322244516995e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.37384507060050964
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6775037050247192
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7589, 'grad_norm': 1.774463306472195, 'learning_rate': 2.9732970866946925e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.1320713758468628
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8294433951377869
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9354, 'grad_norm': 2.4573769621837105, 'learning_rate': 2.563711118175327e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.2906968593597412
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.968528151512146
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0495, 'grad_norm': 2.037299903452225, 'learning_rate': 2.184464601717728e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.5716769695281982
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8764917850494385
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9374, 'grad_norm': 2.280763339036167, 'learning_rate': 1.8355575948758585e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.070931077003479
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.3077990412712097
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9084, 'grad_norm': 2.2125990592203535, 'learning_rate': 1.5169901505407424e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.6700754165649414
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.2497278451919556
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9357, 'grad_norm': 1.8018358828783838, 'learning_rate': 1.228762317073695e-11, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.0019112825393677
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.110504388809204
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9562, 'grad_norm': 2.553273687620515, 'learning_rate': 9.70874138195299e-12, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.0944803953170776
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.9265338778495789
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9238, 'grad_norm': 1.6895637608283083, 'learning_rate': 7.433256530076093e-12, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.083896279335022
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6339298486709595
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9723, 'grad_norm': 1.8045006857617292, 'learning_rate': 5.46116896038562e-12, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.3499792516231537
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.6892753839492798
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7856, 'grad_norm': 2.285319317599257, 'learning_rate': 3.792478972197699e-12, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.053436040878296
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.5882720351219177
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8068, 'grad_norm': 2.651159007854946, 'learning_rate': 2.4271868181990895e-12, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.48045817017555237
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.928166389465332
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 1.0063, 'grad_norm': 3.123773410399519, 'learning_rate': 1.3652927060014973e-12, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.5751245021820068
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.7767837047576904
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.7813, 'grad_norm': 2.68100067971323, 'learning_rate': 6.067967965872612e-13, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  0.20524586737155914
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  1.126823902130127
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.9597, 'grad_norm': 1.6001832559066886, 'learning_rate': 1.5169920497548615e-13, 'epoch': 1.0}
+ ... (more hidden) ...language loss:  1.0092263221740723
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+language loss:  0.8289934992790222
+mlp balance loss:  0.0 mlp router z loss:  0.0
+clip balance loss:  0.0 clip router z loss:  0.0
+{'loss': 0.8427, 'grad_norm': 0.8330598302880403, 'learning_rate': 0.0, 'epoch': 1.0}
+ ... (more hidden) ...Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ae0872a00092473'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b50528e0009247b'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014abcf2cf00092477'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b50528500092478'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ad4f94c0009247e'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b5052890009247f'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b5052900009247a'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ad4f95000092476'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+OSError: [Errno 16] Device or resource busy: '.nfs000000014abcf2d000092479'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b50528700092475'
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b50528d00092480'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ad4f94e0009247c'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ae0872b00092474'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ad4f9490009247d'
+OSError: [Errno 16] Device or resource busy: '.nfs000000014b50528b00092481'
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000014ae0872900092482'
+{'train_runtime': 70817.7399, 'train_samples_per_second': 4.697, 'train_steps_per_second': 0.117, 'train_loss': 0.9543212868878909, 'epoch': 1.0}
+ ... (more hidden) ...
+[2024-08-10 04:21:39,607] [INFO] [launch.py:348:main] Process 652232 exits successfully.
+[2024-08-10 04:21:39,607] [INFO] [launch.py:348:main] Process 652231 exits successfully.
+[2024-08-10 04:21:42,611] [INFO] [launch.py:348:main] Process 652228 exits successfully.
+[2024-08-10 04:21:57,626] [INFO] [launch.py:348:main] Process 652227 exits successfully.
+(cumo) anonymous@ithndgx004:/cm/archive/anonymous/CUMO$ bash /cm/archive/anonymous/CUMO/scripts/cumo/smollm/sft_smollm_perturndedcosine.sh
+[2024-08-10 11:59:44,814] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-10 11:59:49,678] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-08-10 11:59:49,739] [INFO] [runner.py:568:main] cmd = /cm/archive/anonymous/miniconda3/envs/cumo/bin/python -u -m deepspeed.launcher.launch --world_info=eyJsb2NhbGhvc3QiOiBbMiwgNCwgNSwgNl19 --ma
+ster_addr=127.0.0.1 --master_port=29500 --enable_each_rank_log=None cumo/train/train_mem.py --deepspeed ./scripts/zero3_offload.json --model_name_or_path /cm/archive/anonymous/CUMO/checkpoints/cumo-sm
+ollm-pft --version phi3 --data_path /cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json --image_folder /cm/archive/anonymous/data --vision_tower openai/clip-vit-large-patch14-336 --vision_towe
+r_dir /cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft/clip.bin --scales 1,3 --pretrain_mm_mlp_adapter /cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft/mm_projector.bin --mm_projector_type s
+moe_perturbed_cosine --mlp_smoe smoe_perturbed_cosine --clip_smoe smoe_perturbed_cosine --num_experts 4 --num_selected 2 --balance_loss_coef 0.1 --router_z_loss_coef 0.01 --mm_vision_select_layer -2
+ --mm_use_im_start_end False --mm_use_im_patch_token False --image_aspect_ratio pad --group_by_modality_length True --bf16 True --output_dir /cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-sft-pert
+urnded-half --num_train_epochs 1 --per_device_train_batch_size 5 --per_device_eval_batch_size 5 --gradient_accumulation_steps 2 --evaluation_strategy no --save_strategy steps --save_steps 100 --save
+_total_limit 1 --learning_rate 4e-6 --weight_decay 0. --warmup_ratio 0.03 --lr_scheduler_type cosine --logging_steps 1 --tf32 True --model_max_length 2048 --gradient_checkpointing True --dataloader_
+num_workers 4 --lazy_preprocess True --report_to none
+[2024-08-10 11:59:52,901] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-10 11:59:53,770] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [2, 4, 5, 6]}
+[2024-08-10 11:59:53,770] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=4, node_rank=0
+[2024-08-10 11:59:53,770] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3]})
+[2024-08-10 11:59:53,770] [INFO] [launch.py:163:main] dist_world_size=4
+[2024-08-10 11:59:53,770] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=2,4,5,6
+[2024-08-10 11:59:53,785] [INFO] [launch.py:253:main] process 4047589 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/cumo/bin/python', '-u', 'cumo/train/train_mem.py', '--local_rank=0',
+ '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/ll
+ava_v1_5_mix665k_half.json', '--image_folder', '/cm/archive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smo
+llm-pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft/mm_projector.bin', '--mm_projector_type', 'smoe_perturbed_cosine', '--mlp_smo
+e', 'smoe_perturbed_cosine', '--clip_smoe', 'smoe_perturbed_cosine', '--num_experts', '4', '--num_selected', '2', '--balance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_la
+yer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/
+anonymous/CUMO/checkpoints/cumo-smollm-sft-perturnded-half', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '5', '--gradient_accumulation_steps', '2',
+ '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '100', '--save_total_limit', '1', '--learning_rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_sched
+uler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--rep
+ort_to', 'none']
+[2024-08-10 11:59:53,797] [INFO] [launch.py:253:main] process 4047591 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/cumo/bin/python', '-u', 'cumo/train/train_mem.py', '--local_rank=1',
+ '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/ll
+ava_v1_5_mix665k_half.json', '--image_folder', '/cm/archive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smo
+llm-pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft/mm_projector.bin', '--mm_projector_type', 'smoe_perturbed_cosine', '--mlp_smo
+e', 'smoe_perturbed_cosine', '--clip_smoe', 'smoe_perturbed_cosine', '--num_experts', '4', '--num_selected', '2', '--balance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_la
+yer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/
+anonymous/CUMO/checkpoints/cumo-smollm-sft-perturnded-half', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '5', '--gradient_accumulation_steps', '2',
+ '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '100', '--save_total_limit', '1', '--learning_rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_sched
+uler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--rep
+ort_to', 'none']
+[2024-08-10 11:59:53,809] [INFO] [launch.py:253:main] process 4047592 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/cumo/bin/python', '-u', 'cumo/train/train_mem.py', '--local_rank=2',
+ '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/ll
+ava_v1_5_mix665k_half.json', '--image_folder', '/cm/archive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smo
+llm-pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft/mm_projector.bin', '--mm_projector_type', 'smoe_perturbed_cosine', '--mlp_smo
+e', 'smoe_perturbed_cosine', '--clip_smoe', 'smoe_perturbed_cosine', '--num_experts', '4', '--num_selected', '2', '--balance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_la
+yer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/
+anonymous/CUMO/checkpoints/cumo-smollm-sft-perturnded-half', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '5', '--gradient_accumulation_steps', '2',
+ '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '100', '--save_total_limit', '1', '--learning_rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_sched
+uler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--rep
+ort_to', 'none']
+[2024-08-10 11:59:53,821] [INFO] [launch.py:253:main] process 4047593 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/cumo/bin/python', '-u', 'cumo/train/train_mem.py', '--local_rank=3',
+ '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/ll
+ava_v1_5_mix665k_half.json', '--image_folder', '/cm/archive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smo
+llm-pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/CUMO/checkpoints/cumo-smollm-pft/mm_projector.bin', '--mm_projector_type', 'smoe_perturbed_cosine', '--mlp_smo
+e', 'smoe_perturbed_cosine', '--clip_smoe', 'smoe_perturbed_cosine', '--num_experts', '4', '--num_selected', '2', '--balance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_la
+yer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/
+anonymous/CUMO/checkpoints/cumo-smollm-sft-perturnded-half', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '5', '--gradient_accumulation_steps', '2',
+ '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '100', '--save_total_limit', '1', '--learning_rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_sched
+uler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--rep
+ort_to', 'none']
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set
+ the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set
+ the git credential as well.The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `hugging
+face-cli` if you want to set the git credential as well.
+
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set
+ the git credential as well.
+Token is valid (permission: read).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Token is valid (permission: read).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗
+Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗
+Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Token is valid (permission: read).
+Token is valid (permission: read).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗
+Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/transformers/training_args.py:1474: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗
+Transformers. Use `eval_strategy` instead
+  warnings.warn(
+[2024-08-10 12:00:03,920] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-10 12:00:03,921] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-10 12:00:03,978] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-10 12:00:03,978] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-08-10 12:00:04,188] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-10 12:00:04,191] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-10 12:00:04,243] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-10 12:00:04,247] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-08-10 12:00:04,247] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+Load model SmoLLM
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Load model SmoLLM
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+Load model SmoLLM
+Load model SmoLLM
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU with `model.to('cuda')`.
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+/cm/archive/anonymous/miniconda3/envs/cumo/lib/python3.9/site-packages/huggingface_hub/file_download.py:1150: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downl
+oads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+[2024-08-10 12:00:19,530] [INFO] [partition_parameters.py:343:__exit__] finished initializing model - num_params = 612, num_elems = 2.12B
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using CLIP Encoder Perturbed Cosine MoE Layer
+Using MLP Perturbed Cosine MoE
+Using MLP Perturbed Cosine MoE
+Using MLP Perturbed Cosine MoE
+Using MLP Perturbed Cosine MoE
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Loading weight clip SMoE
+Loading weight clip SMoE
+Loading weight clip SMoE
+Loading weight clip SMoE
+

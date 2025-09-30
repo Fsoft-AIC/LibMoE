@@ -1,0 +1,81 @@
+program: main.py
+command:
+  - ${env}
+  - python3
+  - ${program}
+  - ${args}
+method: grid
+metric:
+  name: validation/mean_accuracy
+  goal: maximize
+parameters:
+  log:
+    value: wandb
+  name:
+    value: sut
+  task:
+    value: pes2o_transformer
+  test_interval:
+    value: 2000
+  state_size:
+    value: 412
+  transformer.encoder_n_layers:
+    value: 16
+  dropout:
+    value: 0.0
+  lr:
+    value: 0.00025
+  optimizer:
+    value: adamw
+  lm.unroll:
+    value: 1024
+  batch_size:
+    value: 64
+  grad_clip:
+    value: 0.1
+  amp:
+    value: 1
+  save_interval:
+    value: 10000
+  transformer.variant:
+    values: actsut_universal
+  stop_after:
+    value: 100000
+  moe.n_experts:
+    value: 152
+  moe.expert_size:
+    value: 256
+  pkm.n_heads:
+    value: 2
+  lr_sched.type:
+    value: cos
+  lr_warmup:
+    value: 0
+  moe.att.n_experts:
+    value: 24
+  moe.att.k:
+    value: 2
+  lmds.valid_ratio:
+    value: 0.005
+  lm.trafo.norm_input:
+    value: 1
+  transformer.head_projection_size:
+    value: 64
+  moe.att.expert_size:
+    value: 256
+  moa.miloss:
+    value: 0.001
+  wd:
+    value: 0.01
+  lm.trafo.context_blocks:
+    value: 0
+  min_lr_multiplier:
+    value: 0.1
+  transformer.act_loss:
+    value: 0.01
+  details_log_interval:
+    value: 500
+  lm.eval.enabled:
+    value: 0
+  n_microbatch:
+    value: 2

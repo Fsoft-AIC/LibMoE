@@ -1,0 +1,1846 @@
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Loading weight MLP SMoE: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 1025.13it/s]
+Using Siglip Encoder MoE Layer
+Loading weight MLP SMoE: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 65.08it/s]
+Loading weight MLP SMoE: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 419.35it/s]
+Loading weight MLP SMoE: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 4/4 [00:00<00:00, 743.37it/s]
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE: 100%|████████████████████████████████████████████████████████████████| 786/786 [00:00<00:00, 287170.99it/s]
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE: 100%|█████████████████████████████████████████████████████████████████| 786/786 [00:00<00:00, 92087.23it/s]
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE: 100%|████████████████████████████████████████████████████████████████| 786/786 [00:00<00:00, 367896.77it/s]
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE: 100%|████████████████████████████████████████████████████████████████| 786/786 [00:00<00:00, 324225.31it/s]
+Formatting inputs...Skip in lazy mode
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/anonymous/.cache/torch_extensions/py39_cu121/fused_adam/build.ninja...
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/cpp_extension.py:1967: UserWarning: TORCH_CUDA_ARCH_LIST is not set, all archs for visible cards are included
+ for compilation.
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module fused_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module fused_adam...
+Time to load fused_adam op: 66.93695950508118 seconds
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Loading extension module fused_adam...
+Time to load fused_adam op: 66.66001319885254 seconds
+Time to load fused_adam op: 66.98076033592224 seconds
+Time to load fused_adam op: 65.6411406993866 seconds
+Parameter Offload: Total persistent parameters: 1197120 in 534 params
+  0%|                                                                                                                                                               | 0/8316 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001512261800010d918'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000151374a920010d91d'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000015134360c0010d91c'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000150f3e4250010d920'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000015122617b0010d922'
+OSError: [Errno 16] Device or resource busy: '.nfs0000000151009dab0010d921'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000151374a8f0010d91a'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000015122617e0010d923'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+Traceback (most recent call last):
+OSError: [Errno 16] Device or resource busy: '.nfs0000000151009daa0010d924'
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000151374a8e0010d927'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs000000015122617f0010d91b'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000150fde8a80010d925'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs00000001513a1b4c0010d926'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000150fde8a70010d91e'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000151009dac0010d919'
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 300, in _run_finalizers
+    finalizer()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 224, in __call__
+    res = self._callback(*self._args, **self._kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/multiprocessing/util.py", line 133, in _remove_temp_dir
+    rmtree(tempdir)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 734, in rmtree
+    _rmtree_safe_fd(fd, path, onerror)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 690, in _rmtree_safe_fd
+    onerror(os.unlink, fullname, sys.exc_info())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/shutil.py", line 688, in _rmtree_safe_fd
+    os.unlink(entry.name, dir_fd=topfd)
+OSError: [Errno 16] Device or resource busy: '.nfs0000000150ed8ed70010d91f'
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank3]:     train(attn_implementation="flash_attention_2")
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1415, in train
+[rank3]:     trainer.train()
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank3]:     return inner_training_loop(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank3]:     tr_loss_step = self.training_step(model, inputs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank3]:     loss = self.compute_loss(model, inputs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3363, in compute_loss
+[rank3]:     outputs = model(**inputs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+[rank3]:     ret_val = func(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1852, in forward
+[rank3]:     loss = self.module(*inputs, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 89, in forward
+[rank3]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank3]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 113, in forward
+[rank3]:     out_x, auxilarity_loss, vision_id_experts, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank3]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank3]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank3]:     result = forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank3]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank3]: ValueError: not enough values to unpack (expected 4, got 3)
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank0]:     train(attn_implementation="flash_attention_2")
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1415, in train
+[rank0]:     trainer.train()
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank0]:     tr_loss_step = self.training_step(model, inputs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank0]:     loss = self.compute_loss(model, inputs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3363, in compute_loss
+[rank0]:     outputs = model(**inputs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank0]:     return forward_call(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+[rank0]:     ret_val = func(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1852, in forward
+[rank0]:     loss = self.module(*inputs, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 89, in forward
+[rank0]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank0]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 113, in forward
+[rank0]:     out_x, auxilarity_loss, vision_id_experts, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank0]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank0]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank0]:     return self._call_impl(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank0]:     result = forward_call(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank0]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank0]: ValueError: not enough values to unpack (expected 4, got 3)
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank2]:     train(attn_implementation="flash_attention_2")
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1415, in train
+[rank2]:     trainer.train()
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank2]:     return inner_training_loop(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank2]:     tr_loss_step = self.training_step(model, inputs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank2]:     loss = self.compute_loss(model, inputs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3363, in compute_loss
+[rank2]:     outputs = model(**inputs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+[rank2]:     ret_val = func(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1852, in forward
+[rank2]:     loss = self.module(*inputs, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 89, in forward
+[rank2]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank2]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 113, in forward
+[rank2]:     out_x, auxilarity_loss, vision_id_experts, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank2]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank2]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank2]:     result = forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank2]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank2]: ValueError: not enough values to unpack (expected 4, got 3)
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank1]:     train(attn_implementation="flash_attention_2")
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1415, in train
+[rank1]:     trainer.train()
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank1]:     return inner_training_loop(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2279, in _inner_training_loop
+[rank1]:     tr_loss_step = self.training_step(model, inputs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3318, in training_step
+[rank1]:     loss = self.compute_loss(model, inputs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 3363, in compute_loss
+[rank1]:     outputs = model(**inputs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/utils/nvtx.py", line 15, in wrapped_fn
+[rank1]:     ret_val = func(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 1852, in forward
+[rank1]:     loss = self.module(*inputs, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 89, in forward
+[rank1]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank1]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 113, in forward
+[rank1]:     out_x, auxilarity_loss, vision_id_experts, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank1]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank1]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1582, in _call_impl
+[rank1]:     result = forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank1]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank1]: ValueError: not enough values to unpack (expected 4, got 3)
+  0%|                                                                                                                                                               | 0/8316 [00:06<?, ?it/s]
+[2024-10-15 09:18:14,806] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 1364659
+[2024-10-15 09:18:14,807] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 1364660
+[2024-10-15 09:18:14,915] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 1364661
+[2024-10-15 09:18:15,115] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 1364662
+[2024-10-15 09:18:15,217] [ERROR] [launch.py:322:sigkill_handler] ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u', 'moe_model/train/train_mem.py', '--local_rank=3', '--deepspeed
+', './scripts/zero3_offload_gpu.json', '--model_name_or_path', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/ll
+ava_v1_5_mix665k_half.json', '--image_folder', '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35
+-siglip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_projector_type', 'moe', '--mlp_smoe',
+ 'true', '--clip_smoe', 'true', '--moe_name', 'smoe', '--num_experts', '4', '--num_selected', '2', '--number_of_previous_tokens', '2', '--balance_loss_coef', '0.1', '--router_z_loss_coef',
+'0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16'
+, 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi35-siglip224/sft/en_smoe', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4'
+, '--gradient_accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate', '4e-6', '--weight_de
+cay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloa
+der_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_steps', '-1'] exits with return code = 1
+--------------------------------------------
+Running evaluation for model: /cm/archive/anonymous/checkpoints/phi35-siglip224/sft/en_advance_loss_2_dynamic_moe with conv_template: phi35
+--------------------------------------------
+'checkpoint' not found in PRETRAINED_PATH. Selecting the full set of tasks.
+Evaluating task: ai2d_mmstar_mmmu_val_textvqa for model: /cm/archive/anonymous/checkpoints/phi35-siglip224/sft/en_advance_loss_2_dynamic_moe
+The following values were not passed to `accelerate launch` and had defaults used instead:
+                More than one GPU was found, enabling multi-GPU training.
+                If this was unintended please pass in `--num_processes=1`.
+        `--num_machines` was set to a value of `1`
+        `--mixed_precision` was set to a value of `'no'`
+        `--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you wa
+nt to set the git credential as well.The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if
+using via `huggingface-cli` if you want to set the git credential as well.The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function dire
+ctly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+
+
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you wa
+nt to set the git credential as well.
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Your token has been saved to /cm/archive/anonymous/CUMO/lmms-eval/token
+Login successful
+2024-10-15 09:21:27.313 | INFO     | __main__:cli_evaluate:177 - Verbosity set to INFO
+Your token has been saved to /cm/archive/anonymous/CUMO/lmms-eval/token
+Login successful
+2024-10-15 09:21:27.352 | INFO     | __main__:cli_evaluate:177 - Verbosity set to INFO
+Your token has been saved to /cm/archive/anonymous/CUMO/lmms-eval/token
+Login successful
+2024-10-15 09:21:27.397 | INFO     | __main__:cli_evaluate:177 - Verbosity set to INFO
+Your token has been saved to /cm/archive/anonymous/CUMO/lmms-eval/token
+Login successful
+2024-10-15 09:21:27.405 | INFO     | __main__:cli_evaluate:177 - Verbosity set to INFO
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... Warming up PyWSD (takes ~10 secs)... [nltk_data] Error loading averaged_percep
+tron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading averaged_perceptron_tagger: <urlopen error
+[nltk_data]     Tunnel connection failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading wordnet: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+[nltk_data] Error loading punkt: <urlopen error Tunnel connection
+[nltk_data]     failed: 403 URLBlocked>
+2024-10-15 09:22:39.906 | INFO     | __main__:cli_evaluate_single:278 - Evaluating on 4 tasks.
+2024-10-15 09:22:39.906 | INFO     | __main__:cli_evaluate_single:289 - Selected Tasks: ['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+2024-10-15 09:22:40.185 | INFO     | __main__:cli_evaluate_single:278 - Evaluating on 4 tasks.
+2024-10-15 09:22:40.185 | INFO     | __main__:cli_evaluate_single:289 - Selected Tasks: ['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+2024-10-15 09:22:40.219 | INFO     | __main__:cli_evaluate_single:278 - Evaluating on 4 tasks.
+2024-10-15 09:22:40.220 | INFO     | __main__:cli_evaluate_single:289 - Selected Tasks: ['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+2024-10-15 09:22:40.299 | INFO     | __main__:cli_evaluate_single:278 - Evaluating on 4 tasks.
+2024-10-15 09:22:40.299 | INFO     | __main__:cli_evaluate_single:289 - Selected Tasks: ['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+2024-10-15 09:22:49.222 | WARNING  | __main__:cli_evaluate_single:295 - The suffix for log_samples is too long. It is recommended to keep it under 15 characters.
+2024-10-15 09:22:49.223 | WARNING  | __main__:cli_evaluate_single:295 - The suffix for log_samples is too long. It is recommended to keep it under 15 characters.
+2024-10-15 09:22:49.224 | WARNING  | __main__:cli_evaluate_single:295 - The suffix for log_samples is too long. It is recommended to keep it under 15 characters.
+2024-10-15 09:22:49.224 | WARNING  | __main__:cli_evaluate_single:295 - The suffix for log_samples is too long. It is recommended to keep it under 15 characters.
+['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+['ai2d', 'mmmu_val', 'mmstar', 'textvqa']['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+
+accelerator.num_processes: 4
+Loading from full model...
+Loading Phi3 model...
+accelerator.num_processes: 4
+Loading from full model...
+Loading Phi3 model...
+['ai2d', 'mmmu_val', 'mmstar', 'textvqa']
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+accelerator.num_processes: 4
+Loading from full model...
+Loading Phi3 model...
+accelerator.num_processes: 4
+Loading from full model...
+Loading Phi3 model...
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoEUsing Siglip Encoder MoE Layer
+
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Loading checkpoint shards:   0%|                                                                                                                                       | 0/3 [00:00<?, ?it/s]
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Using Siglip Encoder MoE Layer
+Starting with Dynamic MoE
+Starting with Dynamic MoE
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:12<00:00,  4.31s/it]
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:13<00:00,  4.41s/it]
+[2024-10-15 09:23:05,041] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-15 09:23:05,047] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:16<00:00,  5.44s/it]
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:15<00:00,  5.32s/it]
+[2024-10-15 09:23:07,616] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-15 09:23:07,624] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+2024-10-15 09:23:18.668 | INFO     | lmms_eval.models.llava:__init__:157 - Using 4 devices with data parallelism
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.47it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 24.01it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:01<00:00, 11.10it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 159479.24it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 168445.94it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 138654.68it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 25.60it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 147168.56it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 153356.64it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 182361.04it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 160087.94it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 155057.45it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 142906.44it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 160701.30it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 179627.58it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 164160.63it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 131689.29it/s]
+Resolving data files: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 89910.05it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 150333.48it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 158574.82it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 172605.10it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 140277.73it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 148208.62it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 158275.62it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 122640.47it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 138425.87it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 149529.55it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 139345.65it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 105649.97it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 150874.24it/s]
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 140043.54it/s]
+2024-10-15 09:24:16.621 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task ai2d on rank 0...
+Building context: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 772/772 [00:00<00:00, 11423.78it/s]
+2024-10-15 09:24:17.312 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task ai2d on rank 2...
+Resolving data files: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:00<00:00, 122104.92it/s]
+2024-10-15 09:24:17.830 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task ai2d on rank 1...
+2024-10-15 09:24:18.754 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task ai2d on rank 3...
+2024-10-15 09:24:21.775 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmmu_val on rank 3...
+2024-10-15 09:24:21.775 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmmu_val on rank 1...
+2024-10-15 09:24:21.775 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmmu_val on rank 2...
+2024-10-15 09:24:21.776 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmmu_val on rank 0...
+Building context: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 225/225 [00:00<00:00, 6880.57it/s]
+2024-10-15 09:24:21.811 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmstar on rank 3...
+2024-10-15 09:24:21.811 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmstar on rank 1...
+2024-10-15 09:24:21.811 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmstar on rank 0...
+2024-10-15 09:24:21.811 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task mmstar on rank 2...
+Building context: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 375/375 [00:00<00:00, 10855.20it/s]
+2024-10-15 09:24:21.848 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_test on rank 0...
+2024-10-15 09:24:21.848 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_test on rank 3...
+2024-10-15 09:24:21.848 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_test on rank 2...
+2024-10-15 09:24:21.848 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_test on rank 1...
+Building context: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1434/1434 [00:00<00:00, 6737.54it/s]
+2024-10-15 09:24:22.067 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_val on rank 0...
+2024-10-15 09:24:22.067 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_val on rank 1...
+2024-10-15 09:24:22.067 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_val on rank 2...
+2024-10-15 09:24:22.067 | INFO     | lmms_eval.api.task:build_all_requests:366 - Building contexts for task textvqa_val on rank 3...
+Building context: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1250/1250 [00:00<00:00, 6434.91it/s]
+2024-10-15 09:24:22.264 | INFO     | lmms_eval.evaluator:evaluate:289 - Running generate_until requests
+2024-10-15 09:24:22.264 | INFO     | lmms_eval.evaluator:evaluate:289 - Running generate_until requests
+2024-10-15 09:24:22.264 | INFO     | lmms_eval.evaluator:evaluate:289 - Running generate_until requests
+2024-10-15 09:24:22.264 | INFO     | lmms_eval.evaluator:evaluate:289 - Running generate_until requests
+Model Responding:   0%|                                                                                                                                             | 0/4056 [00:00<?, ?it/s]
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you may observe unexpected behavior. Please pass your input's `atten
+tion_mask` to obtain reliable results.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you may observe unexpected behavior. Please pass your input's `atten
+tion_mask` to obtain reliable results.
+Model Responding:   0%|                                                                                                                                   | 1/4056 [00:01<1:50:59,  1.64s/it]
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you may observe unexpected behavior. Please pass your input's `atten
+tion_mask` to obtain reliable results.
+The attention mask is not set and cannot be inferred from input because pad token is same as eos token.As a consequence, you may observe unexpected behavior. Please pass your input's `atten
+tion_mask` to obtain reliable results.
+Model Responding:   6%|████████                                                                                                                           | 249/4056 [00:57<14:00,  4.53it/s]
+Model Responding:   6%|████████                                                                                                                           | 251/4056 [00:58<13:55,  4.55it/s]
+Model Responding:   7%|████████▋                                                                                                                          | 268/4056 [01:02<13:52,  4.55it/s]
+^CW1015 09:25:24.316789 23456244139200 torch/distributed/elastic/agent/server/api.py:741] Received Signals.SIGINT death signal, shutting down workers
+W1015 09:25:24.317435 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374156 closing signal SIGINT
+W1015 09:25:24.317550 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374157 closing signal SIGINT
+W1015 09:25:24.317639 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374158 closing signal SIGINT
+W1015 09:25:24.317701 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374159 closing signal SIGINT
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[rank2]:     return _run_code(code, main_globals, None,
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 87, in _run_code
+[rank2]:     exec(code, run_globals)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 360, in <module>
+[rank2]:     cli_evaluate()
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 211, in cli_evaluate
+[rank2]:     results, samples = cli_evaluate_single(args)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 306, in cli_evaluate_single
+[rank2]:     results = evaluator.simple_evaluate(
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank2]:     return fn(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 136, in simple_evaluate
+[rank2]:     results = evaluate(
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank2]:     return fn(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 300, in evaluate
+[rank2]:     resps, vision_id_experts, mlp_id_experts = getattr(lm, reqtype)(cloned_reqs, return_id_experts = return_id_experts)  # Choiszt run generate until
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/models/llava.py", line 413, in generate_until
+[rank2]:     cont,  vision_id_expert_tmp, mlp_id_expert = self.model.generate(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+[rank2]:     return func(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 164, in generate
+[rank2]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank2]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 115, in forward
+[rank2]:     out_x, auxilarity_loss, _, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank2]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank2]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank2]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank2]:     return self._call_impl(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank2]:     return forward_call(*args, **kwargs)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/moe/dynamic_moe.py", line 121, in forward
+[rank2]:     output = self.compute_moe(gate_logits, selected_experts, weights, output, x)
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/moe/dynamic_moe.py", line 103, in compute_moe
+[rank2]:     batch_idx, token_idx, topk_idx = torch.where(index_expert_unique== i)
+[rank2]: KeyboardInterrupt
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[rank1]:     return _run_code(code, main_globals, None,
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 87, in _run_code
+[rank1]:     exec(code, run_globals)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 360, in <module>
+[rank1]:     cli_evaluate()
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 211, in cli_evaluate
+[rank1]:     results, samples = cli_evaluate_single(args)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 306, in cli_evaluate_single
+[rank1]:     results = evaluator.simple_evaluate(
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank1]:     return fn(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 136, in simple_evaluate
+[rank1]:     results = evaluate(
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank1]:     return fn(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 300, in evaluate
+[rank1]:     resps, vision_id_experts, mlp_id_experts = getattr(lm, reqtype)(cloned_reqs, return_id_experts = return_id_experts)  # Choiszt run generate until
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/models/llava.py", line 413, in generate_until
+[rank1]:     cont,  vision_id_expert_tmp, mlp_id_expert = self.model.generate(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+[rank1]:     return func(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 164, in generate
+[rank1]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank1]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 115, in forward
+[rank1]:     out_x, auxilarity_loss, _, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank1]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank1]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank1]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank1]:     return self._call_impl(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank1]:     return forward_call(*args, **kwargs)
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/moe/dynamic_moe.py", line 123, in forward
+[rank1]:     gate_softmax = F.softmax(gate_logits, dim=-1, dtype=torch.float).to(x.dtype)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/functional.py", line 1887, in softmax
+[rank1]:     ret = input.softmax(dim, dtype=dtype)
+[rank1]: KeyboardInterrupt
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[rank0]:     return _run_code(code, main_globals, None,
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 87, in _run_code
+[rank0]:     exec(code, run_globals)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 360, in <module>
+[rank0]:     cli_evaluate()
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 211, in cli_evaluate
+[rank0]:     results, samples = cli_evaluate_single(args)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 306, in cli_evaluate_single
+[rank0]:     results = evaluator.simple_evaluate(
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 136, in simple_evaluate
+[rank0]:     results = evaluate(
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank0]:     return fn(*args, **kwargs)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 300, in evaluate
+[rank0]:     resps, vision_id_experts, mlp_id_experts = getattr(lm, reqtype)(cloned_reqs, return_id_experts = return_id_experts)  # Choiszt run generate until
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/models/llava.py", line 357, in generate_until
+[rank0]:     image_tensor = process_images(flattened_visuals, self._image_processor, self._config)
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/mm_utils.py", line 190, in process_images
+[rank0]:     image = image_processor.preprocess(image, return_tensors='pt')['pixel_values'][0]
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/models/siglip/image_processing_siglip.py", line 237, in preprocess
+[rank0]:     images = [
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/models/siglip/image_processing_siglip.py", line 238, in <listcomp>
+[rank0]:     resize(image=image, size=(height, width), resample=resample, input_data_format=input_data_format)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/image_transforms.py", line 335, in resize
+[rank0]:     resized_image = image.resize((width, height), resample=resample, reducing_gap=reducing_gap)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/PIL/Image.py", line 2222, in resize
+[rank0]:     return self._new(self.im.resize(size, resample, box))
+[rank0]: KeyboardInterrupt
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+[rank3]:     return _run_code(code, main_globals, None,
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 87, in _run_code
+[rank3]:     exec(code, run_globals)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 360, in <module>
+[rank3]:     cli_evaluate()
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 211, in cli_evaluate
+[rank3]:     results, samples = cli_evaluate_single(args)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/__main__.py", line 306, in cli_evaluate_single
+[rank3]:     results = evaluator.simple_evaluate(
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank3]:     return fn(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 136, in simple_evaluate
+[rank3]:     results = evaluate(
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/utils.py", line 435, in _wrapper
+[rank3]:     return fn(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/evaluator.py", line 300, in evaluate
+[rank3]:     resps, vision_id_experts, mlp_id_experts = getattr(lm, reqtype)(cloned_reqs, return_id_experts = return_id_experts)  # Choiszt run generate until
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/evaluate/lmms_eval/models/llava.py", line 413, in generate_until
+[rank3]:     cont,  vision_id_expert_tmp, mlp_id_expert = self.model.generate(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+[rank3]:     return func(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/language_model/llava_phi.py", line 164, in generate
+[rank3]:     ) = self.prepare_inputs_labels_for_multimodal(
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/llava_arch.py", line 231, in prepare_inputs_labels_for_multimodal
+[rank3]:     image_features, auxiliary_loss_clip, vision_id_experts, entropy_clip = self.get_model().get_vision_tower()(images, return_id_experts = kwargs['return_id_experts'])
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_encoder.py", line 115, in forward
+[rank3]:     out_x, auxilarity_loss, _, entropy_loss = self.vision_model( pixel_values = x,   return_id_experts = return_id_experts)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 253, in forward
+[rank3]:     encoder_outputs, auxiliary_losses, stored_history_experts, entropy_losses = self.encoder(inputs_embeds = hidden_states, return_id_experts = return_id_experts)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 166, in forward
+[rank3]:     layer_outputs = encoder_layer(hidden_states = hidden_states)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 127, in forward
+[rank3]:     results, auxiliary_loss, id_experts, entropy_loss = self.moelayer(hidden_states, return_id_experts)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/moe/dynamic_moe.py", line 121, in forward
+[rank3]:     output = self.compute_moe(gate_logits, selected_experts, weights, output, x)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/moe/dynamic_moe.py", line 110, in compute_moe
+[rank3]:     results[batch_idx, token_idx] +=weights_slice*expert(x[batch_idx, token_idx])
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/model/multimodal_encoder/siglip_smoe.py", line 89, in forward
+[rank3]:     hidden_states = self.fc1(hidden_states)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+[rank3]:     return self._call_impl(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+[rank3]:     return forward_call(*args, **kwargs)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 116, in forward
+[rank3]:     return F.linear(input, self.weight, self.bias)
+[rank3]: KeyboardInterrupt
+^CW1015 09:25:24.520214 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374156 closing signal SIGTERM
+W1015 09:25:24.521750 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374157 closing signal SIGTERM
+W1015 09:25:24.521871 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374158 closing signal SIGTERM
+W1015 09:25:24.523169 23456244139200 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 1374159 closing signal SIGTERM
+^C^CTraceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 733, in run
+    result = self._invoke_run(role)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 876, in _invoke_run
+    time.sleep(monitor_interval)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 76, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1372498 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 742, in run
+    self._shutdown(e.sigval)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 296, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 541, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 861, in _close
+    handler.proc.wait(time_to_wait)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/subprocess.py", line 1927, in _wait
+    time.sleep(delay)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 76, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1372498 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 254, in launch_agent
+    result = agent.run()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/metrics/api.py", line 123, in wrapper
+    result = f(*args, **kwargs)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 747, in run
+    self._shutdown()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py", line 296, in _shutdown
+    self._pcontext.close(death_sig)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 541, in close
+    self._close(death_sig=death_sig, timeout=timeout)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 861, in _close
+    handler.proc.wait(time_to_wait)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/subprocess.py", line 1189, in wait
+    return self._wait(timeout=timeout)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/subprocess.py", line 1927, in _wait
+    time.sleep(delay)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 76, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1372498 got signal: 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1107, in <module>
+    main()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1103, in main
+    launch_command(args)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1088, in launch_command
+    multi_gpu_launcher(args)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/accelerate/commands/launch.py", line 733, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 276, in launch_agent
+    events.record(agent.get_event_failed())
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/agent/server/api.py", line 755, in get_event_failed
+    raw_error=traceback.format_exc(),
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/traceback.py", line 167, in format_exc
+    return "".join(format_exception(*sys.exc_info(), limit=limit, chain=chain))
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/traceback.py", line 120, in format_exception
+    return list(TracebackException(
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/traceback.py", line 517, in __init__
+    self.stack = StackSummary.extract(
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/traceback.py", line 366, in extract
+    f.line
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/traceback.py", line 288, in line
+    self._line = linecache.getline(self.filename, self.lineno).strip()
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/linecache.py", line 30, in getline
+    lines = getlines(filename, module_globals)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/linecache.py", line 46, in getlines
+    return updatecache(filename, module_globals)
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/linecache.py", line 136, in updatecache
+    with tokenize.open(fullname) as fp:
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/tokenize.py", line 392, in open
+    buffer = _builtin_open(filename, 'rb')
+  File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/distributed/elastic/multiprocessing/api.py", line 76, in _terminate_process_handler
+    raise SignalException(f"Process {os.getpid()} got signal: {sigval}", sigval=sigval)
+torch.distributed.elastic.multiprocessing.api.SignalException: Process 1372498 got signal: 2
+^C
+(moe) anonymous@ithndgx004:/cm/archive/anonymous/toolkitmoe$

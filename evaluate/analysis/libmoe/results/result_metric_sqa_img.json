@@ -1,0 +1,298 @@
+{
+    "full": {
+        "phi35-siglip224": {
+            "smoe_sigmoidgating,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 73.32672285572632,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0916_0416_llava..._full_llava_model_args_90e025/results.json"
+                    }
+                }
+            },
+            "smoe,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.11998016856718,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0909_1943_llava..._full_llava_model_args_3041d9/results.json"
+                    }
+                }
+            },
+            "hyperrouter,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.66534457114527,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/1006_0331_llava..._full_llava_model_args_b6d093/results.json"
+                    }
+                }
+            },
+            "smoe_cosinegating,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.61576598909271,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0916_0107_llava..._full_llava_model_args_b5a53d/results.json"
+                    }
+                }
+            },
+            "smoe_perturbed,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 73.82250867625186,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0916_0244_llava..._full_llava_model_args_38f332/results.json"
+                    }
+                }
+            }
+        },
+        "phi3mini-siglip224-full": {
+            "sft,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.21913733267228,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0909_2113_llava..._full_llava_model_args_93d999/results.json"
+                    }
+                }
+            },
+            "hyperrouter,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.16955875061973,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/1006_1609_llava..._full_llava_model_args_982940/results.json"
+                    }
+                }
+            }
+        }
+    },
+    "half": {
+        "phi35-siglip224": {
+            "smoe_perturbed,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.96281606346058,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0906_1110_llava...urbed_llava_model_args_822197/results.json"
+                    }
+                }
+            },
+            "en_advance_loss_2_dynamic_moe,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.36787307882994,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/1015_0818_llava..._full_llava_model_args_5dafdc/results.json"
+                    }
+                }
+            },
+            "test_dynamic_moe,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.41745166088249,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/1012_0609_llava..._full_llava_model_args_147bcc/results.json"
+                    }
+                }
+            },
+            "en_loss_2_dynamic_moe,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 75.35944471988101,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/1014_1945_llava..._full_llava_model_args_39c94b/results.json"
+                    }
+                }
+            },
+            "hyperrouter,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.86365889935549,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/1002_0135_llava..._full_llava_model_args_51e8db/results.json"
+                    }
+                }
+            },
+            "smoe_cosinegating,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.96281606346058,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0906_0952_llava...ating_llava_model_args_ab09f7/results.json"
+                    }
+                }
+            },
+            "smoe_sigmoidgating,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.86365889935549,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0906_1225_llava...ating_llava_model_args_7a7592/results.json"
+                    }
+                }
+            },
+            "dynamic_moe,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.76450173525038,
+                        "path": "/cm/shared/anonymous_H102/toolkitmoe/evaluate/logs/1026_1818_llava...mstar_llava_model_args_91c7f4/results.json"
+                    }
+                }
+            }
+        },
+        "phi3mini-clip": {
+            "hyperrouter,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 71.54189390183441,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0930_0026_llava..._full_llava_model_args_23f448/results.json"
+                    }
+                }
+            }
+        },
+        "phi3mini-siglip224": {
+            "sft-sigmoid,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 73.97124442240953,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0906_2235_llava...gmoid_llava_model_args_7af9aa/results.json"
+                    }
+                }
+            },
+            "sft-perturbed,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 75.01239464551314,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0906_2004_llava...urbed_llava_model_args_aa7c5d/results.json"
+                    }
+                }
+            },
+            "sft-cosine,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.41745166088249,
+                        "path": "/cm/archive/anonymous/toolkitmoe/evaluate/logs/0906_1855_llava...osine_llava_model_args_82c17b/results.json"
+                    }
+                }
+            }
+        },
+        "Xphi35-siglip224": {
+            "dynamic_moe,conv_template=phi35": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 74.41745166088249,
+                        "path": "/cm/shared/anonymous_H102/toolkitmoe/evaluate/logs/1028_0222_llava..._full_llava_model_args_78634b/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-half,conv_template=phi3": {
+            "cumo-phi3-mini-sft-half,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 71.88894397620228,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0802_1610_llava..._pope_llava_model_args_5ffc08/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-cosine-half,conv_template=phi3": {
+            "cumo-phi3-mini-sft-cosine-half,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 72.68220128904314,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0810_1915_llava...-half_llava_model_args_bd5f81/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-sigmoid,conv_template=phi3": {
+            "cumo-phi3-mini-sft-sigmoid,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 71.29400099157164,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0801_2306_llava..._pope_llava_model_args_74447d/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-cosine,conv_template=phi3": {
+            "cumo-phi3-mini-sft-cosine,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 71.98810114030739,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0813_0251_llava...osine_llava_model_args_8f1cf9/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-perturnded,conv_template=phi3": {
+            "cumo-phi3-mini-sft-perturnded,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 72.0872583044125,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0802_0757_llava..._pope_llava_model_args_23cb96/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-sigmoid-half,conv_template=phi3": {
+            "cumo-phi3-mini-sft-sigmoid-half,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 72.23599405057016,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0809_1042_llava...-half_llava_model_args_8fe70f/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-smollm-sft-cosine-half,conv_template=smollm": {
+            "cumo-smollm-sft-cosine-half,conv_template=smollm": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 49.92563212692117,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0812_2049_llava...-half_llava_model_args_91ba71/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft-perturnded-half,conv_template=phi3": {
+            "cumo-phi3-mini-sft-perturnded-half,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 71.98810114030739,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0802_2113_llava..._pope_llava_model_args_77af64/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-phi3-mini-sft,conv_template=phi3": {
+            "cumo-phi3-mini-sft,conv_template=phi3": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 72.0872583044125,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0809_0216_llava...i-sft_llava_model_args_25da03/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-smollm-sft-perturnded-half,conv_template=smollm": {
+            "cumo-smollm-sft-perturnded-half,conv_template=smollm": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 49.08279623202777,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0811_1746_llava...-half_llava_model_args_0f1403/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-smollm-sft-sigmoid-half,conv_template=smollm": {
+            "cumo-smollm-sft-sigmoid-half,conv_template=smollm": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 49.380267724343085,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0811_1401_llava...-half_llava_model_args_07864f/results.json"
+                    }
+                }
+            }
+        },
+        "cumo-smollm-sft,conv_template=smollm": {
+            "cumo-smollm-sft,conv_template=smollm": {
+                "scienceqa_img": {
+                    "Final": {
+                        "score": 51.760039662865644,
+                        "path": "/cm/archive/anonymous/CUMO/lmms-eval/logs/0811_0318_llava...m-sft_llava_model_args_d77621/results.json"
+                    }
+                }
+            }
+        }
+    }
+}

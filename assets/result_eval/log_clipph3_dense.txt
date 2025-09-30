@@ -1,0 +1,242 @@
+rate compute competition: 0.04119850187265917
+rate compute router policy: 0.9588014981273408
+ step warm: 0
+
+rate compute competition: 0.04681647940074907
+rate compute router policy: 0.9531835205992509
+ step warm: 0
+
+
+
+rate compute competition: 0.04400749063670412
+rate compute router policy: 0.9559925093632958
+ step warm: 0
+
+
+rate compute competition: 0.0449438202247191
+rate compute router policy: 0.9550561797752809
+ step warm: 0
+
+
+rate compute competition: 0.05337078651685393
+rate compute router policy: 0.9466292134831461
+ step warm: 0
+
+
+rate compute competition: 0.052434456928838954
+rate compute router policy: 0.947565543071161
+ step warm: 0
+
+
+rate compute competition: 0.04962546816479401
+rate compute router policy: 0.950374531835206
+ step warm: 0
+
+
+rate compute competition: 0.04681647940074907
+rate compute router policy: 0.9531835205992509
+ step warm: 0
+
+
+rate compute competition: 0.054307116104868915
+rate compute router policy: 0.9456928838951311
+ step warm: 0
+
+
+rate compute competition: 0.042134831460674156
+rate compute router policy: 0.9578651685393258
+ step warm: 0
+
+
+rate compute competition: 0.04119850187265917
+rate compute router policy: 0.9588014981273408
+ step warm: 0
+
+
+rate compute competition: 0.03745318352059925
+rate compute router policy: 0.9625468164794008
+ step warm: 0
+
+
+rate compute competition: 0.03745318352059925
+rate compute router policy: 0.9625468164794008
+ step warm: 0
+
+
+rate compute competition: 0.04400749063670412
+rate compute router policy: 0.9559925093632958
+ step warm: 0
+
+
+rate compute competition: 0.056179775280898875
+rate compute router policy: 0.9438202247191011
+ step warm: 0
+
+
+rate compute competition: 0.04681647940074907
+rate compute router policy: 0.9531835205992509
+ step warm: 0
+
+
+rate compute competition: 0.05711610486891386
+rate compute router policy: 0.9428838951310862
+ step warm: 0
+
+
+rate compute competition: 0.05056179775280899
+rate compute router policy: 0.949438202247191
+ step warm: 0
+
+
+rate compute competition: 0.04307116104868914
+rate compute router policy: 0.9569288389513109
+ step warm: 0
+
+
+rate compute competition: 0.0449438202247191
+rate compute router policy: 0.9550561797752809
+ step warm: 0
+
+
+rate compute competition: 0.054307116104868915
+rate compute router policy: 0.9456928838951311
+ step warm: 0
+
+
+rate compute competition: 0.05056179775280899
+rate compute router policy: 0.949438202247191
+ step warm: 0
+
+
+rate compute competition: 0.05056179775280899
+rate compute router policy: 0.949438202247191
+ step warm: 0
+
+
+rate compute competition: 0.04681647940074907
+rate compute router policy: 0.9531835205992509
+ step warm: 0
+
+[2024-12-11 20:21:00,798] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+[2024-12-11 20:21:00,798] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+Training from scratch ...
+
+rate compute competition: 0.04588014981273408
+rate compute router policy: 0.954119850187266
+ step warm: 0
+
+
+rate compute competition: 0.056179775280898875
+rate compute router policy: 0.9438202247191011
+ step warm: 0
+
+
+rate compute competition: 0.060861423220973786
+rate compute router policy: 0.9391385767790262
+ step warm: 0
+
+
+rate compute competition: 0.06367041198501873
+rate compute router policy: 0.9363295880149812
+ step warm: 0
+
+
+rate compute competition: 0.05337078651685393
+rate compute router policy: 0.9466292134831461
+ step warm: 0
+
+
+rate compute competition: 0.04962546816479401
+rate compute router policy: 0.950374531835206
+ step warm: 0
+
+
+rate compute competition: 0.04400749063670412
+rate compute router policy: 0.9559925093632958
+ step warm: 0
+
+
+rate compute competition: 0.052434456928838954
+rate compute router policy: 0.947565543071161
+ step warm: 0
+
+
+rate compute competition: 0.05898876404494382
+rate compute router policy: 0.9410112359550562
+ step warm: 0
+
+
+rate compute competition: 0.06179775280898876
+rate compute router policy: 0.9382022471910112
+ step warm: 0
+
+
+rate compute competition: 0.04962546816479401
+rate compute router policy: 0.950374531835206
+ step warm: 0
+
+
+rate compute competition: 0.04119850187265917
+rate compute router policy: 0.9588014981273408
+ step warm: 0
+
+[2024-12-11 20:21:01,550] [INFO] [config.py:733:__init__] Config mesh_device None world_size = 4
+
+rate compute competition: 0.0449438202247191
+rate compute router policy: 0.9550561797752809
+ step warm: 0
+
+
+rate compute competition: 0.05149812734082397
+rate compute router policy: 0.9485018726591761
+ step warm: 0
+
+
+rate compute competition: 0.0449438202247191
+rate compute router policy: 0.9550561797752809
+ step warm: 0
+
+
+rate compute competition: 0.042134831460674156
+rate compute router policy: 0.9578651685393258
+ step warm: 0
+
+
+rate compute competition: 0.047752808988764044
+rate compute router policy: 0.952247191011236
+ step warm: 0
+
+
+rate compute competition: 0.04868913857677903
+rate compute router policy: 0.951310861423221
+ step warm: 0
+
+
+rate compute competition: 0.040262172284644196
+rate compute router policy: 0.9597378277153558
+ step warm: 0
+
+
+rate compute competition: 0.04868913857677903
+rate compute router policy: 0.951310861423221
+ step warm: 0
+
+
+rate compute competition: 0.03932584269662921
+rate compute router policy: 0.9606741573033708
+ step warm: 0
+
+
+rate compute competition: 0.0552434456928839
+rate compute router policy: 0.9447565543071161
+ step warm: 0
+
+
+rate compute competition: 0.04962546816479401
+rate compute router policy: 0.950374531835206
+ step warm: 0
+
+
+rate compute competition: 0.04588014981273408
+rate compute router policy: 0.954119850187266
+ step warm: 0

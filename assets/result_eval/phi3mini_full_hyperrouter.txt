@@ -1,0 +1,1649 @@
+(base) anonymous@ithndgx004:/cm/archive/anonymous/toolkitmoe$ conda activate moe
+(moe) anonymous@ithndgx004:/cm/archive/anonymous/toolkitmoe$ bash /cm/archive/anonymous/toolkitmoe/scripts/train/run_train_all.sh
+Staring stage sft
+[2024-10-03 08:52:04,560] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:53:12,298] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-10-03 08:53:12,299] [INFO] [runner.py:568:main] cmd = /cm/archive/anonymous/miniconda3/envs/moe/bin/python -u -m deepspeed.launcher.launch --wor
+ld_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgNCwgNSwgNiwgN119 --master_addr=127.0.0.1 --master_port=29501 --enable_each_rank_log=None moe_model/train/train_m
+em.py --deepspeed ./scripts/zero3_offload.json --model_name_or_path /cm/archive/anonymous/checkpoints/phi35-siglip224/pft --version phi35 --data_path
+/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json --image_folder /cm/archive/anonymous/data --vision_tower google/siglip-so400m-patch14-224
+--vision_tower_dir /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin --scales 1,3 --pretrain_mm_mlp_adapter /cm/archive/anonymous/checkpoin
+ts/phi35-siglip224/pft/mm_projector.bin --mm_projector_type moe --mlp_smoe true --clip_smoe true --moe_name hyperrouter --num_experts 4 --num_select
+ed 1 --balance_loss_coef 0.1 --router_z_loss_coef 0.01 --mm_vision_select_layer -2 --mm_use_im_start_end False --mm_use_im_patch_token False --image
+_aspect_ratio pad --group_by_modality_length True --bf16 True --output_dir /cm/archive/anonymous/checkpoints/phi35-siglip224/sft/hyperrouter --num_tra
+in_epochs 1 --per_device_train_batch_size 5 --per_device_eval_batch_size 4 --gradient_accumulation_steps 2 --evaluation_strategy no --save_strategy
+steps --save_steps 832 --save_total_limit 13 --learning_rate 4e-6 --weight_decay 0. --warmup_ratio 0.03 --lr_scheduler_type cosine --logging_steps 1
+ --tf32 True --model_max_length 2048 --gradient_checkpointing True --dataloader_num_workers 4 --lazy_preprocess True --report_to none --max_steps -1
+[2024-10-03 08:53:26,257] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:53:33,678] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [0, 1, 4, 5, 6, 7]}
+[2024-10-03 08:53:33,679] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=6, node_rank=0
+[2024-10-03 08:53:33,679] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5]})
+[2024-10-03 08:53:33,679] [INFO] [launch.py:163:main] dist_world_size=6
+[2024-10-03 08:53:33,679] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0,1,4,5,6,7
+[2024-10-03 08:53:33,695] [INFO] [launch.py:253:main] process 81068 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u
+', 'moe_model/train/train_mem.py', '--local_rank=0', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/che
+ckpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder',
+ '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-sigl
+ip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_p
+rojector_type', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--bal
+ance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token
+', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/
+phi35-siglip224/sft/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_
+accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_
+rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model
+_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--ma
+x_steps', '-1']
+[2024-10-03 08:53:33,708] [INFO] [launch.py:253:main] process 81069 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u
+', 'moe_model/train/train_mem.py', '--local_rank=1', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/che
+ckpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder',
+ '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-sigl
+ip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_p
+rojector_type', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--bal
+ance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token
+', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/
+phi35-siglip224/sft/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_
+accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_
+rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model
+_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--ma
+x_steps', '-1']
+[2024-10-03 08:53:33,724] [INFO] [launch.py:253:main] process 81070 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u
+', 'moe_model/train/train_mem.py', '--local_rank=2', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/che
+ckpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder',
+ '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-sigl
+ip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_p
+rojector_type', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--bal
+ance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token
+', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/
+phi35-siglip224/sft/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_
+accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_
+rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model
+_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--ma
+x_steps', '-1']
+[2024-10-03 08:53:33,745] [INFO] [launch.py:253:main] process 81071 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u
+', 'moe_model/train/train_mem.py', '--local_rank=3', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/che
+ckpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder',
+ '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-sigl
+ip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_p
+rojector_type', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--bal
+ance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token
+', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/
+phi35-siglip224/sft/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_
+accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_
+rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model
+_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--ma
+x_steps', '-1']
+[2024-10-03 08:53:33,758] [INFO] [launch.py:253:main] process 81072 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u
+', 'moe_model/train/train_mem.py', '--local_rank=4', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/che
+ckpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder',
+ '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-sigl
+ip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_p
+rojector_type', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--bal
+ance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token
+', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/
+phi35-siglip224/sft/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_
+accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_
+rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model
+_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--ma
+x_steps', '-1']
+[2024-10-03 08:53:33,772] [INFO] [launch.py:253:main] process 81073 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u
+', 'moe_model/train/train_mem.py', '--local_rank=5', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/che
+ckpoints/phi35-siglip224/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder',
+ '/cm/archive/anonymous/data', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-sigl
+ip224/pft/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_p
+rojector_type', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--bal
+ance_loss_coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token
+', 'False', '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/
+phi35-siglip224/sft/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_
+accumulation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_
+rate', '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model
+_max_length', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--ma
+x_steps', '-1']
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+[2024-10-03 08:54:37,320] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:54:37,320] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:54:37,323] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:54:37,323] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:54:37,323] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:54:37,323] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:54:39,935] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 08:54:39,935] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 08:54:39,949] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 08:54:39,949] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-10-03 08:54:39,953] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 08:54:39,954] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 08:54:39,954] [INFO] [comm.py:637:init_distributed] cdb=None
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+[2024-10-03 08:54:58,095] [INFO] [partition_parameters.py:343:__exit__] finished initializing model - num_params = 634, num_elems = 4.25B
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.39s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.40s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.38s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.39s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.41s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:02<00:00,  1.48s/it]
+Model: phi35
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Model: phi35
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Model: phi35
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Model: phi35
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Model: phi35
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Model: phi35
+=========================================
+=============SigLIP-vision_tower=========
+=========================================
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Using Siglip Encoder MoE Layer
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Loading weight MLP SMoE
+Using Siglip Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Loading weight MLP SMoE
+Starting with hyper router
+Starting with hyper router
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin SMoE
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Formatting inputs...Skip in lazy mode
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the
+ kernel to the minimum version or higher.
+Starting Trainer hyperrouter
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/anonymous/.cache/torch_extensions/py39_cu121/cpu_adam/build.ninja...
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/cpp_extension.py:1967: UserWarning: TORCH_CUDA_ARCH_LIST is not set,
+ all archs for visible cards are included for compilation.
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.16623306274414 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.173225164413452 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.169636726379395 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.204933166503906 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.212965488433838 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.253995180130005 seconds
+Parameter Offload: Total persistent parameters: 1372736 in 646 params
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank5]:     train(attn_implementation="flash_attention_2")
+[rank5]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank5]:     trainer.train(resume_from_checkpoint=True)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank5]:     return inner_training_loop(
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank5]:     deepspeed_load_checkpoint(
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank5]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank5]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2804, in _load_checkpoint
+[rank5]:     sd_loader = SDLoaderFactory.get_sd_loader(ckpt_list, checkpoint_engine=self.checkpoint_engine)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 43, in get_sd_lo
+ader
+[rank5]:     return MegatronSDLoader(ckpt_list, version, checkpoint_engine)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 193, in __init__
+[rank5]:     super().__init__(ckpt_list, version, checkpoint_engine)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 55, in __init__
+[rank5]:     self.check_ckpt_list()
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 168, in check_ck
+pt_list
+[rank5]:     assert len(self.ckpt_list) > 0
+[rank5]: AssertionError
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank4]:     train(attn_implementation="flash_attention_2")
+[rank4]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank4]:     trainer.train(resume_from_checkpoint=True)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank4]:     return inner_training_loop(
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank4]:     deepspeed_load_checkpoint(
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank4]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank4]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2804, in _load_checkpoint
+[rank4]:     sd_loader = SDLoaderFactory.get_sd_loader(ckpt_list, checkpoint_engine=self.checkpoint_engine)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 43, in get_sd_lo
+ader
+[rank4]:     return MegatronSDLoader(ckpt_list, version, checkpoint_engine)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 193, in __init__
+[rank4]:     super().__init__(ckpt_list, version, checkpoint_engine)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 55, in __init__
+[rank4]:     self.check_ckpt_list()
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 168, in check_ck
+pt_list
+[rank4]:     assert len(self.ckpt_list) > 0
+[rank4]: AssertionError
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank3]:     train(attn_implementation="flash_attention_2")
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank3]:     trainer.train(resume_from_checkpoint=True)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank3]:     return inner_training_loop(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank3]:     deepspeed_load_checkpoint(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank3]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank3]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank3]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank3]:     self.module.load_state_dict(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank3]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank3]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank3]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.vision_tower.vi
+sion_model.encoder.layers.24.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.24.moelayer.gate.bias", "model.vision_tower.visi
+on_model.encoder.layers.25.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.25.moelayer.gate.bias", "model.vision_tower.vision
+_model.encoder.layers.26.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.26.moelayer.gate.bias", "model.mm_projector.moelayer
+.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank2]:     train(attn_implementation="flash_attention_2")
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank2]:     trainer.train(resume_from_checkpoint=True)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank2]:     return inner_training_loop(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank2]:     deepspeed_load_checkpoint(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank2]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank2]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank2]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank2]:     self.module.load_state_dict(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank2]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank2]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank2]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.vision_tower.vi
+sion_model.encoder.layers.24.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.24.moelayer.gate.bias", "model.vision_tower.visi
+on_model.encoder.layers.25.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.25.moelayer.gate.bias", "model.vision_tower.vision
+_model.encoder.layers.26.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.26.moelayer.gate.bias", "model.mm_projector.moelayer
+.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank1]:     train(attn_implementation="flash_attention_2")
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank1]:     trainer.train(resume_from_checkpoint=True)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank1]:     return inner_training_loop(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank1]:     deepspeed_load_checkpoint(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank1]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank1]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank1]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank1]:     self.module.load_state_dict(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank1]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank1]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank1]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.vision_tower.vi
+sion_model.encoder.layers.24.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.24.moelayer.gate.bias", "model.vision_tower.visi
+on_model.encoder.layers.25.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.25.moelayer.gate.bias", "model.vision_tower.vision
+_model.encoder.layers.26.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.26.moelayer.gate.bias", "model.mm_projector.moelayer
+.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[2024-10-03 08:57:10,041] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 81068
+[2024-10-03 08:57:14,557] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 81069
+[2024-10-03 08:57:15,909] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 81070
+[2024-10-03 08:57:15,993] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 81071
+[2024-10-03 08:57:16,080] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 81072
+[2024-10-03 08:57:16,080] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 81073
+[2024-10-03 08:57:16,165] [ERROR] [launch.py:322:sigkill_handler] ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u', 'moe_model/train/trai
+n_mem.py', '--local_rank=5', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/checkpoints/phi35-siglip224
+/pft', '--version', 'phi35', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k_half.json', '--image_folder', '/cm/archive/anonymous/da
+ta', '--vision_tower', 'google/siglip-so400m-patch14-224', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/clip.bin', '--
+scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi35-siglip224/pft/mm_projector.bin', '--mm_projector_type', 'moe', '
+--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '1', '--balance_loss_coef', '0.1',
+'--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_asp
+ect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi35-siglip224/sft/hype
+rrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '2'
+, '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate', '4e-6', '--weight
+_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '-
+-gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_steps', '-1'] exits wi
+th return code = 1
+[2024-10-03 08:58:26,050] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:59:31,890] [WARNING] [runner.py:202:fetch_hostfile] Unable to find hostfile, will proceed with training with local resources only.
+[2024-10-03 08:59:31,890] [INFO] [runner.py:568:main] cmd = /cm/archive/anonymous/miniconda3/envs/moe/bin/python -u -m deepspeed.launcher.launch --wor
+ld_info=eyJsb2NhbGhvc3QiOiBbMCwgMSwgNCwgNSwgNiwgN119 --master_addr=127.0.0.1 --master_port=60001 --enable_each_rank_log=None moe_model/train/train_m
+em.py --deepspeed ./scripts/zero3_offload.json --model_name_or_path /cm/archive/anonymous/checkpoints/phi3mini-clip/pft --version phi3 --data_path /cm
+/archive/anonymous/data/jsons/llava_v1_5_mix665k.json --image_folder /cm/archive/anonymous/data --vision_tower openai/clip-vit-large-patch14-336 --visio
+n_tower_dir /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin --scales 1,3 --pretrain_mm_mlp_adapter /cm/archive/anonymous/checkpoints/phi3mi
+ni-clip/pft/mm_projector.bin --mm_projector_type moe --mlp_smoe true --clip_smoe true --moe_name hyperrouter --num_experts 4 --num_selected 2 --bala
+nce_loss_coef 0.1 --router_z_loss_coef 0.01 --mm_vision_select_layer -2 --mm_use_im_start_end False --mm_use_im_patch_token False --image_aspect_rat
+io pad --group_by_modality_length True --bf16 True --output_dir /cm/archive/anonymous/checkpoints/phi3mini-clip/sft_hyper/hyperrouter --num_train_epoc
+hs 1 --per_device_train_batch_size 5 --per_device_eval_batch_size 4 --gradient_accumulation_steps 2 --evaluation_strategy no --save_strategy steps -
+-save_steps 832 --save_total_limit 13 --learning_rate 4e-6 --weight_decay 0. --warmup_ratio 0.03 --lr_scheduler_type cosine --logging_steps 1 --tf32
+ True --model_max_length 2048 --gradient_checkpointing True --dataloader_num_workers 4 --lazy_preprocess True --report_to none --max_steps -1 --topk
+_max 2 --topk_min 1
+[2024-10-03 08:59:46,569] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 08:59:55,068] [INFO] [launch.py:145:main] WORLD INFO DICT: {'localhost': [0, 1, 4, 5, 6, 7]}
+[2024-10-03 08:59:55,068] [INFO] [launch.py:151:main] nnodes=1, num_local_procs=6, node_rank=0
+[2024-10-03 08:59:55,068] [INFO] [launch.py:162:main] global_rank_mapping=defaultdict(<class 'list'>, {'localhost': [0, 1, 2, 3, 4, 5]})
+[2024-10-03 08:59:55,068] [INFO] [launch.py:163:main] dist_world_size=6
+[2024-10-03 08:59:55,069] [INFO] [launch.py:165:main] Setting CUDA_VISIBLE_DEVICES=0,1,4,5,6,7
+[2024-10-03 08:59:55,088] [INFO] [launch.py:253:main] process 111398 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-
+u', 'moe_model/train/train_mem.py', '--local_rank=0', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/ch
+eckpoints/phi3mini-clip/pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/a
+rchive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pf
+t/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_t
+ype', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_
+coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False'
+, '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-c
+lip/sft_hyper/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumu
+lation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate',
+ '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_l
+ength', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_step
+s', '-1', '--topk_max', '2', '--topk_min', '1']
+[2024-10-03 08:59:55,103] [INFO] [launch.py:253:main] process 111399 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-
+u', 'moe_model/train/train_mem.py', '--local_rank=1', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/ch
+eckpoints/phi3mini-clip/pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/a
+rchive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pf
+t/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_t
+ype', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_
+coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False'
+, '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-c
+lip/sft_hyper/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumu
+lation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate',
+ '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_l
+ength', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_step
+s', '-1', '--topk_max', '2', '--topk_min', '1']
+[2024-10-03 08:59:55,138] [INFO] [launch.py:253:main] process 111400 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-
+u', 'moe_model/train/train_mem.py', '--local_rank=2', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/ch
+eckpoints/phi3mini-clip/pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/a
+rchive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pf
+t/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_t
+ype', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_
+coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False'
+, '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-c
+lip/sft_hyper/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumu
+lation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate',
+ '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_l
+ength', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_step
+s', '-1', '--topk_max', '2', '--topk_min', '1']
+[2024-10-03 08:59:55,179] [INFO] [launch.py:253:main] process 111401 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-
+u', 'moe_model/train/train_mem.py', '--local_rank=3', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/ch
+eckpoints/phi3mini-clip/pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/a
+rchive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pf
+t/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_t
+ype', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_
+coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False'
+, '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-c
+lip/sft_hyper/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumu
+lation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate',
+ '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_l
+ength', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_step
+s', '-1', '--topk_max', '2', '--topk_min', '1']
+[2024-10-03 08:59:55,194] [INFO] [launch.py:253:main] process 111402 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-
+u', 'moe_model/train/train_mem.py', '--local_rank=4', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/ch
+eckpoints/phi3mini-clip/pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/a
+rchive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pf
+t/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_t
+ype', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_
+coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False'
+, '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-c
+lip/sft_hyper/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumu
+lation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate',
+ '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_l
+ength', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_step
+s', '-1', '--topk_max', '2', '--topk_min', '1']
+[2024-10-03 08:59:55,208] [INFO] [launch.py:253:main] process 111403 spawned with command: ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-
+u', 'moe_model/train/train_mem.py', '--local_rank=5', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/ch
+eckpoints/phi3mini-clip/pft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/a
+rchive/anonymous/data', '--vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pf
+t/clip.bin', '--scales', '1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_t
+ype', 'moe', '--mlp_smoe', 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_
+coef', '0.1', '--router_z_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False'
+, '--image_aspect_ratio', 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-c
+lip/sft_hyper/hyperrouter', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumu
+lation_steps', '2', '--evaluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate',
+ '4e-6', '--weight_decay', '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_l
+ength', '2048', '--gradient_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_step
+s', '-1', '--topk_max', '2', '--topk_min', '1']
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential`
+ if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Token is valid (permission: fineGrained).
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+Token is valid (permission: fineGrained).
+Your token has been saved to /home/anonymous/.cache/huggingface/token
+Login successful
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/training_args.py:1525: FutureWarning: `evaluation_strategy` is depr
+ecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+[2024-10-03 09:00:56,079] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 09:00:56,080] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 09:00:56,080] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 09:00:56,080] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 09:00:56,087] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 09:00:56,087] [INFO] [real_accelerator.py:191:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+[2024-10-03 09:00:58,565] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 09:00:58,565] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 09:00:58,565] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 09:00:58,565] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 09:00:58,566] [INFO] [comm.py:637:init_distributed] cdb=None
+[2024-10-03 09:00:58,566] [INFO] [comm.py:668:init_distributed] Initializing TorchBackend in DeepSpeed with backend nccl
+[2024-10-03 09:00:58,567] [INFO] [comm.py:637:init_distributed] cdb=None
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+You are attempting to use Flash Attention 2.0 with a model not initialized on GPU. Make sure to move the model to GPU after initializing it on CPU w
+ith `model.to('cuda')`.
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+[2024-10-03 09:01:17,253] [INFO] [partition_parameters.py:343:__exit__] finished initializing model - num_params = 588, num_elems = 4.14B
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:46<00:00, 23.13s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:46<00:00, 23.12s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:46<00:00, 23.12s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:46<00:00, 23.12s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:46<00:00, 23.14s/it]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:46<00:00, 23.23s/it]
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Model: phi3
+Model: phi3
+Model: phi3=========================================
+
+=============CLIP-vision_tower=========
+==================================================================================
+
+=============CLIP-vision_tower=========
+=========================================
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Model: phi3
+=========================================
+=============CLIP-vision_tower=========
+=========================================
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper routerUsing CLIP Encoder MoE Layer
+
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper routerUsing CLIP Encoder MoE Layer
+
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Loading weight MLP SMoE
+Starting with hyper router
+Starting with hyper router
+Using CLIP Encoder MoE Layer
+Starting with hyper router
+Loading weight MLP SMoE
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Starting with hyper router
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Starting with hyper router
+Starting with hyper router
+Loading weight MLP SMoE
+Loading weight MLP SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin SMoE
+Loading weight /cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin SMoE
+Formatting inputs...Skip in lazy mode
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the
+ kernel to the minimum version or higher.
+Starting Trainer hyperrouter
+Starting Trainer hyperrouter
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Using /home/anonymous/.cache/torch_extensions/py39_cu121 as PyTorch extensions root...
+Detected CUDA files, patching ldflags
+Emitting ninja build file /home/anonymous/.cache/torch_extensions/py39_cu121/cpu_adam/build.ninja...
+/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/utils/cpp_extension.py:1967: UserWarning: TORCH_CUDA_ARCH_LIST is not set,
+ all archs for visible cards are included for compilation.
+If this is not desired, please set os.environ['TORCH_CUDA_ARCH_LIST'].
+  warnings.warn(
+Building extension module cpu_adam...
+Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=N)
+ninja: no work to do.
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.149137496948242 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.09835433959961 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.165598630905151 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.160651206970215 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.170903444290161 seconds
+Loading extension module cpu_adam...
+Time to load cpu_adam op: 9.209534406661987 seconds
+Parameter Offload: Total persistent parameters: 1161928 in 585 params
+[rank5]: Traceback (most recent call last):
+[rank5]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank5]:     train(attn_implementation="flash_attention_2")
+[rank5]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank5]:     trainer.train(resume_from_checkpoint=True)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank5]:     return inner_training_loop(
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank5]:     deepspeed_load_checkpoint(
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank5]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank5]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2804, in _load_checkpoint
+[rank5]:     sd_loader = SDLoaderFactory.get_sd_loader(ckpt_list, checkpoint_engine=self.checkpoint_engine)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 43, in get_sd_lo
+ader
+[rank5]:     return MegatronSDLoader(ckpt_list, version, checkpoint_engine)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 193, in __init__
+[rank5]:     super().__init__(ckpt_list, version, checkpoint_engine)
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 55, in __init__
+[rank5]:     self.check_ckpt_list()
+[rank5]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 168, in check_ck
+pt_list
+[rank5]:     assert len(self.ckpt_list) > 0
+[rank5]: AssertionError
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank4]:     train(attn_implementation="flash_attention_2")
+[rank4]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank4]:     trainer.train(resume_from_checkpoint=True)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank4]:     return inner_training_loop(
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank4]:     deepspeed_load_checkpoint(
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank4]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank4]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2804, in _load_checkpoint
+[rank4]:     sd_loader = SDLoaderFactory.get_sd_loader(ckpt_list, checkpoint_engine=self.checkpoint_engine)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 43, in get_sd_lo
+ader
+[rank4]:     return MegatronSDLoader(ckpt_list, version, checkpoint_engine)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 193, in __init__
+[rank4]:     super().__init__(ckpt_list, version, checkpoint_engine)
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 55, in __init__
+[rank4]:     self.check_ckpt_list()
+[rank4]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/state_dict_factory.py", line 168, in check_ck
+pt_list
+[rank4]:     assert len(self.ckpt_list) > 0
+[rank4]: AssertionError
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank2]:     train(attn_implementation="flash_attention_2")
+[rank2]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank2]:     trainer.train(resume_from_checkpoint=True)
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank2]:     return inner_training_loop(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank2]:     deepspeed_load_checkpoint(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank2]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank2]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank2]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank2]:     self.module.load_state_dict(
+[rank2]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank2]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank2]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank2]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.mm_projector.mo
+elayer.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank3]:     train(attn_implementation="flash_attention_2")
+[rank3]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank3]:     trainer.train(resume_from_checkpoint=True)
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank3]:     return inner_training_loop(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank3]:     deepspeed_load_checkpoint(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank3]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank3]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank3]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank3]:     self.module.load_state_dict(
+[rank3]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank3]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank3]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank3]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.mm_projector.mo
+elayer.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[rank1]: Traceback (most recent call last):
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank1]:     train(attn_implementation="flash_attention_2")
+[rank1]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank1]:     trainer.train(resume_from_checkpoint=True)
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank1]:     return inner_training_loop(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank1]:     deepspeed_load_checkpoint(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank1]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank1]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank1]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank1]:     self.module.load_state_dict(
+[rank1]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank1]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank1]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank1]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.mm_projector.mo
+elayer.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train_mem.py", line 11, in <module>
+[rank0]:     train(attn_implementation="flash_attention_2")
+[rank0]:   File "/cm/archive/anonymous/toolkitmoe/moe_model/train/train.py", line 1409, in train
+[rank0]:     trainer.train(resume_from_checkpoint=True)
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 1938, in train
+[rank0]:     return inner_training_loop(
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/trainer.py", line 2119, in _inner_training_loop
+[rank0]:     deepspeed_load_checkpoint(
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/transformers/integrations/deepspeed.py", line 433, in deepspeed
+_load_checkpoint
+[rank0]:     load_path, _ = deepspeed_engine.load_checkpoint(
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2752, in load_checkpoint
+[rank0]:     load_path, client_states = self._load_checkpoint(load_dir,
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2837, in _load_checkpoint
+[rank0]:     self.load_module_state_dict(checkpoint=checkpoint,
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/deepspeed/runtime/engine.py", line 2615, in load_module_state_d
+ict
+[rank0]:     self.module.load_state_dict(
+[rank0]:   File "/cm/archive/anonymous/miniconda3/envs/moe/lib/python3.9/site-packages/torch/nn/modules/module.py", line 2189, in load_state_dict
+[rank0]:     raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+[rank0]: RuntimeError: Error(s) in loading state_dict for LlavaPhiForCausalLM:
+[rank0]:        Missing key(s) in state_dict: "model.vision_tower.vision_model.encoder.layers.0.moelayer.gate.weight", "model.vision_tower.vision_mo
+del.encoder.layers.0.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.1.moelayer.gate.weight", "model.vision_tower.vision_model.
+encoder.layers.1.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.2.moelayer.gate.weight", "model.vision_tower.vision_model.enco
+der.layers.2.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.3.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.
+layers.3.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.4.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.laye
+rs.4.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.5.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.5
+.moelayer.gate.bias", "model.vision_tower.vision_model.encoder.layers.6.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.6.moe
+layer.gate.bias", "model.vision_tower.vision_model.encoder.layers.7.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.7.moelaye
+r.gate.bias", "model.vision_tower.vision_model.encoder.layers.8.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.8.moelayer.ga
+te.bias", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.9.moelayer.gate.b
+ias", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.10.moelayer.gate.bia
+s", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.11.moelayer.gate.bias"
+, "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.12.moelayer.gate.bias",
+"model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.13.moelayer.gate.bias", "m
+odel.vision_tower.vision_model.encoder.layers.14.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.14.moelayer.gate.bias", "mod
+el.vision_tower.vision_model.encoder.layers.15.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.15.moelayer.gate.bias", "model
+.vision_tower.vision_model.encoder.layers.16.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.16.moelayer.gate.bias", "model.v
+ision_tower.vision_model.encoder.layers.17.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.17.moelayer.gate.bias", "model.vis
+ion_tower.vision_model.encoder.layers.18.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.18.moelayer.gate.bias", "model.visio
+n_tower.vision_model.encoder.layers.19.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.19.moelayer.gate.bias", "model.vision_
+tower.vision_model.encoder.layers.20.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.20.moelayer.gate.bias", "model.vision_to
+wer.vision_model.encoder.layers.21.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.21.moelayer.gate.bias", "model.vision_towe
+r.vision_model.encoder.layers.22.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.22.moelayer.gate.bias", "model.vision_tower.
+vision_model.encoder.layers.23.moelayer.gate.weight", "model.vision_tower.vision_model.encoder.layers.23.moelayer.gate.bias", "model.mm_projector.mo
+elayer.gate.weight", "model.mm_projector.moelayer.gate.bias".
+[2024-10-03 09:05:01,565] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 111398
+[2024-10-03 09:05:05,799] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 111399
+[2024-10-03 09:05:05,883] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 111400
+[2024-10-03 09:05:05,968] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 111401
+[2024-10-03 09:05:06,049] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 111402
+[2024-10-03 09:05:06,049] [INFO] [launch.py:316:sigkill_handler] Killing subprocess 111403
+[2024-10-03 09:05:06,127] [ERROR] [launch.py:322:sigkill_handler] ['/cm/archive/anonymous/miniconda3/envs/moe/bin/python', '-u', 'moe_model/train/trai
+n_mem.py', '--local_rank=5', '--deepspeed', './scripts/zero3_offload.json', '--model_name_or_path', '/cm/archive/anonymous/checkpoints/phi3mini-clip/p
+ft', '--version', 'phi3', '--data_path', '/cm/archive/anonymous/data/jsons/llava_v1_5_mix665k.json', '--image_folder', '/cm/archive/anonymous/data', '--
+vision_tower', 'openai/clip-vit-large-patch14-336', '--vision_tower_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/clip.bin', '--scales',
+'1,3', '--pretrain_mm_mlp_adapter', '/cm/archive/anonymous/checkpoints/phi3mini-clip/pft/mm_projector.bin', '--mm_projector_type', 'moe', '--mlp_smoe'
+, 'true', '--clip_smoe', 'true', '--moe_name', 'hyperrouter', '--num_experts', '4', '--num_selected', '2', '--balance_loss_coef', '0.1', '--router_z
+_loss_coef', '0.01', '--mm_vision_select_layer', '-2', '--mm_use_im_start_end', 'False', '--mm_use_im_patch_token', 'False', '--image_aspect_ratio',
+ 'pad', '--group_by_modality_length', 'True', '--bf16', 'True', '--output_dir', '/cm/archive/anonymous/checkpoints/phi3mini-clip/sft_hyper/hyperrouter
+', '--num_train_epochs', '1', '--per_device_train_batch_size', '5', '--per_device_eval_batch_size', '4', '--gradient_accumulation_steps', '2', '--ev
+aluation_strategy', 'no', '--save_strategy', 'steps', '--save_steps', '832', '--save_total_limit', '13', '--learning_rate', '4e-6', '--weight_decay'
+, '0.', '--warmup_ratio', '0.03', '--lr_scheduler_type', 'cosine', '--logging_steps', '1', '--tf32', 'True', '--model_max_length', '2048', '--gradie
+nt_checkpointing', 'True', '--dataloader_num_workers', '4', '--lazy_preprocess', 'True', '--report_to', 'none', '--max_steps', '-1', '--topk_max', '
+2', '--topk_min', '1'] exits with return code = 1
+
