@@ -41,7 +41,7 @@ class SlimPajamaLarge(ChunkedSentencepieceLMDataset):
         return len(self.MAP[split]["indices"])
 
     def __init__(self, unroll_len: int, n_extra: int = 1, split: str = 'train',
-                 cache_dir: str = "/cm/archive/anonymous/datasets/cache", n_tokens: int = 8000, token_limit: Optional[int] = None) -> None:
+                 cache_dir: str = "./cache", n_tokens: int = 8000, token_limit: Optional[int] = None) -> None:
 
         if not self.MAP:
             print(f"{self.__class__.__name__}: Generating map...")
