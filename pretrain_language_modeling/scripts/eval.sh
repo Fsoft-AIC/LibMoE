@@ -1,35 +1,71 @@
-echo "Evaluation ..."
-# source /cm/archive/anonymous/miniconda3/bin/activate moeut
+echo "Evaluation ... "
 
-
-export MOE_TYPE="moe_layer"
-export CUDA_VISIBLE_DEVICES="0,1,2,3"
-export MASTER_PORT=29545
+# GPU setup
+export MOE_TYPE="moe_layer_deepseek"
+export CUDA_VISIBLE_DEVICES="0,3"
+export PYTHONPATH="/cm/shared/anonymous/moeut_training_code:$PYTHONPATH"
+export MASTER_PORT=29551
+# Add NCCL timeout and debug environment variables
+export NCCL_TIMEOUT=3600
+export NCCL_DEBUG=INFO
+export NCCL_IB_TIMEOUT=23
+export NCCL_SOCKET_TIMEOUT=3600
+# Add PyTorch timeout settings
+export TORCH_DISTRIBUTED_TIMEOUT=3600
 NUM_DEVICES=$(echo $CUDA_VISIBLE_DEVICES | tr ',' '\n' | wc -l)
 
+# prepare tests
+tasks=(
+    # all tasks in the framework/dataset/text
+    "lambada"
+    "cbt"
+    "hellaswag"
+    "piqa"
+    "blimp"
+    "ai2arc"
+    # additional tasks
+    "mmlu"
+    "openbookqa"
+    "winogrande"
+    "siqa"
+    "commonsenseqa"
+    "race"
+)
 
-### ================ EVAL ALL ===================
-# export CHECKPOINT_DIR="/cm/shared/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_154M_standard_lb/checkpoint"
-# file_list=$(find "$CHECKPOINT_DIR" -type f)
+# run tests
+checkpoint_path="/cm/archive/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_660M_standardlb_deepseek_shared_only/checkpoint"
+save_dir="/cm/archive/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_660M_standardlb_deepseek_shared_only/export"
+bs=16
 
-# for file_path in $file_list; do
-#     echo "Processing file: $file_path"
-#     torchrun --master_port $MASTER_PORT --nproc_per_node=$NUM_DEVICES paper/moe_universal/run_tests.py \
-#         --path_weight "$file_path" \
-#         --save_dir /cm/shared/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_154M_standard_lb/tmp \
-#         --bs 16
-# done
-### ==============================================
+for task in "${tasks[@]}"; do
+    tasks_script="${tasks_script} -lm.eval.${task}.enabled 1"
+done
 
+echo $tasks_script
 
-### =============== EVAL SINGLE ==================
-torchrun --master_port $MASTER_PORT --nproc_per_node=$NUM_DEVICES paper/moe_universal/run_tests.py \
-    --path_weight /cm/shared/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_154M_standard_lb/checkpoint/model-90000.pth \
-    --save_dir /cm/shared/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_154M_standard_lb/tmp \
-    --bs 16
-### ==============================================
+# check if checkpoint_path is a file or directory
+if [ -f "$checkpoint_path" ]; then
+    echo "Checkpoint path is a file"
+    # run tests single
+    torchrun --master_port $MASTER_PORT --nproc_per_node=$NUM_DEVICES paper/moe_universal/run_tests.py \
+        --tasks "$tasks_script" \
+        --path_weight "$checkpoint_path" \
+        --save_dir "$save_dir" \
+        --bs "$bs"
+else
+    echo "Checkpoint path is a directory"
+    # run tests all
+    file_list=$(find "$checkpoint_path" -type f)
+    for file_path in $file_list; do
+        echo "Processing file: $file_path"
+        torchrun --master_port $MASTER_PORT --nproc_per_node=$NUM_DEVICES paper/moe_universal/run_tests.py \
+            --tasks "$tasks_script" \
+            --path_weight "$file_path" \
+            --save_dir "$save_dir" \
+            --bs "$bs"
+    done
+fi
 
-# python3 paper/moe_universal/run_tests.py \
-#     --path_weight /cm/shared/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_154M_standard_lb/checkpoint/model-100000.pth \
-#     --save_dir /cm/shared/anonymous/moeut_training_code/tmp \
-#     --bs 16
+echo "Evaluation done ..."
+
+# bash /cm/archive/anonymous/moeut_training_code/scripts/eval_test3.sh
