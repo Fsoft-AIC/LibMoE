@@ -3,6 +3,10 @@ hub/
 Entropy/
 HR_EFF/
 evaluate/hub
+save/
+cache/
+image_out/
+jobs/
 run_eval.sh
 gpt*
 *.pyc

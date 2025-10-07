@@ -1,0 +1,4 @@
+# Legacy shim for the language-modeling stack.
+# Prefer installing from the repository root:
+#   pip install -e .[lm]
+-e ..[lm]
