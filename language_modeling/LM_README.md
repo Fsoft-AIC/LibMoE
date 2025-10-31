@@ -24,10 +24,11 @@ This package contains the training code to pretrain language models with Mixture
 Install from the repository root using the unified setup:
 
 ```bash
+pip install -e .
 pip install -e .[lm]
 ```
 
-or, if you already installed the full stack via the main [Quick Start](../README.md#-quick-start), no additional steps are required.
+If you already ran the full-stack install (`pip install -e .[vlm,lm,eval]`) described in the main [Quick Start](../README.md#-quick-start), no additional steps are required.
 
 **GPU Requirements:** Triton kernels require a compatible CUDA GPU and driver. Kernels JIT-compile on first use.
 

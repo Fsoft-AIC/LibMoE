@@ -3,6 +3,8 @@ hub/
 Entropy/
 HR_EFF/
 evaluate/hub
+**/stored_tokens
+*stored_tokens*
 save/
 cache/
 image_out/

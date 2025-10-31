@@ -23,8 +23,9 @@ We are making our entire experiment checkpoints publicly available to contribute
 1. **Follow the unified repository setup** (see the root [Quick Start](../README.md#-quick-start)):
 
     ```bash
-    pip install -r requirements.txt              # installs the editable package with all extras
-    # or, for a VLM-only environment:
+    pip install -e .
+    pip install -e .[vlm,lm,eval]                # or: pip install -r requirements.txt
+    # For a VLM-only environment after the base install:
     pip install -e .[vlm,eval]
     ```
 

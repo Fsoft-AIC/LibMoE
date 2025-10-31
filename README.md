@@ -119,13 +119,14 @@ cd LibMoE
 
 ```bash
 pip install --upgrade pip
-pip install -r requirements.txt        # == pip install -e .[vlm,lm,eval]
+pip install -e .
+pip install -e .[vlm,lm,eval]          # or: pip install -r requirements.txt
 ```
 
-Need a lighter environment?
+Need a lighter environment? Start with `pip install -e .` and then layer on:
 
-- Vision-language only: `pip install -e .[vlm,eval]`
-- Pretrain language modeling only: `pip install -e .[lm]`
+- Vision-language stack: `pip install -e .[vlm,eval]`
+- Language-model pretraining: `pip install -e .[lm]`
 - Evaluation utilities only: `pip install -e .[eval]`
 
 ### 3. (Optional) GPU Optimisations
