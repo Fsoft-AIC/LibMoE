@@ -37,10 +37,10 @@ We are making our entire experiment checkpoints publicly available to contribute
     pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.6.3/flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
     ```
 ### 📊 Dataset Preparation
-For a detailed, step-by-step guide on setting up the dataset, please refer to the [dataset guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/dataset_guide.md).
+For a detailed, step-by-step guide on setting up the dataset, please refer to the [dataset guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/sparse_upcyling/dataset_guide.md).
 
 ### 🔧 Setup New MoE Layer
-For a detailed step-by-step guide on setting up a new MoE layer, please refer to the [model guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/model_guide.md).
+For a detailed step-by-step guide on setting up a new MoE layer, please refer to the [model guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/sparse_upcyling/model_guide.md).
 
 ### 🏋️‍♂️ Training
 
