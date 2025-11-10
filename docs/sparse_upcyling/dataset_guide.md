@@ -31,6 +31,7 @@ For the visual instruction tuning stage, we use a combination of datasets:
 ```bash
 wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/llava_v1_5_mix665k.json?download=true
 wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/llava_v1_5_mix665k_half.json?download=true
+wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/data_1M2_correct_format.json?download=true
 ```
 
 ### Image Preparation
@@ -43,6 +44,7 @@ Please download the image files from the respective datasets:
 - TextVQA: [train_val_images](https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip)
 - VisualGenome: [part1](https://cs.stanford.edu/people/rak248/VG_100K_2/images.zip), [part2](https://cs.stanford.edu/people/rak248/VG_100K_2/images2.zip)
 - OneVision: [image_onevision](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
+
 After downloading, organize the data as follows in the `./libmoe/data` directory:
 
 ```plaintext
@@ -59,6 +61,7 @@ libmoe
     └── vg
         ├── VG_100K
         └── VG_100K_2
+.....
 ```
 
 We are using **LLaVA-332K** for our experiments. You can set the `$TOOLKIT_DIR` environment variable to specify the path to the parent directory of the project root (e.g., `cm/anonymous/toolkitmoe`).
