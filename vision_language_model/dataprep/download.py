@@ -3,13 +3,10 @@ from datasets import load_dataset
 from tqdm.auto import tqdm
 import json
 
-data = load_dataset(
-    "/cm/archive/namnv78/data/llava_onevision/lmms-lab___l_la_va-one_vision-data",
-    split="train",
-    num_proc=200,
-)
 
-image_folder = "/cm/archive/namnv78/data/image_onevision"
+data = load_dataset("lmms-lab/LLaVA-OneVision-Data", split="train", num_proc=200,)
+
+image_folder = "./data/image_onevision"
 os.makedirs(image_folder, exist_ok=True)
 
 def process_example(example):
@@ -40,7 +37,7 @@ def process_example(example):
 # Now use multi-processing map
 converted_data = data.map(
     process_example,
-    num_proc=200,   # <--- Số process song song, bạn chọn 8, 16, 32 tùy CPU
+    num_proc=200,
     desc="Processing images + json",
 )
 
@@ -48,5 +45,5 @@ converted_data = data.map(
 converted_list = converted_data.to_list()
 os.makedirs("/cm/archive/namnv78/data/jsons", exist_ok=True)
 
-with open("/cm/archive/namnv78/data/jsons/onevison_single_img.json", "w") as f:
+with open("./data/jsons/onevison_single_img.json", "w") as f:
     json.dump(converted_list, f, indent=4, ensure_ascii=False)
