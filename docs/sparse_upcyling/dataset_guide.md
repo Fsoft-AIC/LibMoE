@@ -19,10 +19,14 @@ For pre-finetuning, we use the [ALLaVA](https://huggingface.co/datasets/FreedomI
 
 ## Stage 3: Visual Instruction Tuning
 
-For the visual instruction tuning stage, we use a combination of datasets:
 
-- [LLaVA-665K](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/blob/main/llava_v1_5_mix665k.json)
-- [LLaVA-332K](https://huggingface.co/datasets/DavidNguyen/LLAVAHALF/blob/main/llava_v1_5_mix665k_half.json)
+
+For the visual instruction tuning stage, we use a combination of datasets:
+- [OneVision-1M2](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
+- [LLaVA-665K](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
+- [LLaVA-332K](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
+
+
 
 ```bash
 wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/llava_v1_5_mix665k.json?download=true
