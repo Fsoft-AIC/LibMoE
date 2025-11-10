@@ -42,7 +42,7 @@ Please download the image files from the respective datasets:
 - OCR-VQA: [download script](https://drive.google.com/drive/folders/1_GYPY5UkUy7HIcR0zq3ZCFgeZN7BAfm_?usp=sharing) - save files as `.jpg`
 - TextVQA: [train_val_images](https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip)
 - VisualGenome: [part1](https://cs.stanford.edu/people/rak248/VG_100K_2/images.zip), [part2](https://cs.stanford.edu/people/rak248/VG_100K_2/images2.zip)
-
+- OneVision: [image_onevision](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
 After downloading, organize the data as follows in the `./libmoe/data` directory:
 
 ```plaintext
