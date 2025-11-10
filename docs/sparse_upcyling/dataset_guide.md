@@ -43,25 +43,26 @@ Please download the image files from the respective datasets:
 - OCR-VQA: [download script](https://drive.google.com/drive/folders/1_GYPY5UkUy7HIcR0zq3ZCFgeZN7BAfm_?usp=sharing) - save files as `.jpg`
 - TextVQA: [train_val_images](https://dl.fbaipublicfiles.com/textvqa/images/train_val_images.zip)
 - VisualGenome: [part1](https://cs.stanford.edu/people/rak248/VG_100K_2/images.zip), [part2](https://cs.stanford.edu/people/rak248/VG_100K_2/images2.zip)
-- OneVision: [image_onevision](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
+- OneVision Dataset: Refer to the code file [download.py](https://github.com/Fsoft-AIC/LibMoE/blob/main/vision_language_model/dataprep/download.py) for detailed instructions on processing OneVision data. All images are stored in the `image_onevision` directory.
 
-After downloading, organize the data as follows in the `./libmoe/data` directory:
+After downloading, organize the datasets under the `./libmoe/data` directory as follows:
 
 ```plaintext
 libmoe
 └── data
-    ├── coco
-    │   └── train2017
-    ├── gqa
-    │   └── images
-    ├── ocr_vqa
-    │   └── images
-    ├── textvqa
-    │   └── train_val_images
-    └── vg
-        ├── VG_100K
-        └── VG_100K_2
-.....
+    ├── image_onevision/
+    ├── coco/
+    │   └── train2017/
+    ├── gqa/
+    │   └── images/
+    ├── ocr_vqa/
+    │   └── images/
+    ├── textvqa/
+    │   └── train_val_images/
+    └── vg/
+        ├── VG_100K/
+        └── VG_100K_2/
+
 ```
 
 We are using **LLaVA-332K** for our experiments. You can set the `$TOOLKIT_DIR` environment variable to specify the path to the parent directory of the project root (e.g., `cm/anonymous/toolkitmoe`).
