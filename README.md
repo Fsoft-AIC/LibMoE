@@ -184,13 +184,13 @@ Consult the [FlashAttention releases](https://github.com/Dao-AILab/flash-attenti
 If this repository supports your research, please cite:
 
 ```
-@misc{nguyen2024libmoelibrarycomprehensivebenchmarking,
-      title={LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models},
+@misc{nguyen2025libmoelibrarycomprehensivebenchmarking,
+      title={LIBMoE: A Library for comprehensive benchmarking Mixture of Experts in Large Language Models}, 
       author={Nam V. Nguyen and Thong T. Doan and Luong Tran and Van Nguyen and Quang Pham},
-      year={2024},
+      year={2025},
       eprint={2411.00918},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2411.00918}
+      url={https://arxiv.org/abs/2411.00918}, 
 }
 ```
