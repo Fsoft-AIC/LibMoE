@@ -19,16 +19,21 @@ For pre-finetuning, we use the [ALLaVA](https://huggingface.co/datasets/FreedomI
 
 ## Stage 3: Visual Instruction Tuning
 
+To make it more convenient for users, we have aggregated all visual instruction tuning data into the [DavidNguyen/LLAVA-LibMoE](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE) repository. You can directly load it from there for faster setup.
 
+Alternatively, you can manually download the datasets by following the instructions below.
 
-For the visual instruction tuning stage, we use a combination of datasets:
-- [OneVision-1M2](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
-- [LLaVA-665K](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
-- [LLaVA-332K](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)
+For this stage, we use a combination of the following datasets:
 
-
+- [OneVision-1M2](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)  
+- [LLaVA-665K](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)  
+- [LLaVA-332K](https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE)  
 
 ```bash
+# Create directory for JSON files
+mkdir -p ./data/jsons
+
+# Download datasets for visual instruction tuning
 wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/llava_v1_5_mix665k.json?download=true
 wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/llava_v1_5_mix665k_half.json?download=true
 wget -P ./data/jsons https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/data_1M2_correct_format.json?download=true
