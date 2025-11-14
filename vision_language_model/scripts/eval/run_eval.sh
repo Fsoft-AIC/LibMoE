@@ -25,7 +25,7 @@ models=(
 )
 
 # Evaluation
-cd /LibMoEv2/vision_language_model/evaluate
+cd /LibMoE/vision_language_model/evaluate
 for model in "${models[@]}"
 do
     part=$(echo $model | cut -d'|' -f1)
