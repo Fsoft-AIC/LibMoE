@@ -9,7 +9,6 @@ save/
 cache/
 image_out/
 jobs/
-run_eval.sh
 gpt*
 *.pyc
 output/
