@@ -1,8 +1,6 @@
 #!/bin/bash 
 checkpoints="/LibMoE"
 
-#    --data_path $checkpoints/data/jsons/onevision/onevision_single_img_standard_sampled.json \ /cm/archive/namnv78_new/revise_checkpoints/Xphi3mini-clip/pft
-
 deepspeed --master_port $PORT --include localhost:$ID_GPUS moe_model/train/train_mem.py \
     --deepspeed ./scripts/zero3.json \
     --model_name_or_path $checkpoints/checkpoints/$MODELDIR/pft \
