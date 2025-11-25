@@ -1,0 +1,89 @@
+program: main.py
+command:
+  - ${env}
+  - python3
+  - ${program}
+  - ${args}
+method: grid
+metric:
+  name: validation/mean_accuracy
+  goal: maximize
+parameters:
+  log:
+    value: wandb
+  task:
+    value: slimpajama_large_transformer
+  test_interval:
+    value: 20000
+  state_size:
+    value: 1024
+  transformer.encoder_n_layers:
+    value: 18
+  transformer.n_heads:
+    value: 4
+  dropout:
+    value: 0.0
+  moe.drop_expert:
+    value: 0.0
+  lr:
+    value: 0.00025
+  optimizer:
+    value: adamw
+  lm.unroll:
+    value: 1024
+  grad_clip:
+    value: 0.25
+  amp:
+    value: 1
+  save_interval:
+    value: 20000
+  transformer.variant:
+    value: preln_moe
+  stop_after:
+    value: 400000
+  moe.n_experts:
+    value: 66
+  moe.expert_size:
+    value: 256
+  pkm.n_heads:
+    value: 8
+  transformer.p_drop_layer:
+    value: 0.0
+  moe.selection_mode:
+    value: gate
+  moe.perplexity_reg_mode:
+    value: standard
+  moe.perplexity_reg:
+    value: 0.01
+  lr_sched.type:
+    value: cos
+  lr_warmup:
+    value: 4000
+  lmds.valid_ratio:
+    value: 0.005
+  transformer.head_projection_size:
+    value: 128
+  transformer.universal.group_size:
+    value: 18
+  wd:
+    value: 0.01
+  lm.trafo.context_blocks:
+    value: 0
+  min_lr_multiplier:
+    value: 0.1
+  details_log_interval:
+    value: 500
+  lm.eval.enabled:
+    value: 0
+  batch_size:
+    value: 64
+  per_device_batch_size:
+    value: 16
+  n_microbatch:
+    value: null
+  gpu:
+    value: 4,5,6,7
+  name:
+    value: slimpajama_moe_no_attmoe_660M_standardlb_plus_plus
+  restore:
+    value: /cm/archive/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_660M_standardlb_plus_plus/checkpoint/model-340000.pth

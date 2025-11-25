@@ -1,0 +1,20 @@
+env
+wandb
+out
+*.pth
+*.pdf
+hub/
+Entropy/
+HR_EFF/
+evaluate/hub
+**/stored_tokens
+*stored_tokens*
+save/
+cache/
+logs/
+checkpoints/
+data/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
