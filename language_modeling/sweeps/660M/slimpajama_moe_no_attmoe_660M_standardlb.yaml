@@ -40,7 +40,11 @@ parameters:
   transformer.variant:
     value: preln_moe
   stop_after:
+<<<<<<< HEAD
     value: 10
+=======
+    value: 400000
+>>>>>>> origin/main
   moe.n_experts:
     value: 66
   moe.expert_size:
@@ -83,3 +87,8 @@ parameters:
     value: null
   gpu:
     value: 0,1,2,3
+<<<<<<< HEAD
+=======
+  restore:
+    value: /cm/shared/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_660M_standardlb/checkpoint/model-300000.pth
+>>>>>>> origin/main
