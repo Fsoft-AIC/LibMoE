@@ -1,0 +1,57 @@
+[
+    {
+        "user": "Please describe the picture above.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The image features a group of animated characters, including a man, a woman, and two children, sitting on a couch. The man is holding a laptop, and the woman is sitting next to him. The two children are also sitting on the couch, with one of them closer to the man and the other one closer to the woman.\n\nThe scene appears to be set in a living room, with a window visible in the background. The characters seem to be engaged in a conversation or working together on the laptop. <|end|>"
+    },
+    {
+        "user": "How many people are in the image?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "There are three people in the image: a man, a girl, and a boy. <|end|>"
+    },
+    {
+        "user": "\u001b[A",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "I apologize for the confusion. The image features a man, a girl, and a boy. <|end|>"
+    },
+    {
+        "user": "How many people are in the image?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "There are three people in the image: a man, a girl, and a boy. <|end|>"
+    },
+    {
+        "user": "Whose shoulder is the man touching?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The man is touching the shoulder of the girl. <|end|>"
+    },
+    {
+        "user": "What is the girl with glasses doing?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The girl with glasses is sitting on a couch and looking at a laptop.  <|end|>"
+    },
+    {
+        "user": "Where is the girl in the pink striped outfit?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The girl in the pink striped outfit is sitting on a couch with the man and the boy. <|end|>"
+    },
+    {
+        "user": "What\u2019s special about the background wall?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The background wall has a patterned design, which adds visual interest to the scene. <|end|>"
+    },
+    {
+        "user": "Please describe the picture above.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The image features a group of animated characters, including a man, a woman, and two children, sitting on a couch. The man is holding a laptop, and the woman is sitting next to him. The two children are also sitting on the couch, with one of them closer to the man and the other one closer to the woman.\n\nThe scene appears to be set in a living room, with a window visible in the background. The characters seem to be engaged in a conversation or working together on the laptop. <|end|>"
+    },
+    {
+        "user": "How many people are in the image?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "There are four people in the image: a man, a woman, and two children. <|end|>"
+    },
+    {
+        "user": "What is the girl with glasses doing?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The girl with glasses is sitting on the couch next to the man who is holding the laptop. She is likely engaged in the conversation or activity happening on the laptop. <|end|>"
+    }
+]
