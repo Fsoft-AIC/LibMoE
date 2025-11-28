@@ -19,6 +19,40 @@ import datasets
 import numpy as np
 
 import evaluate
+try:
+    from evaluate.utils.file_utils import add_start_docstrings
+except ImportError:
+    # Fallback for older versions of evaluate
+    try:
+        from evaluate.utils import add_start_docstrings
+    except ImportError:
+        # If all else fails, create a no-op decorator
+        def add_start_docstrings(description, kwargs_description):
+            def decorator(func):
+                return func
+            return decorator
+
+# Import Metric and MetricInfo with fallbacks
+try:
+    from evaluate import Metric, MetricInfo
+except (ImportError, AttributeError):
+    try:
+        from evaluate.metric import Metric, MetricInfo
+    except (ImportError, AttributeError):
+        try:
+            # Try accessing through module attributes (for some versions)
+            if hasattr(evaluate, 'Metric') and hasattr(evaluate, 'MetricInfo'):
+                Metric = evaluate.Metric
+                MetricInfo = evaluate.MetricInfo
+            else:
+                raise AttributeError("Metric or MetricInfo not found in evaluate module")
+        except AttributeError:
+            # Last resort: provide helpful error message
+            raise ImportError(
+                "Could not import Metric or MetricInfo from evaluate library. "
+                "Please ensure you have the correct version of the evaluate library installed. "
+                "Try: pip install --upgrade evaluate"
+            )
 
 
 _DESCRIPTION = """
@@ -83,10 +117,10 @@ _CITATION = """
 """
 
 
-@evaluate.utils.file_utils.add_start_docstrings(_DESCRIPTION, _KWARGS_DESCRIPTION)
-class ExactMatch(evaluate.Metric):
+@add_start_docstrings(_DESCRIPTION, _KWARGS_DESCRIPTION)
+class ExactMatch(Metric):
     def _info(self):
-        return evaluate.MetricInfo(
+        return MetricInfo(
             description=_DESCRIPTION,
             citation=_CITATION,
             inputs_description=_KWARGS_DESCRIPTION,

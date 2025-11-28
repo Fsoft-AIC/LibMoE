@@ -1,7 +1,7 @@
 program: main.py
 command:
   - ${env}
-  - python3
+  - /cm/archive/anonymous/miniconda3/envs/moeut/bin/python3.10
   - ${program}
   - ${args}
 method: grid
@@ -83,10 +83,5 @@ parameters:
     value: null
   gpu:
     value: 4,5,6,7
-<<<<<<< HEAD
   save_dir:
     value: /cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling/save
-=======
-  restore:
-    value: /cm/archive/anonymous/moeut_training_code/save/slimpajama_moe_no_attmoe_660M_standardlb_deepseek_sigmoidonly/checkpoint/model-240000.pth
->>>>>>> origin/main

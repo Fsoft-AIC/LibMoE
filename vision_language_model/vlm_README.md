@@ -35,18 +35,34 @@ We are making our entire experiment checkpoints publicly available to contribute
     pip install -e .[vlm,eval]
     ```
 
-2. **Install FlashAttention (optional but recommended):**
+2. **Install FlashAttention:**
 
     Choose the release that matches your CUDA / Torch build from the [FlashAttention releases](https://github.com/Dao-AILab/flash-attention/releases/). Example:
 
     ```bash
     pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.6.3/flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
     ```
+
+### Troubleshooting: FusedAdam Issues
+
+If you encounter errors related to `FusedAdam`, you can verify the CUDA module is loaded correctly:
+
+```python
+from deepspeed.ops.adam import FusedAdam
+import importlib, pathlib
+
+m = importlib.import_module("deepspeed.ops.adam.fused_adam_cuda")
+print("FusedAdam CUDA loaded from:", pathlib.Path(m.__file__).resolve())
+```
+
+**If you encounter FusedAdam errors**, please refer to the troubleshooting guide: [Issue #1 - FusedAdam Fix](https://github.com/Fsoft-AIC/LibMoE/issues/1)
+
+---
 ### 📊 Dataset Preparation
-For a detailed, step-by-step guide on setting up the dataset, please refer to the [dataset guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/sparse_upcyling/dataset_guide.md).
+For a detailed, step-by-step guide on setting up the dataset, please refer to the [dataset guide](../docs/sparse_upcyling/dataset_guide.md).
 
 ### 🔧 Setup New MoE Layer
-For a detailed step-by-step guide on setting up a new MoE layer, please refer to the [model guide](https://github.com/Fsoft-AIC/LibMoE/blob/main/docs/sparse_upcyling/model_guide.md).
+For a detailed step-by-step guide on setting up a new MoE layer, please refer to the [model guide](../docs/sparse_upcyling/model_guide.md).
 
 ### 🏋️‍♂️ Training
 
@@ -110,7 +126,8 @@ bash ./scripts/train/phi3mini/sft_phi3mini.sh
 ```
 
 ### 🧪 Evaluation
-We are evaluate multi-benchmark
+
+We evaluate on multiple benchmarks:
 - AI2D	
 - ChartQA	
 - Text VQA	
@@ -127,64 +144,40 @@ We are evaluate multi-benchmark
 To run the evaluation, use the following command:
 
 ```bash
-bash scripts/eval/run_eval.sh
+bash ./vision_language_model/scripts/eval/run_eval.sh
 ```
-*Note: For the MathVista Validation and HallusionBenchmark, GPT-4 is used for evaluation. You need to provide an API key to perform the evaluation.
 
-### Multiple Usages
+**Note**: For the MathVista Validation and HallusionBenchmark, GPT-4 is used for evaluation. You need to provide an API key to perform the evaluation.
 
-**Evaluation of LLaVA on MME**
 
+---
+
+#### ⚠️ Troubleshooting: Evaluation Hangs During Model Loading
+
+If your evaluation process hangs or freezes when loading models/tokenizers (especially in multi-GPU setups), this is likely caused by the `filelock` mechanism in the Transformers library.
+
+**Quick Fix**:
 ```bash
-python3 -m accelerate.commands.launch \
-    --num_processes=8 \
-    -m lmms_eval \
-    --model llava \
-    --model_args pretrained="liuhaotian/llava-v1.5-7b" \
-    --tasks mme \
-    --batch_size 1 \
-    --log_samples \
-    --log_samples_suffix llava_v1.5_mme \
-    --output_path ./logs/ \
-    --return_id_experts true \  # return selected expert IDs
-    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
+# Set these environment variables before running evaluation
+export HF_HUB_DISABLE_IMPLICIT_TOKEN=1
+export TRANSFORMERS_OFFLINE=0
+
+# Or clear stale lock files
+find ~/.cache/huggingface -name "*.lock" -type f -delete
 ```
 
-**Evaluation of LLaVA on multiple datasets**
+**For detailed solutions and troubleshooting steps**, see: [Issue #2 - Evaluation Hangs (FileLock)](https://github.com/Fsoft-AIC/LibMoE/issues/2)
 
-```bash
-python3 -m accelerate.commands.launch \
-    --num_processes=8 \
-    -m lmms_eval \
-    --model llava \
-    --model_args pretrained="liuhaotian/llava-v1.5-7b" \
-    --tasks mme,mmbench_en \
-    --batch_size 1 \
-    --log_samples \
-    --log_samples_suffix llava_v1.5_mme_mmbenchen \
-    --output_path ./logs/ \
-    --return_id_experts true \  # return selected expert IDs
-    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
-```
 
-### 📈 Analyst Tools
-For post-hoc analysis of router behaviour, expert selection, and checkpoint trends, use the refactored toolkit documented in `vision_language_model/evaluate/analysis/analyst_README.md`. It covers the CLI modules, notebook runners, and data artefacts that underpin the evaluation dashboards.
 
-**For other variants llava. Please change the `conv_template` in the `model_args`**
+### 📈 Expert Behavior Analysis
 
-> `conv_template` is an arg of the init function of llava in `lmms_eval/models/llava.py`, you could find the corresponding value at LLaVA's code, probably in a dict variable `conv_templates` in `moe_model/conversation.py`
+For comprehensive analysis of expert routing behavior, including post-hoc analysis of router behavior, expert selection patterns, and checkpoint trends, please refer to the [Expert Behavior Analysis Guide](../docs/sparse_upcyling/instruction_analysis_moe_vlm.md).
 
-```bash
-python3 -m accelerate.commands.launch \
-    --num_processes=8 \
-    -m lmms_eval \
-    --model llava \
-    --model_args pretrained="liuhaotian/llava-v1.6-mistral-7b,conv_template=mistral_instruct" \
-    --tasks mme,mmbench_en \
-    --batch_size 1 \
-    --log_samples \
-    --log_samples_suffix llava_v1.5_mme_mmbenchen \
-    --output_path ./logs/ \
-    --return_id_experts true \  # return selected expert IDs
-    --layers_expert_selection 1 2 3  # define specific layers for expert selection; if no layer IDs are defined, all experts from all layers are selected by default
-```
+The guide covers:
+- How to collect expert metrics during evaluation
+- Configuring `return_id_experts` for logging
+- Understanding output log formats
+- Using the analysis toolkit in `vision_language_model/evaluate/analysis/`
+
+**Note**: For other LLaVA variants, change the `conv_template` in `model_args`. Find the corresponding value in `conv_templates` dict in `moe_model/conversation.py`.

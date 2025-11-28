@@ -9,6 +9,10 @@ HR_EFF/
 evaluate/hub
 **/stored_tokens
 *stored_tokens*
+# Token files
+**/token
+**/*token*
+evaluate/lmms_eval/token
 save/
 cache/
 logs/

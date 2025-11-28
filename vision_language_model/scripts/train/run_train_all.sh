@@ -1,61 +1,73 @@
 #!/bin/bash
 
-### -------------------------------
-### Environment Setup for LibMoE VLM
-### -------------------------------
+# =============================================================================
+# LibMoE Training Configuration Script
+# =============================================================================
+# This script configures environment variables and runs training stages
+# for LibMoE vision-language models.
+# =============================================================================
 
-# Temporary directory for intermediate files
-export TMPDIR="/LibMoE/checkpoints/tmp"
-
-# Toolkit path (codebase for VLM training & evaluation)
-export TOOLKIT_DIR="/LibMoE/vision_language_model"
-
-# HuggingFace API key (if needed for model/token download)
-export KEY_HF=""
-
-# GPUs to use (comma-separated list)
-export ID_GPUS="0,1,2,3"
-
-# Set max training steps; use -1 to run all steps
-export MAX_STEPS=-1
-
-# Append the VLM toolkit to PYTHONPATH
-export PYTHONPATH="${TOOLKIT_DIR}:${PYTHONPATH}"
-
-# Tmux temp directory (prevents crash on some cluster setups)
+# =============================================================================
+# System & Path Configuration
+# =============================================================================
+export TOOLKIT_DIR="./LibMoE/vision_language_model"
+export PYTHONPATH="$TOOLKIT_DIR:$PYTHONPATH"
+export TMPDIR="./checkpoints/tmp"
 export TMUX_TMPDIR=~/tmux_tmp
 
-# Model checkpoint directory (e.g., phi-3.5 pre-initialized with SigLIP-224)
-export MODELDIR="phi35-siglip224"
+# =============================================================================
+# Hugging Face Configuration
+# =============================================================================
+export HF_TOKEN=""
+export HF_HOME="./LibMoE/vision_language_model/evaluate"
 
-# Random port assignment (20000–29999) for distributed communication
-export PORT=$((20000 + RANDOM % 10000))
-
-# Logging: W&B project name and directories
+# =============================================================================
+# Weights & Biases (wandb) Configuration
+# =============================================================================
 export WANDB_PROJECT="LibMoE"
-export WANDB_DIR="/LibMoE/wandb_logs"
-export WANDB_API_KEY=""  # Set your W&B API key here if using W&B
+export WANDB_API_KEY=''
+export WANDB_DIR="./checkpoints/wandb_logs"
 
-# HuggingFace cache dir (can prevent redownloads)
-export HF_HOME="/LibMoE/toolkitmoe/evaluate"
+# =============================================================================
+# GPU & Distributed Training Configuration
+# =============================================================================
+export ID_GPUS="0,1,2,3"                    # GPU IDs to use for training
+export PORT=$(( 20000 + RANDOM % 10000 ))   # Random port between 20000-29999
 
-# NCCL communication tuning (for multi-GPU stability)
+# NCCL (NVIDIA Collective Communications Library) settings
 export NCCL_SOCKET_RETRY_SLEEP_MSEC=1000
 export NCCL_IB_TIMEOUT=30
 export NCCL_SOCKET_RETRY_CNT=100
 
-# Type of Mixture-of-Experts (SMoE, MoE, etc.)
-export TYPE_MOE="smoe"
+# =============================================================================
+# Model Configuration
+# =============================================================================
+export MODELDIR="phi35-siglip224"           # Model architecture identifier
+export TYPE_MOE="smoe"                      # MoE type: smoe, xmoe, etc.
 
-cd /LibMoE/vision_language_model
+# =============================================================================
+# Training Execution
+# =============================================================================
 
-# echo "Staring stage pretrain"
+# Change to working directory
+cd ./LibMoE/vision_language_model 
+
+# -----------------------------------------------------------------------------
+# Stage 1: Pre-training (Commented out - uncomment to run)
+# -----------------------------------------------------------------------------
+# echo "Starting stage: Pre-training"
 # bash ./scripts/train/phi35mini/clip/pretrain.sh
-# tmux capture-pane -pS - > ./assets/result_eval/phi35mini_clip_pretrain.txt
 
-# echo "Staring stage pft"
+# -----------------------------------------------------------------------------
+# Stage 2: Pre-finetuning (Commented out - uncomment to run)
+# -----------------------------------------------------------------------------
+# echo "Starting stage: Pre-finetuning"
 # bash ./scripts/train/phi35mini/clip/pft.sh
-# tmux capture-pane -pS - > ./assets/result_eval/phi35mini_clip_pft.txt
 
-echo "Staring stage sft"
+# -----------------------------------------------------------------------------
+# Stage 3: Supervised Fine-tuning (Active)
+# -----------------------------------------------------------------------------
+echo "Starting stage: Supervised Fine-tuning (SFT)"
 bash ./scripts/train/phi35mini/siglip/sft.sh
+
+echo "Training completed!"

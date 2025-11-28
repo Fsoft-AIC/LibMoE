@@ -1,7 +1,7 @@
 program: main.py
 command:
   - ${env}
-  - python3
+  - /cm/archive/anonymous/miniconda3/envs/moeut/bin/python3.10
   - ${program}
   - ${args}
 method: grid

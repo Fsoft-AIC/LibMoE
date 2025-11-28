@@ -548,6 +548,8 @@ class Llava(lmms):
                             for metric, value in layer.log_metrics.items():
                                 if metric not in log_layers[id_layer] and isinstance(value, (int, float)):
                                     log_layers[id_layer][metric] = value
+                                    
+                                    
                 text_outputs = self.tokenizer.batch_decode(cont, skip_special_tokens=True)
                 if isinstance(text_outputs, list):
                     for i in range(len(text_outputs)):

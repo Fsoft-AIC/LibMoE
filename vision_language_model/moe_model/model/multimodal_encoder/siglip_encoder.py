@@ -40,8 +40,8 @@ class SiglipVisionTower(nn.Module):
         self.select_layer = args.mm_vision_select_layer
         self.clip_smoe = args.clip_smoe
         self.select_feature = getattr(args, 'mm_vision_select_feature', 'patch')
-        self.cfg_only = SiglipVisionConfig.from_pretrained(self.vision_tower_name, local_files_only=False) # If you have already downloaded the checkpoints, please set local_files_only=True
-        self.image_processor = SiglipImageProcessor.from_pretrained(self.vision_tower_name, local_files_only=False)
+        self.cfg_only = SiglipVisionConfig.from_pretrained(self.vision_tower_name) # If you have already downloaded the checkpoints, please set local_files_only=True
+        self.image_processor = SiglipImageProcessor.from_pretrained(self.vision_tower_name)
         self.scales = args.scales
       
         if args.clip_smoe:

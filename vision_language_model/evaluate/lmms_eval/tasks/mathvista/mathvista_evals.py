@@ -151,33 +151,16 @@ class MathVistaEvaluator:
     API_URL = "https://api.openai.com/v1/chat/completions"
 
     def __init__(self, api_key = None, gpt_model="gpt-3.5-turbo", quick_extract=False):
-        # self.api_key = api_key
-        # self.gpt_model = gpt_model
-        # self.quick_extract = quick_extract
-        # self.deployment = os.getenv("DEPLOYMENT")
-        # self.end
-        # openai.api_type = os.getenv("API_TYPE", "openai")
-        # self.deployment_name = os.getenv("DEPLOYMENT")
-        # openai.api_base = os.getenv("ENDPOINT")
-        # openai.api_version = os.getenv("VERSION", '2024-02-15-preview')
-        # openai.api_key = os.getenv("API_KEY")
+        
+        
+        
         self.client = OpenAI(api_key=os.getenv("API_KEY"))
         
 
-
     def _post_request(self, payload):
-        # headers = {
-        #     "Authorization": f"Bearer {self.api_key}",
-        #     "Content-Type": "application/json",
-        # }
-        # response = requests.post(self.API_URL, headers=headers, json=payload, timeout=30)
-        # response.raise_for_status()
-        # return response.json()
-        # payload['engine'] = self.deployment_name
-        # if "mathvista_testmini" in f:
-    
-        # response = openai.ChatCompletion.create(**payload)
+        
         completion = self.client.chat.completions.create(**payload)
+        
         return completion
     def api_local_llm(self, data):
         conn = Client(('localhost', 6000), authkey=b'secret_password')

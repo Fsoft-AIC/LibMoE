@@ -1,9 +1,9 @@
 echo "Evaluation ... "
 
 # GPU setup
-
+export MOE_TYPE="moe_layer"
 export CUDA_VISIBLE_DEVICES="0,3"
-export PYTHONPATH="/LibMoE/language_modeling:$PYTHONPATH"
+export PYTHONPATH="/cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling:$PYTHONPATH"
 export MASTER_PORT=29551
 # Add NCCL timeout and debug environment variables
 export NCCL_TIMEOUT=3600
@@ -13,7 +13,7 @@ export NCCL_SOCKET_TIMEOUT=3600
 # Add PyTorch timeout settings
 export TORCH_DISTRIBUTED_TIMEOUT=3600
 NUM_DEVICES=$(echo $CUDA_VISIBLE_DEVICES | tr ',' '\n' | wc -l)
-cd /LibMoE/language_modeling
+cd /cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling
 # prepare tests
 tasks=(
     # all tasks in the framework/dataset/text
@@ -31,12 +31,10 @@ tasks=(
     # "commonsenseqa"
     # "race"
 )
-# MOE_TYPE: this is the file name in /LibMoE/language_modeling/layers. For example: moe_layer_deepseekv3.py --> moe_layer_deepseekv3
-export MOE_TYPE="moe_layer"
 
 # run tests
-checkpoint_path="./save/slimpajama_moe_no_attmoe_660M_standardlb/checkpoint"
-save_dir="./save/slimpajama_moe_no_attmoe_660M_standardlb/export"
+checkpoint_path="/cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling/save/slimpajama_moe_no_attmoe_660M_standardlb/checkpoint"
+save_dir="/cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling/save/slimpajama_moe_no_attmoe_660M_standardlb/export"
 bs=16
 
 for task in "${tasks[@]}"; do

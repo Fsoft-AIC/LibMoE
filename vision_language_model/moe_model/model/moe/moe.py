@@ -45,6 +45,10 @@ class MoeLayer(nn.Module):
         self.gate = nn.Linear(in_embed_dim, num_of_experts, bias=False)
         self.args = args
         self.is_vision = False
+        
+        # Logging metrics for analyzing SMoE behavior.
+        # These metrics are used in ./vision_language_model/evaluate/lmms_eval/models/llava.py
+        # when return_id_experts is set to True.
         self.log_metrics = {}
     
 
@@ -74,6 +78,7 @@ class MoeLayer(nn.Module):
                     nn.init.constant_(param, 0.0)
         
         print(f"Initialized weights of experts successfully with device: {device}")
+    
     def init_gate_weights(self, std = 0.02):
         """
             Initialize the weights and bias of the gating layer.
@@ -135,52 +140,6 @@ class MoeLayer(nn.Module):
         balance_loss = (density_1_proxy * density_1).mean() * float(self.num_of_experts ** 2)
         
         return balance_loss
-
-
-    
-
-    def experts_diversity_loss(self, expert_outputs):
-        """
-        expert_outputs: Tensor shape [B, N, K, D]
-            - B: batch size
-            - N: sequence length
-            - K: number of selected experts
-            - D: dimension of each expert output
-
-        Mục tiêu: phạt khi các expert outputs 'quá giống nhau'.
-        Ta sẽ tính độ tương đồng cos trung bình giữa mọi cặp (i, j) trong K experts, rồi lấy mean.
-        """
-        expert_outputs = expert_outputs.to(torch.float32)
-        B, N, K, D = expert_outputs.shape
-
-        # Bước 1: Chuẩn hoá (L2-normalize) theo chiều D để tính Cosine Similarity
-        # Shape sau chuẩn hoá vẫn là [B, N, K, D]
-        normalized = F.normalize(expert_outputs, p=2, dim=-1)
-
-        # Bước 2: Đưa (B, N) về 1 batch lớn để dễ tính bmm
-        # Ta reshape thành [B*N, K, D]
-        normalized_reshape = normalized.view(B*N, K, D)  # => [B*N, K, D]
-
-        # Bước 3: Tính ma trận similarity bằng bmm:
-        # [B*N, K, D] x [B*N, D, K] -> [B*N, K, K]
-        similarity_matrix = torch.bmm(
-            normalized_reshape, 
-            normalized_reshape.transpose(1, 2)
-        )  # => [B*N, K, K]
-
-        # Bước 4: Loại bỏ độ tương đồng với chính nó (đường chéo)
-        # identity = [K, K], shape broadcast được cho [B*N, K, K]
-        mask = 1 - torch.eye(K, device=expert_outputs.device)
-        
-        similarity_matrix = similarity_matrix * mask
-        
-        similarity_matrix = F.relu(similarity_matrix)
-
-        # Bước 5: Tính trung bình trên tất cả các batch, token, và cặp expert
-        # similarity_matrix có shape [B*N, K, K]. Số phần tử hợp lệ = B*N * K * (K-1)
-        loss = similarity_matrix.mean()
-
-        return loss
     
     def compute_moe(self, selected_experts, weights, results, x, expert_outputs = None, return_topk_outputs = False):
         """
@@ -330,11 +289,19 @@ class MoeLayer(nn.Module):
         # compute loss
         auxiliary_loss, balance_loss, router_z_loss = self.combine_loss(selected_experts, gate_softmax, gate_logits)
         
+        
+        # log information for wandb or print to terminal if needed 
+        # you can add more information to the infor_aux dictionary if needed 
+        # But if it impact to gradient calculation then clone and detach the tensor
         infor_aux = {
             "balance_loss": balance_loss.clone().detach(),
             "router_z_loss": router_z_loss.clone.detach()
         }
-    
+        if return_id_experts:
+            self.log_metrics["selected_experts"] = selected_experts.clone().detach()
+            self.log_metrics["gate_softmax"] = gate_softmax.clone().detach()
+            self.log_metrics["gate_logits"] = gate_logits.clone().detach()
+            self.log_metrics["weights"] = weights.clone().detach()
         return output, auxiliary_loss, None, infor_aux
 
 
