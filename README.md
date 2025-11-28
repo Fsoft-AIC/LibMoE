@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6a917716-a8c9-4a99-9e76-7fb00dc1287c" />
+  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d764d07a-a487-430a-93b5-6c7699165162" />
 </p>
 
 <h1 align="center">LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS</h1>
