@@ -1,10 +1,15 @@
-# LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS
-**Authors:** Nam V. Nguyen*, Thong T. Doan*, Luong Tran, Van Nguyen, Quang Pham
-
 <p align="center">
   <a href="https://arxiv.org/abs/2411.00918">
     <img src="https://img.shields.io/badge/arXiv-2411.00918-red?style=flat&label=Paper">
-  </a>
+  </a><p align="center">
+  <img width="1536" height="500" alt="image" src="https://github.com/user-attachments/assets/f1c9e5b2-82fe-4cdb-816a-d7dabba2fa15" />
+</p>
+
+<h1 align="center">LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS</h1>
+
+<p align="center">
+  <b>Authors:</b> Nam V. Nguyen*, Thong T. Doan*, Luong Tran, Van Nguyen, Quang Pham
+</p>
   <a href="https://fsoft-aic.github.io/fsoft-LibMoE.github.io/">
     <img src="https://custom-icon-badges.demolab.com/badge/Webpage-1a4f76?style=flat&logo=web">
   </a>
