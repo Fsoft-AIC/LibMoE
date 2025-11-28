@@ -1,0 +1,2 @@
+# Unified LibMoE environment (install after `pip install -e .`)
+-e .[vlm,lm,eval]

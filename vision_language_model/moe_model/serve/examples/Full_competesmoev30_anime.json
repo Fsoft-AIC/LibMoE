@@ -1,0 +1,67 @@
+[
+    {
+        "user": "How many characters are visible in the image ?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "There are seven characters visible in the image. <|end|>"
+    },
+    {
+        "user": "Think step by step: Count each visible figure in the scene, both animals and humans.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "There are a total of 8 visible figures in the scene, including both animals and humans. <|end|>"
+    },
+    {
+        "user": "Think step by step: Look at the girl\u2019s eye direction and head tilt. Is she looking upward, to the side, or at someone?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "The girl is looking upward, possibly at the camera or something in the sky. <|end|>"
+    },
+    {
+        "user": "What color is the bear\u2019s fur?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "The bear's fur is brown. <|end|>"
+    },
+    {
+        "user": "Think step by step: Identify the bear among the characters and examine its fur color carefully.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "<|assistant|>"
+    },
+    {
+        "user": "Think step by step: Identify the bear among the characters and examine its fur color carefully.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "<|assistant|>"
+    },
+    {
+        "user": "Think step by step: Identify the bear among the characters and examine its fur color carefully.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "In the image, there is a group of stuffed animals, including a bear. The bear is positioned among the other stuffed animals, which include a monkey and a dog. The bear has brown fur, which distinguishes it from the other characters in the scene. <|end|>"
+    },
+    {
+        "user": "What color is the bear\u2019s fur? Think step by step: Identify the bear among the characters and examine its fur color carefully.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "To identify the color of the bear's fur, we need to first identify the bear among the characters. Once we have identified the bear, we can examine its fur color carefully to determine its color. <|end|>"
+    },
+    {
+        "user": "What color is the bear\u2019s fur? Think step by step",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "To determine the color of a bear's fur, we can follow these steps:\n\n1. Observe the bear: Look at the bear and try to identify its fur color.\n2. Consider the bear's species: Different species of bears have different fur colors. For example, a polar bear has white fur, while a grizzly bear has brown fur.\n3. Check for any markings: Some bears may have markings on their fur, such as stripes or spots, which can help identify their species.\n4. Use a reference: If you are unsure about the bear's species or fur color, you can consult a reference guide or use an online resource to help you identify the bear.\n\nBy following these steps, you should be able to determine the color of a bear's fur. <|end|>"
+    },
+    {
+        "user": "Think step by step: Count each visible figure in the scene, both animals and humans.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "There are a total of 8 visible figures in the scene, including both animals and humans. <|end|>"
+    },
+    {
+        "user": "What is the girl in the orange hoodie looking at? thingking step by step",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "It is not possible for me to determine what the girl in the orange hoodie is looking at without more context or information. Can you provide more details or a specific question about the image? <|end|>"
+    },
+    {
+        "user": "Think step by step: Look at the characters, their expressions, colors, background, and what actions are taking place. Describe what you see without guessing or adding external knowledge.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "The image features a group of animated characters, including a bear, a monkey, and a child, standing together in a scene. The characters are all smiling and appear to be enjoying themselves. The bear is positioned on the left side of the group, while the monkey is on the right side. The child is in the middle of the group, surrounded by the other characters.\n\nThe background of the scene is filled with various objects, such as a clock and a bottle. The clock is located towards the top left corner of the image, while the bottle is situated in the middle-left area. The presence of these objects adds depth to the scene and creates a more engaging environment for the characters. <|end|>"
+    },
+    {
+        "user": "Think step by step: Look at the characters, their expressions, colors, background, and what actions are taking place. Describe what you see without guessing or adding external knowledge.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/anime.png",
+        "reponse": "The image features a group of animated characters, including a bear, a monkey, and a child, standing together in a scene. The characters are all smiling and appear to be enjoying themselves. The bear is positioned on the left side of the group, while the monkey is on the right side. The child is in the middle of the group, surrounded by the other characters.\n\nThe background of the scene is filled with various objects, such as a clock and a bottle. The clock is located towards the top left corner of the image, while the bottle is situated in the middle-left area. The overall atmosphere of the image is cheerful and lively, with the characters seemingly having a good time together. <|end|>"
+    }
+]
