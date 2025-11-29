@@ -37,8 +37,64 @@ Mixture of experts (MoE) architectures have become a cornerstone for scaling up 
 | 2024-11-01 | - Released LibMoE v1.0 preprint report: [Read Here](https://arxiv.org/pdf/2411.00918) ✅  <br>   - LibMoE webpage: [Visit Here](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/) ✅  <br>   - Publicly available checkpoints ✅ |
 
 
+---
 
+## 🚀 Quick Start
 
+### 1. Clone & Prepare Python (3.9 or 3.10)
+
+```bash
+git clone https://github.com/Fsoft-AIC/LibMoE.git
+cd LibMoE
+```
+
+- `venv`
+
+  ```bash
+  python -m venv .venv
+  source .venv/bin/activate
+  ```
+
+- `conda`
+
+  ```bash
+  conda create -n libmoe python=3.9 -y
+  conda activate libmoe
+  ```
+
+### 2. Install the Stack Once
+
+```bash
+pip install --upgrade pip
+pip install -e .
+pip install -e .[vlm,lm,eval]          # or: pip install -r requirements.txt
+```
+
+Need a lighter environment? Start with `pip install -e .` and then layer on:
+
+- Vision-language stack: `pip install -e .[vlm,eval]`
+- Language-model pretraining: `pip install -e .[lm]`
+- Evaluation utilities only: `pip install -e .[eval]`
+
+After installing all required libraries, follow the component-specific guides below:
+
+---
+
+🖼️ **Vision-Language Stack — Sparse Upcycling**
+
+LibMoE provides a streamlined **sparse-upcycling pipeline**, converting existing VLM backbones (SigLIP/CLIP × Phi) into MoE-enhanced architectures without training from scratch. The pipeline supports pre-training, pre-fine-tuning, and visual instruction tuning.
+
+➡️ [`Vision-Language Guide`](vision_language_model/vlm_README.md)
+
+---
+
+🧠 **Language Modeling Stack — MoE Pretraining from Scratch**
+
+The language modeling stack focuses on **end-to-end MoE pretraining from scratch**, featuring a modular Transformer design, flexible routing strategies, and a suite of MoE variants for comprehensive sparse LLM research.
+
+➡️ [`Language Modeling Guide`](language_modeling/LM_README.md)
+
+---
 ## 🧱 Repository Map
 
 ```
@@ -91,101 +147,6 @@ LibMoEv2/
         ├── eval/
         └── train/
 ```
----
-
-## 🚀 Quick Start
-
-### 1. Clone & Prepare Python (3.9 or 3.10)
-
-```bash
-git clone https://github.com/Fsoft-AIC/LibMoE.git
-cd LibMoE
-```
-
-- `venv`
-
-  ```bash
-  python -m venv .venv
-  source .venv/bin/activate
-  ```
-
-- `conda`
-
-  ```bash
-  conda create -n libmoe python=3.9 -y
-  conda activate libmoe
-  ```
-
-### 2. Install the Stack Once
-
-```bash
-pip install --upgrade pip
-pip install -e .
-pip install -e .[vlm,lm,eval]          # or: pip install -r requirements.txt
-```
-
-Need a lighter environment? Start with `pip install -e .` and then layer on:
-
-- Vision-language stack: `pip install -e .[vlm,eval]`
-- Language-model pretraining: `pip install -e .[lm]`
-- Evaluation utilities only: `pip install -e .[eval]`
-
-After installing all required libraries, follow the component-specific guides below:
-
----
-
-## 🖼️ Vision-Language Stack
-
-- **End-to-end Pipeline** – automated workflows for pre-training, pre-finetuning, and visual instruction tuning  
-  (`vision_language_model/scripts/train/run_train_all.sh`).
-
-- **Checkpoints** – SigLIP/Phi and CLIP/Phi model releases spanning pre-train, pre-finetune, and SFT stages on Hugging Face.
-
-- **Environment Playbooks** – Python 3.9/3.10 setup instructions, editable installs, FlashAttention notes, and dataset preparation guides.
-
-- **Evaluation Suite** – comprehensive multimodal benchmarks:  
-  AI2D, ChartQA, TextVQA, GQA, HallusionBenchmark, MathVista, MMBench, MME, MMMU, MMStar, POPE, SQA-IMG  
-  (via `vision_language_model/scripts/eval/run_eval.sh`).
-
-- **Analyst Toolkit** – router entropy, expert overlap, routing diagnostics, and plotting utilities described in  
-  [`Analyst Tools README`](vision_language_model/evaluate/analysis/analyst_README.md).
-
-➡️ Full documentation: [`Vision-Language Stack Guide`](vision_language_model/vlm_README.md)
-
----
-
-## 🧠 Language Modeling Stack
-
-- **Configurable Transformer** – modular Transformer with pluggable MoE layers under  
-  `language_modeling/layers/` and `language_modeling/layers/transformer/`.
-
-- **MoE Variants** – Vanilla, X-MoE, DeepSeek-v2/v3, ReMoE, MoE++, TC-MoE — selectable via `MOE_TYPE`.
-
-- **Triton Kernels** – optimized sparse batched matmul kernels (`language_modeling/layers/cvmm.py`) for modern CUDA GPUs.
-
-- **Streaming Datasets** – SlimPajama ingestion with on-the-fly SentencePiece tokenization and caching  
-  (`language_modeling/framework/dataset/text/`).
-
-- **Task Orchestration** – reusable dataset-model bindings in `language_modeling/tasks/` with YAML sweeps  
-  (`language_modeling/sweeps/154M`, `language_modeling/sweeps/660M`) and unified helper scripts  
-  (`language_modeling/scripts/train.sh`, `language_modeling/scripts/eval.sh`).
-
-➡️ Full documentation: [`Language Modeling Stack Guide`](language_modeling/LM_README.md)
-
----
-
-## 📚 Documentation Hub
-
-- **Vision-Language Stack**
-  - [`Vision-Language Stack Guide`](vision_language_model/vlm_README.md) – complete multimodal workflow.
-  - [`Evaluation Docs`](vision_language_model/evaluate/docs) – benchmark-specific evaluation notes and dataset references.
-  - [`Analyst Tools README`](vision_language_model/evaluate/analysis/analyst_README.md) – router metrics, expert selection, plotting utilities.
-- **Language Modeling Stack**
-  - [`Language Modeling Stack Guide`](language_modeling/LM_README.md) – complete language pretraining workflow.
-  - [`Model Guide`](docs/pretrain_llm/model_guide.md) – extend MoE layers, tune hyperparameters, integrate Triton kernels.
-  - [`Dataset Guide`](docs/pretrain_llm/dataset_guide.md) – SlimPajama streaming, tokenisation, caching, custom datasets.
-  - [`Checkpoint Catalogue`](docs/pretrain_llm/checkpoint_list.md) – language-model checkpoints and configurations.
-
 ---
 
 ## 📌 Citation
