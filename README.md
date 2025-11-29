@@ -1,33 +1,29 @@
+
+<!-- 📌 Banner -->
 <p align="center">
-  <a href="https://arxiv.org/abs/2411.00918">
-    <img src="https://img.shields.io/badge/arXiv-2411.00918-red?style=flat&label=Paper">
-  </a><p align="center">
-  <img width="1536" height="500" alt="image" src="https://github.com/user-attachments/assets/f1c9e5b2-82fe-4cdb-816a-d7dabba2fa15" />
+  <img width="1536" height="500" alt="LibMoE Banner" src="https://github.com/user-attachments/assets/f1c9e5b2-82fe-4cdb-816a-d7dabba2fa15" />
 </p>
 
-<h1 align="center">LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS</h1>
-
+<!-- 📌 Row: Webpage + arXiv -->
 <p align="center">
-  <b>Authors:</b> Nam V. Nguyen*, Thong T. Doan*, Luong Tran, Van Nguyen, Quang Pham
-</p>
   <a href="https://fsoft-aic.github.io/fsoft-LibMoE.github.io/">
-    <img src="https://custom-icon-badges.demolab.com/badge/Webpage-1a4f76?style=flat&logo=web">
+    <img src="https://custom-icon-badges.demolab.com/badge/Webpage-1a4f76?style=flat&logo=web" alt="Webpage"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://arxiv.org/abs/2411.00918">
+    <img src="https://img.shields.io/badge/arXiv-2411.00918-red?style=flat&label=Paper" alt="arXiv"/>
   </a>
 </p>
 
-<p align="center">
-  <a href="#-quick-start">🚀 Quick Start</a> •
-  <a href="#-overview">✨ Overview</a> •
-  <a href="#-repository-map">🧱 Repository Map</a> •
-  <a href="#-vision-language-stack">🖼️ Vision-Language</a> •
-  <a href="#-language-modeling-stack">🧠 Language Modeling</a> •
-  <a href="#-getting-started">🚦 Getting Started</a> •
-  <a href="#-documentation-hub">📚 Docs</a> •
-  <a href="#-release-notes">🗓️ Release Notes</a> •
-  <a href="#-citation">📌 Citation</a>
-</p>
+<!-- 📌 Title -->
+<h1 align="center">
+  LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS
+</h1>
 
----
+<!-- 📌 Authors -->
+<p align="center">
+  <b>Authors:</b> Nam V. Nguyen*, Thong T. Doan*, Luong Tran, Van Nguyen, Quang Pham
+</p>
 
 ## 📌 About
 Mixture of experts (MoE) architectures have become a cornerstone for scaling up and are a key component in most large language models such as GPT-OSS, DeepSeek-V3, Llama-4, and Gemini-2.5. However, systematic research on MoE remains severely constrained by the prohibitive computational costs of training and evaluation, restricting large-scale studies accessible to most researchers. We introduce LibMoE, a unified framework for reproducible, efficient, and extensible MoE research that supports both pretraining and sparse-upcycling regimes. Beyond unified implementations, the framework provides transparent analytical tools for probing routing and expert dynamics. Leveraging this foundation, we conduct a comprehensive analysis along three dimensions: (i) routing dynamics, covering expert selection patterns, routing stability and optimality, and how routing entropy reveals task specialization and expert diversity; (ii) the effect of lightweight initialization on load balancing, demonstrating how subtle changes in router initialization shape early expert utilization; and (iii) training regime differences, revealing how sparse upcycling and full pretraining exhibit distinct routing patterns and stability profiles. By lowering the barrier to entry and standardizing evaluation, along with our comprehensive analysis, LibMoE broadens access to MoE research and establishes a reliable benchmark to guide future innovations.
