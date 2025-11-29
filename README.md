@@ -130,39 +130,47 @@ Need a lighter environment? Start with `pip install -e .` and then layer on:
 - Language-model pretraining: `pip install -e .[lm]`
 - Evaluation utilities only: `pip install -e .[eval]`
 
-### 3. GPU Optimisations
-
-Install FlashAttention that matches your CUDA/Torch stack:
-
-```bash
-pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.6.3/flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
-```
-
-Consult the [FlashAttention releases](https://github.com/Dao-AILab/flash-attention/releases) for alternate CUDA / PyTorch combinations.
+After installing all required libraries, follow the component-specific guides below:
 
 ---
 
 ## 🖼️ Vision-Language Stack
 
-- **Pipeline** – automated pre-training, pre-finetuning, and visual instruction tuning (`vision_language_model/scripts/train/run_train_all.sh`).
-- **Checkpoints** – SigLIP/Phi and CLIP/Phi releases across pre-train, pre-finetune, and SFT stages on Hugging Face.
-- **Environment playbooks** – Python 3.9/3.10 setup, editable installs, FlashAttention guidance, and dataset preparation walkthroughs.
-- **Evaluation suite** – AI2D, ChartQA, TextVQA, GQA, HallusionBenchmark, MathVista, MMBench, MME, MMMU, MMStar, POPE, and SQA IMG via `vision_language_model/scripts/eval/run_eval.sh`.
-- **Analyst toolkit** – router entropy, expert overlap, and batch plotting documented in [`Analyst Tools README`](vision_language_model/evaluate/analysis/analyst_README.md).
+- **End-to-end Pipeline** – automated workflows for pre-training, pre-finetuning, and visual instruction tuning  
+  (`vision_language_model/scripts/train/run_train_all.sh`).
 
-➡️ Dive deeper: [`Vision-Language Stack Guide`](vision_language_model/vlm_README.md)
+- **Checkpoints** – SigLIP/Phi and CLIP/Phi model releases spanning pre-train, pre-finetune, and SFT stages on Hugging Face.
+
+- **Environment Playbooks** – Python 3.9/3.10 setup instructions, editable installs, FlashAttention notes, and dataset preparation guides.
+
+- **Evaluation Suite** – comprehensive multimodal benchmarks:  
+  AI2D, ChartQA, TextVQA, GQA, HallusionBenchmark, MathVista, MMBench, MME, MMMU, MMStar, POPE, SQA-IMG  
+  (via `vision_language_model/scripts/eval/run_eval.sh`).
+
+- **Analyst Toolkit** – router entropy, expert overlap, routing diagnostics, and plotting utilities described in  
+  [`Analyst Tools README`](vision_language_model/evaluate/analysis/analyst_README.md).
+
+➡️ Full documentation: [`Vision-Language Stack Guide`](vision_language_model/vlm_README.md)
 
 ---
 
 ## 🧠 Language Modeling Stack
 
-- **Configurable Transformer** – pluggable MoE layers in `language_modeling/layers/` and `language_modeling/layers/transformer/`.
-- **MoE variants** – vanilla, X-MoE, DeepSeek-v2/v3, ReMoE, MoE++, TC-MoE selectable via `MOE_TYPE`.
-- **Triton kernels** – sparse batched matmul (`language_modeling/layers/cvmm.py`) optimised for modern CUDA GPUs.
-- **Streaming datasets** – SlimPajama ingestion with on-the-fly SentencePiece tokenisation and caching under `language_modeling/framework/dataset/text/`.
-- **Task orchestration** – reusable dataset-model bindings in `language_modeling/tasks/` with YAML sweeps (`language_modeling/sweeps/154M`, `language_modeling/sweeps/660M`) and helper scripts (`language_modeling/scripts/train.sh`, `language_modeling/scripts/eval.sh`).
+- **Configurable Transformer** – modular Transformer with pluggable MoE layers under  
+  `language_modeling/layers/` and `language_modeling/layers/transformer/`.
 
-➡️ Dive deeper: [`Language Modeling Stack Guide`](language_modeling/LM_README.md)
+- **MoE Variants** – Vanilla, X-MoE, DeepSeek-v2/v3, ReMoE, MoE++, TC-MoE — selectable via `MOE_TYPE`.
+
+- **Triton Kernels** – optimized sparse batched matmul kernels (`language_modeling/layers/cvmm.py`) for modern CUDA GPUs.
+
+- **Streaming Datasets** – SlimPajama ingestion with on-the-fly SentencePiece tokenization and caching  
+  (`language_modeling/framework/dataset/text/`).
+
+- **Task Orchestration** – reusable dataset-model bindings in `language_modeling/tasks/` with YAML sweeps  
+  (`language_modeling/sweeps/154M`, `language_modeling/sweeps/660M`) and unified helper scripts  
+  (`language_modeling/scripts/train.sh`, `language_modeling/scripts/eval.sh`).
+
+➡️ Full documentation: [`Language Modeling Stack Guide`](language_modeling/LM_README.md)
 
 ---
 
