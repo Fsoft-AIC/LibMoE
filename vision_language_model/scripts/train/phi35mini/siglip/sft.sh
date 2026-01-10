@@ -29,7 +29,7 @@ deepspeed --master_port $PORT --include localhost:$ID_GPUS moe_model/train/train
     --bf16 True \
     --output_dir $checkpoints/checkpoints/$MODELDIR/sft/$TYPE_MOE \
     --num_train_epochs 1 \
-    --per_device_train_batch_size 1 \
+    --per_device_train_batch_size 4 \
     --per_device_eval_batch_size 1 \
     --gradient_accumulation_steps 2 \
     --init_weight true \
