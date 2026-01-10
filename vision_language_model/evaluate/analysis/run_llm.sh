@@ -1,7 +1,7 @@
  
 #!/bin/bash
 export API_KEY='.....'
-export KEY_HF="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"
+export KEY_HF=""
 # export CUDA_LAUNCH_BLOCKING=0
 export HF_HOME="/cm/archive/anonymous/checkpoints/benchmarks"
 export TMPDIR="/cm/shared/anonymous_H102/tmp"
