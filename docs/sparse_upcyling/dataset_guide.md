@@ -109,6 +109,8 @@ export HF_TOKEN="hf_your_token_here"
 
 Download all dataset files with automatic resume support:
 
+Note: We exclude the SlimPajama data during this stage; the pretraining language model will automatically download it based on the number of training steps.
+
 **Standard download:**
 
 ```bash
@@ -116,6 +118,7 @@ huggingface-cli download "$REPO_ID" \
     --repo-type "$REPO_TYPE" \
     --local-dir "$LOCAL_DIR" \
     --token "$HF_TOKEN" \
+    --exclude "data/SlimPajama-627B/*" \
     --resume-download
 ```
 
@@ -126,6 +129,7 @@ HF_HUB_ENABLE_HF_TRANSFER=1 huggingface-cli download "$REPO_ID" \
     --repo-type "$REPO_TYPE" \
     --local-dir "$LOCAL_DIR" \
     --token "$HF_TOKEN" \
+    --exclude "data/SlimPajama-627B/*" \
     --resume-download
 ```
 
