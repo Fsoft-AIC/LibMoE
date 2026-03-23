@@ -15,10 +15,7 @@ from .lm_dataset import WordLevelLanguageModelTestState
 import math
 from ..fs_cache import get_cached_file
 import io
-from huggingface_hub import list_repo_files
-import requests
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from tqdm import tqdm
 
 
 zstd = None
@@ -30,18 +27,18 @@ def read_lines_from_zst(url: str):
 
     urls = UrlStream(url)
 
-    # Set up a session with retries
-    session = requests.Session()
-    retries = Retry(total=5, backoff_factor=0.3, status_forcelist=[500, 502, 503, 504])
-    session.mount('https://', HTTPAdapter(max_retries=retries))
-
-    DCTX = zstd.ZstdDecompressor(max_window_size=2**31)
-    with (
-        zstd.open(urls, mode='rb', dctx=DCTX) as zfh,
-        io.TextIOWrapper(zfh) as iofh
-    ):
-        for line in iofh:
-            yield line
+    try:
+        dctx = zstd.ZstdDecompressor(max_window_size=2**31)
+        with (
+            zstd.open(urls, mode='rb', dctx=dctx) as zfh,
+            io.TextIOWrapper(zfh) as iofh
+        ):
+            for line in iofh:
+                yield line
+    except Exception as exc:
+        # multiprocessing must be able to pickle worker failures; zstd errors are not
+        # reliably pickle-safe across process boundaries.
+        raise RuntimeError(f"Failed to read zstd shard {url}: {exc}") from None
 
 class ChunkedSentencepieceLMDataset:
     TOKENIZER_N_FILES = 10
@@ -58,26 +55,13 @@ class ChunkedSentencepieceLMDataset:
             return txt + "<STORY_SEP>"
         return txt
 
-    # def gzip_line_iterator(self, url: str):
-    #     stream = UrlStream(url)
-    #     print(f"Opening shard {url}, size {stream.size()}")
-    #     for l in gzip.GzipFile(fileobj=stream):
-    #         yield self.parse_with_sep(l.decode("utf-8"))
-
     def gzip_line_iterator(self, url: str):
-        # Check if the URL is a local file path
-        if url.startswith("file://"):
-            # Remove the 'file://' prefix to get the local file path
-            file_path = url[7:]
-            with open(file_path, 'rb') as f:
-                with gzip.open(f, 'rt') as gz:
-                    for line in gz:
-                        yield line
-        else:
-            stream = UrlStream(url)
-            print(f"Opening shard {url}, size {stream.size()}")
-            for l in gzip.GzipFile(fileobj=stream):
-                yield self.parse_with_sep(l.decode("utf-8"))
+        print(f"Opening shard {url}")
+        with gzip.open(url, 'rt', encoding='utf-8') as f:
+            total_lines = sum(1 for line in f)
+            f.seek(0)
+            for line in tqdm(f, total=total_lines, desc="Processing lines"):
+                yield self.parse_with_sep(line)
 
     def zst_line_iterator(self, url: str):
         for l in read_lines_from_zst(url):
@@ -108,23 +92,56 @@ class ChunkedSentencepieceLMDataset:
     def _chunk_fname(self, index: int) -> str:
         return os.path.join(self._chunk_dir, f"chunk_{index}.bin")
 
+    # Batch processing for efficient file writing
+    def batch_write_file(self, url, out_f, batch_size=1000):
+        batch = []
+        num_tokens = 0
+        batch_size = 10000000000000000000000000000000
+        with open(out_f, 'wb') as f:
+            for l in tqdm(self.line_iterator(url)):
+                tokens = np.asarray(self.vocabulary(l), dtype=self.data_dtype)
+                batch.extend(tokens)
+
+                if len(batch) >= batch_size:
+                    np.array(batch, dtype=self.data_dtype).tofile(f)
+                    num_tokens += len(batch)
+                    batch = []
+
+            if batch:
+                np.array(batch, dtype=self.data_dtype).tofile(f)
+                num_tokens += len(batch)
+
+        print(f"Written {num_tokens} tokens to {out_f}.")
+
     def tokenize_chunk(self, chunk_index):
         fname = self._chunk_fname(chunk_index)
-        if not os.path.exists(fname):
+
+        if os.path.exists(fname):
+            return
+
+        try:
             print(f"Tokenizing chunk {chunk_index}...")
 
             url = self.get_url(chunk_index)
-            with open(fname+".tmp", "wb") as out_f:
-                for l in self.line_iterator(url):
-                    np.asarray(self.vocabulary(l), dtype=self.data_dtype).tofile(out_f)
+            self.batch_write_file(url, fname + ".tmp", batch_size=10000000000000000)
 
-            os.rename(fname+".tmp", fname)
+            os.rename(fname + ".tmp", fname)
             print(f"Tokenizing chunk {chunk_index} done.")
+        except Exception as exc:
+            raise RuntimeError(
+                f"Failed to tokenize chunk {chunk_index} ({self.get_url(chunk_index)}): {exc}"
+            ) from None
 
     def do_mmap(self, index: int):
         if self.chunk_mmap[index] is None:
             fname = get_cached_file(self._chunk_fname(index))
-            self.chunk_mmap[index] = np.memmap(fname, dtype=self.data_dtype, mode='r')
+
+            try:
+                self.chunk_mmap[index] = np.memmap(fname, dtype=self.data_dtype, mode='r')
+            except Exception as e:
+                print("############################")
+                print(fname)
+                print(e)
 
     def update_data_type(self):
         # Avoid unnecessary copying
@@ -152,6 +169,16 @@ class ChunkedSentencepieceLMDataset:
 
     def get_min_n_chunks(self) -> int:
         return 1
+
+    def get_total_token_count(self) -> int:
+        return sum(self.chunk_sizes)
+
+    def get_capped_token_count(self) -> int:
+        total_tokens = self.get_total_token_count()
+        return min(total_tokens, self.token_limit) if self.token_limit is not None else total_tokens
+
+    def get_usable_token_count(self) -> int:
+        return len(self) * self.unroll_len
 
     def __init__(self, unroll_len: int, n_extra: int = 1, split: str = 'train',
                  cache_dir: str = "./cache/", n_tokens: int = 8000, token_limit: Optional[int] = None,
@@ -182,43 +209,41 @@ class ChunkedSentencepieceLMDataset:
 
         missing = [i for i in range(self._n_chunks) if not os.path.exists(self._chunk_fname(i))]
         print(f"{self.__class__.__name__}: {len(missing)} chunks missing")
-        
+
         if missing:
             if token_limit is not None:
                 n_proc = min(mp.cpu_count(), len(missing))
-                pool = mp.Pool(n_proc)
 
-                while True:
-                    tokens_ready = self.get_ready_tokens()
-                    chunks_ready = len(self.get_chunk_sizes())
+                with mp.Pool(n_proc) as pool:
+                    while True:
+                        tokens_ready = self.get_ready_tokens()
+                        chunks_ready = len(self.get_chunk_sizes())
 
-                    if tokens_ready >= token_limit:
-                        if chunks_ready >= self.get_min_n_chunks():
-                            print("Token limit reached. No need to tokenize more.")
+                        if tokens_ready >= token_limit:
+                            if chunks_ready >= self.get_min_n_chunks():
+                                print("Token limit reached. No need to tokenize more.")
+                                break
+
+                        print(f"{self.__class__.__name__}: {tokens_ready/token_limit*100:.2f}% ready.")
+
+                        if chunks_ready == 0:
+                            print("Tokenizing first chunk to estimate the number of required chunks...")
+                            pool.map(self.tokenize_chunk, [0])
+                            continue
+                        elif chunks_ready >= self._n_chunks:
+                            print("All chunks ready. No need to tokenize more.")
                             break
 
-                    print(f"{self.__class__.__name__}: {tokens_ready/token_limit*100:.2f}% ready.")
+                        n_estimated = max(int(math.ceil(chunks_ready * (token_limit / tokens_ready))), self.get_min_n_chunks())
 
-                    if chunks_ready == 0:
-                        print("Tokenizing first chunk to estimate the number of required chunks...")
-                        pool.map(self.tokenize_chunk, [0])
-                        continue
-                    elif chunks_ready >= self._n_chunks:
-                        print("All chunks ready. No need to tokenize more.")
-                        break
-
-                    n_estimated = max(int(math.ceil(chunks_ready * (token_limit / tokens_ready))), self.get_min_n_chunks())
-
-                    print(f"{self.__class__.__name__}: Tokenizing {n_estimated} estimated chunks...")
-                    pool.map(self.tokenize_chunk, [a for a in range(chunks_ready, n_estimated) if a in missing])
-
-                del pool
+                        print(f"{self.__class__.__name__}: Tokenizing {n_estimated} estimated chunks...")
+                        pool.map(self.tokenize_chunk, [a for a in range(chunks_ready, n_estimated) if a in missing])
             else:
-                mp.Pool(min(mp.cpu_count(), len(missing))).map(self.tokenize_chunk, missing)
+                with mp.Pool(min(mp.cpu_count(), len(missing))) as pool:
+                    pool.map(self.tokenize_chunk, missing)
 
         self.chunk_sizes = self.get_chunk_sizes()
         self.chunk_offsets = self.chunk_offsets[:len(self.chunk_sizes)]
-
         lim_found = False
         chunk_limit = len(self.chunk_sizes)
         for i in range(1, len(self.chunk_sizes)):
@@ -236,7 +261,6 @@ class ChunkedSentencepieceLMDataset:
 
         self.chunk_mmap = self.chunk_mmap[:len(self.chunk_sizes)]
 
-        # breakpoint()
         if shuffle:
             if self.token_limit is not None:
                 print(f"{self.__class__.__name__}: WARNING: Shuffling guarantuees indentical data output only if identical token limit and unroll length is used.")
@@ -245,6 +269,13 @@ class ChunkedSentencepieceLMDataset:
             self.index_remap = lambda x: self.index_remap_order[x]
         else:
             self.index_remap = lambda x: x
+
+        print(
+            f"{self.__class__.__name__}: Split: {split}, Vocabulary size: {len(self.vocabulary)}, "
+            f"Total tokens: {self.get_total_token_count()}, "
+            f"Token cap: {self.get_capped_token_count()}, "
+            f"Usable tokens: {self.get_usable_token_count()}, Length: {len(self)}"
+        )
 
     def __len__(self):
         l = self.linear_len()
@@ -285,37 +316,3 @@ class ChunkedSentencepieceLMDataset:
 
     def start_test(self) -> WordLevelLanguageModelTestState:
         return WordLevelLanguageModelTestState()
-
-# def list_files_with_retries(repo_id, repo_type, max_retries=3, backoff_factor=0.3):
-#     session = requests.Session()
-#     retries = Retry(total=max_retries, backoff_factor=backoff_factor, status_forcelist=[500, 502, 503, 504])
-#     session.mount('https://', HTTPAdapter(max_retries=retries))
-
-#     for attempt in range(max_retries):
-#         try:
-#             # List all files in the dataset repository
-#             all_files = list_repo_files(repo_id=repo_id, repo_type=repo_type)
-#             return all_files
-#         except requests.exceptions.RequestException as e:
-#             print(f"Attempt {attempt + 1} failed: {e}")
-#             time.sleep(backoff_factor * (2 ** attempt))  # Exponential backoff
-#     raise Exception("Failed to list files after multiple attempts.")
-
-# # Use the function to list files
-# all_files = list_files_with_retries(repo_id="cerebras/SlimPajama-627B", repo_type="dataset")
-
-# # Filter for files in the train/chunk1 folder
-# for chunk in range(1, 11, 1):
-#     chunk_files = [f for f in all_files if f.startswith(f"train/chunk{chunk}/")]
-
-#     max_num = 0
-#     for chunk_file in chunk_files:
-#         filename = chunk_file.split('/')[-1]  # Get the filename part: "example_train_3856.jsonl.zst"
-#         parts = filename.split('_')     # Split by underscore: ["example", "train", "3856.jsonl.zst"]
-#         number_part = parts[2]          # Get the part with number: "3856.jsonl.zst"
-#         number = int(number_part.split('.')[0])  # Extract the number: 3856
-
-#         max_num = max(max_num, number)
-
-#     print(f"Chunk: {chunk}, max_num = {max_num}")
-
