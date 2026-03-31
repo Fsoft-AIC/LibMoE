@@ -98,6 +98,7 @@ class SharedExpertV3(MoeLayer):
             if return_topk_outputs == True:
                 expert_outputs_topk[batch_idx, token_idx, i] = out_exp
             results[batch_idx, token_idx] += weights[batch_idx, token_idx, topk_idx].unsqueeze(0).T * out_exp
+        
         if return_topk_outputs:
             idx_expanded = selected_experts.unsqueeze(-1).expand(B, N, selected_experts.shape[-1], results.size(-1))
             topk_expert_outputs = torch.gather(expert_outputs_topk, dim=2, index=idx_expanded)
@@ -123,9 +124,9 @@ class SharedExpertV3(MoeLayer):
         output_shared = self.experts[self.num_of_experts](x)
         
         output_selected = self.compute_moe(selected_experts, weights, output_selected, x, return_topk_outputs=False, output_shared = output_shared)
-        
-        
-        
+
+        # During fine-tuning, the output scale of each layer is preserved from pretraining.
+        # We combine the shared and selected expert outputs with equal weights (0.5 each).
         output += output_shared*0.5 + output_selected*0.5
         
         auxiliary_loss = torch.tensor(0.0, device=x.device, dtype=x.dtype)

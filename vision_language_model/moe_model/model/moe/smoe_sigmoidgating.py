@@ -29,8 +29,11 @@ class SMoESigmoidGating(MoeLayer):
                 - gate_softmax (torch.Tensor): The softmax probabilities for all experts.
         """
         gate_softmax = F.softmax(gate_logits, dim=-1, dtype=torch.float32)
+
         gate_sigmoid = self.sigmoid(gate_logits)
+        
         weights, selected_experts = torch.topk(gate_sigmoid, self.num_selected)
+        
         return weights, selected_experts, gate_softmax
 
     def forward(self, x,  return_id_experts = False,  is_vision = False):

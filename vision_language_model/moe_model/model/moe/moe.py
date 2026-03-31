@@ -50,7 +50,6 @@ class MoeLayer(nn.Module):
         # These metrics are used in ./vision_language_model/evaluate/lmms_eval/models/llava.py
         # when return_id_experts is set to True.
         self.log_metrics = {}
-    
 
     def init_expert_weights(self, std=0.02):
         """
@@ -100,6 +99,7 @@ class MoeLayer(nn.Module):
         if self.gate.bias is not None:
             nn.init.constant_(self.gate.bias, 0.0)
         print(f"Initializing weights and bias of the gating layer succefull with device: {device}")
+
     def zloss(self, gate_logits, gate_softmax = None):
         """
         Computes the z-loss based on the gating logits.
@@ -171,14 +171,19 @@ class MoeLayer(nn.Module):
             expert = self.experts[i]
        
             batch_idx, token_idx, topk_idx = infor_experts[i]
+
             if batch_idx.numel() == 0 : continue
+
             if is_expert:
                 out_exp = expert_outputs[i][batch_idx, token_idx]
             else:
                 out_exp = expert(x[batch_idx, token_idx])
+
             if return_topk_outputs == True:
                 expert_outputs_topk[batch_idx, token_idx, i] = out_exp
+
             results[batch_idx, token_idx] += weights[batch_idx, token_idx, topk_idx].unsqueeze(0).T * out_exp
+
         if return_topk_outputs:
             idx_expanded = selected_experts.unsqueeze(-1).expand(B, N, selected_experts.shape[-1], x.size(-1))
             topk_expert_outputs = torch.gather(expert_outputs_topk, dim=2, index=idx_expanded)
@@ -200,59 +205,60 @@ class MoeLayer(nn.Module):
         if acitve_zloss:
             # compute router_z_loss
             router_z_loss = self.zloss(gate_logits, gate_softmax)
-
             auxiliary_loss = balance_loss * self.args.balance_loss_coef + \
                 router_z_loss * self.args.router_z_loss_coef
-            
         else: 
-            
             auxiliary_loss = balance_loss * self.args.balance_loss_coef 
             
         return auxiliary_loss, balance_loss, router_z_loss
-    def compute_entropy_score(self, probabilities, normalize=False, eps=1e-10):
+
+    def experts_diversity_loss(self, expert_outputs):
         """
-        Compute the Shannon entropy score of a probability distribution using PyTorch.
-        
-        Args:
-            probabilities (torch.Tensor): Tensor of probabilities or unnormalized scores.
-                                        Shape: (N,) for single distribution or (B, N) for batch.
-            normalize (bool): If True, apply softmax to convert scores to probabilities.
-            eps (float): Small value to avoid log(0).
-        
-        Returns:
-            torch.Tensor: Entropy score in bits (scalar for single dist, shape (B,) for batch).
-            
-        Raises:
-            ValueError: If probabilities are invalid (e.g., negative, empty, or sum to zero).
+        This function serve for analyze the experts diversity in paper
+
+        expert_outputs: Tensor shape [B, N, K, D]
+            - B: batch size
+            - N: sequence length
+            - K: number of selected experts
+            - D: dimension of each expert output
+
+        Goal: penalize when the expert outputs are 'too similar'.
+        We will compute the average cosine similarity between all pairs (i, j) among K experts, then calculate the mean.
         """
-        # Ensure input is a tensor
-        if not isinstance(probabilities, torch.Tensor):
-            probabilities = torch.tensor(probabilities, dtype=torch.float)
+        expert_outputs = expert_outputs.to(torch.float32)
+        B, N, K, D = expert_outputs.shape
+
+        # Step 1: L2-normalize along dimension D to compute Cosine Similarity
+        # Shape after normalization remains [B, N, K, D]
+        normalized = F.normalize(expert_outputs, p=2, dim=-1)
+
+        # Step 2: Flatten (B, N) into a single large batch for easier bmm calculation
+        # We reshape to [B*N, K, D]
+        normalized_reshape = normalized.view(B*N, K, D)  # => [B*N, K, D]
+
+        # Step 3: Compute the similarity matrix using bmm:
+        # [B*N, K, D] x [B*N, D, K] -> [B*N, K, K]
+        similarity_matrix = torch.bmm(
+            normalized_reshape, 
+            normalized_reshape.transpose(1, 2)
+        )  # => [B*N, K, K]
+
+        # Step 4: Remove self-similarity (the diagonal)
+        # identity matrix = [K, K], shape can be broadcast to [B*N, K, K]
+        mask = 1 - torch.eye(K, device=expert_outputs.device)
         
-        # Check for valid input
-        if probabilities.numel() == 0:
-            raise ValueError("Probability tensor cannot be empty.")
-        if torch.any(probabilities < 0):
-            raise ValueError("Probabilities cannot be negative.")
+        # mask out the diagonal 
+        similarity_matrix = similarity_matrix * mask
         
-        probs = probabilities.to(dtype=torch.float32)
-    
-        if normalize:
-            # Chuẩn hóa bằng tổng (thay vì softmax)
-            sum_probs = torch.sum(probs, dim=-1, keepdim=True)
-            # if sum_probs
-            if torch.any(sum_probs == 0):
-                return 0
-                raise ValueError("Không thể chuẩn hóa: tổng bằng 0.")
-            probs = probs / sum_probs
-        
-        # Giới hạn xác suất trong khoảng [eps, 1.0]
-        probs = torch.clamp(probs, min=eps, max=1.0)
-        
-        # Tính entropy: -sum(p * log2(p))
-        entropy = -torch.sum(probs * torch.log2(probs), dim=-1)
-        
-        return entropy.to(probabilities.dtype)
+        # relu to remove the negative similarity (optional)
+        similarity_matrix = F.relu(similarity_matrix)
+
+        # Step 5: Compute the mean across all batches, tokens, and expert pairs
+        # similarity_matrix has shape [B*N, K, K]. Number of valid elements = B*N * K * (K-1)
+        loss = similarity_matrix.mean()
+
+        return loss
+
     def topk_expert(self, gate_logits):
         """
         Selects the top-k experts based on the gating logits.
@@ -272,24 +278,23 @@ class MoeLayer(nn.Module):
         gate_softmax = F.softmax(gate_logits, dim=-1, dtype=torch.float32)
         
         weights, selected_experts = torch.topk(gate_softmax, self.num_selected)
-        # breakpoint()
-        # weights, selected_experts = torch.topk(gate_softmax, self.num_selected + 2 )
-        
-        # weights = weights[:, :, : self.num_selected]
-        # selected_experts = selected_experts[:, :, -self.num_selected:]
-        
+
         return weights, selected_experts, gate_softmax
+    
     def forward(self, x, return_id_experts = False):
         # compute output
         gate_logits = self.gate(x)
+
         weights, selected_experts, gate_softmax = self.topk_expert(gate_logits=gate_logits)
+        
         weights = weights / torch.sum(weights, dim=-1, keepdim=True).to(x.dtype)
+        
         output = torch.zeros(x.shape[0], x.shape[1], self.out_embed_dim, device=x.device, dtype=x.dtype)
-        output = self.compute_moe(selected_experts, weights, output, x, return_topk_outputs=True)
+        
+        output = self.compute_moe(selected_experts, weights, output, x)
+        
         # compute loss
         auxiliary_loss, balance_loss, router_z_loss = self.combine_loss(selected_experts, gate_softmax, gate_logits)
-        
-        
         # log information for wandb or print to terminal if needed 
         # you can add more information to the infor_aux dictionary if needed 
         # But if it impact to gradient calculation then clone and detach the tensor

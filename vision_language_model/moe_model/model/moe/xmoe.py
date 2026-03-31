@@ -12,21 +12,22 @@ from .moe import MoeLayer
 class XMOE(MoeLayer):
     def __init__(self, in_embed_dim=768, out_embed_dim=768, num_of_experts=4, num_selected=2, expert=None, args=None):
         super().__init__(in_embed_dim, out_embed_dim, num_of_experts, num_selected, expert, args)
-   
-        
+
         expert_embeddings = torch.empty(self.num_of_experts, int(num_of_experts / 2))
-        
-        # torch.nn.init.orthogonal_(expert_embeddings, gain=0.32)
-        
+
         self.register_parameter(
             "expert_embeddings", torch.nn.Parameter(expert_embeddings)
         )
+
         self.inp_reduction = torch.nn.Linear(in_embed_dim, int(num_of_experts / 2), bias=False)
+
         self.temperature = 0.3
+        
         self.bias = None
 
         self.init_gate_weights()
         self.init_expert_weights()
+
     def init_gate_weights(self):
         
         """
@@ -47,11 +48,13 @@ class XMOE(MoeLayer):
         nn.init.normal_(self.expert_embeddings, mean=0.0, std=0.02, generator=gate_generator)
      
         print("Initializing weights and bias of the gating layern successfull.")
+
     def _keepTopk(self, x):
         weights, selected_experts  = torch.topk(x, k = self.num_selected, dim=2) 
     
         weights = torch.softmax(weights, dim=2)
         return weights, selected_experts 
+
     def _cosine(self, mat1, mat2, eps=1e-4):
         """
         Compute the cosine similarity between mat1 and mat2.
