@@ -33,38 +33,6 @@ class SMoESigmoidGating(MoeLayer):
         weights, selected_experts = torch.topk(gate_sigmoid, self.num_selected)
         return weights, selected_experts, gate_softmax
 
-        """
-        Implements the competition policy for expert selection.
-
-        Args:
-            x (tensor): Input tensor of shape (B, N, D), where:
-                - B: Batch size
-                - N: Sequence length
-                - D: Input feature dimension
-
-        Returns:
-            weights (tensor): Tensor of shape (B, N, num_selected) representing the normalized weights for the selected experts.
-            selected_experts (tensor): Tensor of shape (B, N, num_selected) containing the indices of the selected experts.
-            affinity_softmax (tensor): Softmax probabilities of the affinity scores, with shape (B, N, num_of_experts).
-        """
-        B, N, D = x.shape
-
-        # Initialize affinity scores tensor
-        affinity_scores = torch.zeros(B, N, self.num_of_experts, device=x.device, dtype=x.dtype)
-
-        # Calculate affinity scores based on the norm of each expert's output
-        for i in range(self.num_of_experts):
-      
-            out_i = self.experts[i](x)
-            affinity_scores[:, :, i] = torch.mean(F.softplus(out_i), dim = -1)
-   
-        # Compute softmax of the affinity scores
-        affinity_softmax = F.softmax(affinity_scores, dim=-1, dtype=torch.float)
-        # Select top experts based on affinity scores
-        weights, selected_experts = torch.topk(affinity_scores, self.num_selected)
-        weights = weights / torch.sum(weights, dim=-1, keepdim=True).to(x.dtype)
-        # weights = F.softmax(weights, dim=-1).to(x.dtype)
-        return weights, selected_experts, affinity_softmax, affinity_scores
     def forward(self, x,  return_id_experts = False,  is_vision = False):
         gate_logits = self.gate(x)
         weights, selected_experts, gate_softmax = self.topk_expert(gate_logits=gate_logits)
