@@ -135,7 +135,7 @@ We evaluate on multiple benchmarks:
 - HallusionBenchmark	
 - MathVista Validation	
 - MMBenchEN 
-- MME (report the mean of the two `overall_pct` scores)
+- MME (score = ((perception score + cognition score) /  2800) * 100)
 - MMMU Validation	
 - MMStar (report the mean accuracy across all subtasks)
 - POPE	
