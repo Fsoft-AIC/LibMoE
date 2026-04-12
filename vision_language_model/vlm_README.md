@@ -135,9 +135,9 @@ We evaluate on multiple benchmarks:
 - HallusionBenchmark	
 - MathVista Validation	
 - MMBenchEN 
-- MME	
+- MME (report the mean of the two `overall_pct` scores)
 - MMMU Validation	
-- MMStar	
+- MMStar (report the mean accuracy across all subtasks)
 - POPE	
 - SQA IMG Full
 
