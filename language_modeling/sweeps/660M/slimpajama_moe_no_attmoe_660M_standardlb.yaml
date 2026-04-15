@@ -40,7 +40,7 @@ parameters:
   transformer.variant:
     value: preln_moe
   stop_after:
-    value: 10
+    value: 400000
   moe.n_experts:
     value: 66
   moe.expert_size:
