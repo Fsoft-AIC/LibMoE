@@ -105,7 +105,7 @@ class ProbabilityCompareDataset:
         os.makedirs(self.cache_dir, exist_ok=True)
 
         # with utils.LockFile(self.cache_dir+"lock"):
-        #     self.download()
+        self.download()
 
         self.data = []
         self.names = []
