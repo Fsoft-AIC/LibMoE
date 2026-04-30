@@ -20,6 +20,7 @@
   LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS
 </h1>
 
+
 <!-- 📌 Authors -->
 <p align="center">
   <b>Authors:</b> Nam V. Nguyen*, Thong T. Doan*, Luong Tran, Van Nguyen, Quang Pham
