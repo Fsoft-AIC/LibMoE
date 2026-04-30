@@ -164,6 +164,9 @@ checkpoint_path="/path/to/checkpoint"
 - `lambada`, `cbt`, `hellaswag`, `piqa`, `blimp`, `ai2arc`
 - `mmlu`, `openbookqa`, `winogrande`, `siqa`, `commonsenseqa`, `race`
 
+**Analyzing Results:**
+Once the evaluation is finished, it is recommended to use the [analyze_result](assets/analyze_result_model_1000.ipynb) notebook to extract and visualize the results.
+
 ## Further Reading
 
 For detailed documentation on specific topics:
