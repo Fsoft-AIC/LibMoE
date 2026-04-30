@@ -2,7 +2,7 @@ echo "Evaluation ... "
 
 # GPU setup
 export MOE_TYPE="moe_layer"
-export CUDA_VISIBLE_DEVICES="0,3"
+export CUDA_VISIBLE_DEVICES="0,1,2,3"
 export PYTHONPATH="/cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling:$PYTHONPATH"
 export MASTER_PORT=29551
 # Add NCCL timeout and debug environment variables
@@ -13,28 +13,28 @@ export NCCL_SOCKET_TIMEOUT=3600
 # Add PyTorch timeout settings
 export TORCH_DISTRIBUTED_TIMEOUT=3600
 NUM_DEVICES=$(echo $CUDA_VISIBLE_DEVICES | tr ',' '\n' | wc -l)
-cd /cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling
+cd /cm/archive/namnv78_A100_PDM/libmoe_release/language_modeling
 # prepare tests
 tasks=(
     # all tasks in the framework/dataset/text
     "lambada"
-    # "cbt"
-    # "hellaswag"
-    # "piqa"
-    # "blimp"
-    # "ai2arc"
+    "cbt"
+    "hellaswag"
+    "piqa"
+    "blimp"
+    "ai2arc"
     # # additional tasks
     # "mmlu"
     # "openbookqa"
     # "winogrande"
-    # "siqa"
-    # "commonsenseqa"
-    # "race"
+    "siqa"
+    "commonsenseqa"
+    "race"
 )
 
 # run tests
-checkpoint_path="/cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling/save/slimpajama_moe_no_attmoe_660M_standardlb/checkpoint"
-save_dir="/cm/archive/namnv78_A100_PDM/LibMoE_Test/language_modeling/save/slimpajama_moe_no_attmoe_660M_standardlb/export"
+checkpoint_path="/cm/archive/namnv78_A100_PDM/libmoe_release/language_modeling/save/slimpajama_moe_no_attmoe_154M_standard_lb/checkpoint/model-1000.pth"
+save_dir="/cm/archive/namnv78_A100_PDM/libmoe_release/language_modeling/save/slimpajama_moe_no_attmoe_154M_standard_lb/export"
 bs=16
 
 for task in "${tasks[@]}"; do

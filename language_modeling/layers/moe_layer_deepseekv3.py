@@ -438,16 +438,13 @@ class MoE(LoggingLayer, RegularizedLayer, OncePerIterLayer, torch.nn.Module):
             sel2 = sel
 
         ### MODIFY for DeepSeek no gating's bias
-        # if self.perplexity_reg_mode in {"deepseek"}:
-        #     # sel_val, sel_index = self.deepseek_topk(sel, self.n_heads, bsz, seq_len)
-        #     sel_val, sel_index = self.deepseek_topk_nogroup(sel, self.n_heads, bsz, seq_len)
-        # else:
+
         sel_val, sel_index = self.topk(sel2, self.n_heads)
 
         # norm gate to sum 1
         denominator = sel_val.sum(dim=-1, keepdim=True) + 1e-20
         sel_val = sel_val / denominator
-        # sel_val = sel_val * self.routed_scaling_factor
+
         ### ===================
 
         record_counts_now = (self.training and self.iter % 10 == 0) or (not self.training) or (self.record_all_expert_sel_counts)
@@ -501,16 +498,11 @@ class MoE(LoggingLayer, RegularizedLayer, OncePerIterLayer, torch.nn.Module):
         if reg_sel is not None:
             if self.perplexity_reg_mode in {"step", "time"}:
                 self.add_perplexity_reg(reg_sel)
-            elif self.perplexity_reg_mode in {"deepseek"}:
-                self.add_perplexity_reg_deepseek(sel_aux, sel_index, bsz, seq_len)
             elif self.perplexity_reg_mode in {"standard"}:
                 self.add_perplexity_reg_standard(sel_aux, sel_index, bsz, seq_len)
             elif self.perplexity_reg > 0 and self.training:
                 self.sel_hist.append(reg_sel)
 
-
-
-        # sel_indices = [cvmm_prepare_sel(sel_index[..., h].int(), self.n_experts) for h in range(sel_index.shape[-1])]
         sel_indices = cvmm_prepare_sel2(sel_index.int())
 
         scores = self.compute_scores(in2, sel_indices)

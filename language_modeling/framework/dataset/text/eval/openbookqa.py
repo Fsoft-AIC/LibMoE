@@ -17,7 +17,7 @@ import sys
 from .probability_compare_dataset import ProbabilityCompareTest
 
 class OpenBookQA:
-    URL = "https://s3-us-west-2.amazonaws.com/ai2-website/data/OpenBookQA-V1-Sep2018.zip"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/openbookqa/OpenBookQA-V1-Sep2018.zip"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.0"
 

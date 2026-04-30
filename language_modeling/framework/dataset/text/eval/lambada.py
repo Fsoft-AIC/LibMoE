@@ -74,7 +74,7 @@ class LambadaTest:
 
 
 class Lambada:
-    URL = "https://openaipublic.blob.core.windows.net/gpt-2/data/lambada_test.jsonl"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/lambada/lambada_test.jsonl"
 
     def __init__(self, vocabulary: data_structures.vocabulary.Vocabulary,
                  cache_dir: str = "./cache", sep: Optional[str] = None) -> None:

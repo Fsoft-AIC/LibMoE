@@ -1,7 +1,7 @@
 program: main.py
 command:
   - ${env}
-  - /cm/archive/anonymous/miniconda3/envs/moeut/bin/python3.10
+  - python3
   - ${program}
   - ${args}
 method: grid
@@ -40,7 +40,7 @@ parameters:
   transformer.variant:
     value: preln_moe
   stop_after:
-    value: 100000
+    value: 1000
   moe.n_experts:
     value: 66
   moe.expert_size:

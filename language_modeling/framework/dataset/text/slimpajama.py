@@ -2,12 +2,13 @@ from typing import Optional
 import numpy as np
 import os
 
+from ...utils.download import download
 from .chunked_setencepiece_lm_dataset import ChunkedSentencepieceLMDataset
 
 pq = None
 
 
-DATASET_REPO = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/tree/main/data/SlimPajama-627B"
+DATASET_REPO = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/data/SlimPajama-627B"
 
 # if this repo wrong, use this one: DATASET_REPO = https://huggingface.co/datasets/gmongaras/SlimPajama-627B_Reupload/resolve/main/data
 SPLIT_FILE_COUNTS = {
@@ -29,14 +30,33 @@ class SlimPajama(ChunkedSentencepieceLMDataset):
 
         file_name = url.rsplit("/", 1)[-1]
         target_file = os.path.join(local_dir, file_name)
+        tmp_file = os.path.join(tmp_dir, file_name)
+
+        def download_shard():
+            import uuid
+            print(f"Downloading {url}")
+            unique_tmp_file = tmp_file + f".{uuid.uuid4().hex}"
+            download(url, unique_tmp_file, extract=False)
+            os.replace(unique_tmp_file, target_file)
 
         if not os.path.exists(target_file):
-            tmp_file = os.path.join(tmp_dir, file_name)
-            print(f"Downloading {url}")
-            download(url, tmp_file, extract=False)
-            os.rename(tmp_file, target_file)
+            download_shard()
 
-        parquet_file = pq.ParquetFile(target_file)
+        try:
+            parquet_file = pq.ParquetFile(target_file)
+        except Exception as exc:
+            if os.path.exists(target_file):
+                os.remove(target_file)
+            print(f"Cached SlimPajama shard is not readable ({exc}); redownloading.")
+            download_shard()
+            try:
+                parquet_file = pq.ParquetFile(target_file)
+            except Exception as retry_exc:
+                raise RuntimeError(
+                    f"Downloaded SlimPajama shard is not a readable parquet file: {target_file}. "
+                    f"URL: {url}. Original error: {exc}. Retry error: {retry_exc}"
+                ) from None
+
         for batch in parquet_file.iter_batches(columns=["text"], batch_size=8192):
             for text in batch.column("text").to_pylist():
                 yield text + "<STORY_SEP>" if text else text

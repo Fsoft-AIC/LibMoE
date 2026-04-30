@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import json
 import os
+import tarfile
 import numpy as np
 from typing import List, Optional, Dict
 from collections import Counter
@@ -20,7 +21,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 class MMLU:
     """MMLU dataset implementation following framework patterns"""
 
-    URL = "https://people.eecs.berkeley.edu/~hendrycks/data.tar"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/mmlu/data.tar"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.0"
 
@@ -105,6 +106,12 @@ class MMLU:
 
         self._load_and_process_data()
 
+        if not self.data:
+            raise RuntimeError(
+                f"{self.__class__.__name__}: no examples were loaded from {self.cache_dir}. "
+                "Expected MMLU CSV files under data/test/ or test/."
+            )
+
         self.maxlen = max(d["max_length"] for d in self.data)
 
     def __len__(self):
@@ -112,27 +119,47 @@ class MMLU:
 
     def _download_and_prepare(self):
         """Download and prepare the dataset files"""
+        if self._get_split_dir("test") is not None:
+            return
+
         data_file = os.path.join(self.cache_dir, "data.tar")
 
         if not os.path.exists(data_file):
-            utils.download(self.URL, data_file, ignore_if_exists=True)
-            # Extract tar file
-            os.system(f"tar -xf {data_file} -C {self.cache_dir}")
-            os.remove(data_file)
+            utils.download(self.URL, data_file, extract=False, ignore_if_exists=True)
+
+        with tarfile.open(data_file) as tar:
+            tar.extractall(self.cache_dir)
+
+    def _get_split_dir(self, split: str) -> Optional[str]:
+        for root in ("data", ""):
+            split_dir = os.path.join(self.cache_dir, root, split)
+            if os.path.isdir(split_dir) and any(name.endswith(".csv") for name in os.listdir(split_dir)):
+                return split_dir
+        return None
+
+    def _get_split_file(self, task: str, split: str) -> Optional[str]:
+        split_dir = self._get_split_dir(split)
+        if split_dir is None:
+            return None
+
+        file_path = os.path.join(split_dir, f"{task}_{split}.csv")
+        if os.path.exists(file_path):
+            return file_path
+        return None
 
     def _get_label_id(self, label: str) -> int:
         # get the label id from the label ["A", "B", "C", "D"], A is 0, B is 1, C is 2, D is 3
-        return ord(label) - ord("A")
+        return ord(label.strip()) - ord("A")
 
     def _load_and_process_data(self):
         for task in self.TASKS:
             for split in ["test"]:
-                file_path = os.path.join(self.cache_dir, f"{split}/{task}_{split}.csv")
-                if not os.path.exists(file_path):
+                file_path = self._get_split_file(task, split)
+                if file_path is None:
                     print(f"Skipping {task} {split} because file does not exist")
                     continue
 
-                df = pd.read_csv(file_path)
+                df = pd.read_csv(file_path, header=None)
                 for i in range(df.shape[0]):
                     line = list(df.iloc[i])
                     question = str(line[0])
@@ -177,10 +204,6 @@ class MMLU:
 
     def start_test(self):
         return ProbabilityCompareTest(self.splits, n_ways=4, normalize_by_length=True)
-
-
-
-
 
 
 

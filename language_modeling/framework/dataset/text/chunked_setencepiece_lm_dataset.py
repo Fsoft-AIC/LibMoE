@@ -120,12 +120,14 @@ class ChunkedSentencepieceLMDataset:
             return
 
         try:
+            import uuid
             print(f"Tokenizing chunk {chunk_index}...")
 
             url = self.get_url(chunk_index)
-            self.batch_write_file(url, fname + ".tmp", batch_size=10000000000000000)
+            tmp_fname = fname + f".tmp.{uuid.uuid4().hex}"
+            self.batch_write_file(url, tmp_fname, batch_size=10000000000000000)
 
-            os.rename(fname + ".tmp", fname)
+            os.replace(tmp_fname, fname)
             print(f"Tokenizing chunk {chunk_index} done.")
         except Exception as exc:
             raise RuntimeError(

@@ -1,0 +1,10 @@
+model,benchmark,metric,accuracy
+Model-1000,ARC-Easy,ai2arc/accuracy/group_average,0.22915642098195246
+Model-1000,BLiMP,blimp/accuracy/group_average,0.5898656716417912
+Model-1000,CBT,cbt/accuracy/group_average,0.4446637820512821
+Model-1000,CommonSenseQA,commonsenseqa/accuracy/group_average,0.20884520884520885
+Model-1000,HellaSwag,hellaswag/accuracy/group_average,0.24507070304720174
+Model-1000,LAMBADA,lambada/accuracy/total,0.0021350931677018635
+Model-1000,PIQA,piqa/accuracy/group_average,0.5217627856365615
+Model-1000,RACE,race/accuracy/group_average,0.23921906827777434
+Model-1000,SIQA,siqa/accuracy/group_average,0.34493346980552714

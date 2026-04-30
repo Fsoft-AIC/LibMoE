@@ -12,6 +12,8 @@ evaluate/hub
 # Token files
 **/token
 **/*token*
+!language_modeling/framework/dataset/text/tokenizers/
+!language_modeling/framework/dataset/text/tokenizers/*.py
 evaluate/lmms_eval/token
 save/
 cache/

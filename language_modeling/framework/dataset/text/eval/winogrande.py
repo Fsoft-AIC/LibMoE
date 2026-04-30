@@ -18,7 +18,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 
 
 class Winogrande:
-    URL = "https://storage.googleapis.com/ai2-mosaic/public/winogrande/winogrande_1.1.zip"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/winogrande/winogrande_1.1.zip"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.1"
 
@@ -104,4 +104,3 @@ class Winogrande:
 
     def start_test(self):
         return ProbabilityCompareTest(self.splits, n_ways=2, normalize_by_length=True)
-

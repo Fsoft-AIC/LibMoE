@@ -51,13 +51,11 @@ class SharedExpertV3(MoeLayer):
                 - gate_softmax (torch.Tensor): The softmax probabilities for all experts.
         """
         gate_softmax = F.softmax(gate_logits, dim=-1, dtype=torch.float32)
+        
         gate_sig = F.sigmoid(gate_logits)
-        # weights, selected_experts = torch.topk(gate_sig, self.num_selected)
         
         weights, selected_experts = torch.topk(gate_sig, self.num_selected)
-        # weights = weights[:, :, : self.num_selected]
-        # selected_experts = selected_experts[:, :, -self.num_selected:]
-        
+
         return weights, selected_experts, gate_softmax
     
     def compute_moe(self, selected_experts, weights, results, x, expert_outputs = None, return_topk_outputs = False, output_shared = None):

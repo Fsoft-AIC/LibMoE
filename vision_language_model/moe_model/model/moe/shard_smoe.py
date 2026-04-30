@@ -19,17 +19,6 @@ class MoEShareLayer(MoeLayer):
         self.num_selected = num_selected 
         self.args = args
         
-        # # initialize the router and expert
-        # if expert is None:
-        #     print("initialize the selected expert with random init")
-        #     self.experts = nn.ModuleList([
-        #         nn.Sequential(nn.Linear(self.in_embed_dim, self.out_embed_dim), 
-        #         nn.GELU(), 
-        #         nn.Linear(self.out_embed_dim, self.out_embed_dim)) for _ in range(self.num_of_experts)])
-        # else:
-        #     print("Initialize the selected expert with deep copy expert")
-        #     self.experts = nn.ModuleList([copy.deepcopy(expert) for _ in range(self.num_of_experts)])
-
         self.num_selected, self.num_of_experts = self.num_selected - 1, self.num_of_experts - 1
         self.gate = nn.Linear(self.in_embed_dim, self.num_of_experts, bias=False)
         

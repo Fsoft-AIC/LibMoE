@@ -1,4 +1,5 @@
 import os
+import shutil
 import json
 import pandas as pd
 import json
@@ -18,7 +19,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 
 
 class RACE:
-    URL = "http://www.cs.cmu.edu/~glai1/data/race/RACE.tar.gz"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/race/RACE.tar.gz"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.0"
 
@@ -37,10 +38,15 @@ class RACE:
         self.splits = ["test/high", "test/middle"]  # RACE/RACE/test/high, RACE/RACE/test/middle
         self.data = []
 
-        # with utils.LockFile(self.cache_dir+"lock"):
         self.download()
 
         self.load_dataset()
+
+        if not self.data:
+            raise RuntimeError(
+                f"{self.__class__.__name__}: no examples were loaded from {self.cache_dir}. "
+                "Expected RACE files under RACE/test/high and RACE/test/middle."
+            )
 
         self.maxlen = max(d["max_length"] for d in self.data)
 
@@ -48,14 +54,27 @@ class RACE:
         return len(self.data)
 
     def download(self):
-        if not os.path.exists(self.cache_dir + "RACE"):
+        if not self._has_all_splits():
+            shutil.rmtree(os.path.join(self.cache_dir, "RACE"), ignore_errors=True)
             utils.download(self.URL, self.cache_dir)
+
+    def _split_path(self, split: str) -> str:
+        return os.path.join(self.cache_dir, "RACE", split)
+
+    def _has_all_splits(self) -> bool:
+        for split in self.splits:
+            split_path = self._split_path(split)
+            if not os.path.isdir(split_path):
+                return False
+            if not any(name.endswith(".txt") for name in os.listdir(split_path)):
+                return False
+        return True
 
     def load_dataset(self):
         for si, split in enumerate(self.splits):
-            split_path = os.path.join(self.cache_dir, "RACE", split)
+            split_path = self._split_path(split)
 
-            for file in os.listdir(split_path):
+            for file in sorted(os.listdir(split_path)):
                 file_path = os.path.join(split_path, file)
                 with open(file_path, "r", encoding="utf-8") as f:
                     data = json.load(f)

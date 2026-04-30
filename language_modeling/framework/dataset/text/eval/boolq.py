@@ -18,7 +18,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 
 
 class BoolQ:
-    URL = "https://storage.cloud.google.com/boolq/dev.jsonl"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/boolq/dev.jsonl"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.0"
 
@@ -50,7 +50,7 @@ class BoolQ:
     def download(self):
         if not os.path.exists(self.cache_dir+"data/dev.jsonl"):
             os.makedirs(self.cache_dir+"data/", exist_ok=True)
-            # utils.download(self.URL, self.cache_dir+"data/", ignore_if_exists=True)
+            utils.download(self.URL, self.cache_dir+"data/", ignore_if_exists=True)
 
     def load_dataset(self):
         with open(f"{self.cache_dir}data/dev.jsonl", "r") as f:
@@ -64,13 +64,13 @@ class BoolQ:
                 ctx = self.vocabulary.sentence_to_indices("Question: " + question + "\nPassage: " + passage + "\nAnswer:")
 
                 endings = ["True", "False"]
-                options = [ctx + self.vocabulary.sentence_to_indices(e) for e in endings]
+                endings = [ctx + self.vocabulary.sentence_to_indices(e) for e in endings]
 
                 label = int(answer)
                 answer_id = label   # True is 0, False is 1
 
-                options = [options[answer_id]]
-                for i, e in enumerate(options):
+                options = [endings[answer_id]]
+                for i, e in enumerate(endings):
                     if i != answer_id:
                         options.append(e)
 

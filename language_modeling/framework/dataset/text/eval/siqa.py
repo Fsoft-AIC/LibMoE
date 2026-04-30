@@ -18,7 +18,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 
 
 class SIQA:
-    URL = "https://storage.googleapis.com/ai2-mosaic/public/socialiqa/socialiqa-train-dev.zip"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/siqa/socialiqa-train-dev.zip"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.0"
 
@@ -110,5 +110,4 @@ class SIQA:
 
     def start_test(self):
         return ProbabilityCompareTest(self.splits, n_ways=3, normalize_by_length=True)
-
 

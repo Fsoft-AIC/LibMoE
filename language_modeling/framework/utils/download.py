@@ -10,9 +10,10 @@ class UrlStream:
         self._url = url
         self._head = headers
         rq = requests.head(url, headers={"Accept-Encoding": "identity", **self._head})
-        if rq.status_code == 302:
-            self._url = rq.headers['location']
+        if rq.is_redirect:
+            self._url = requests.compat.urljoin(self._url, rq.headers['location'])
             rq = requests.head(self._url, headers={"Accept-Encoding": "identity", **self._head})
+        rq.raise_for_status()
 
         headers = {k.lower(): v for k, v in rq.headers.items()}
         self._seek_supported = headers.get('accept-ranges') == 'bytes' and 'content-length' in headers
@@ -103,6 +104,7 @@ class UrlStream:
                 h["Range"] = "bytes=%d-%d" % (self._curr_pos, self._size - 1)
 
             r = requests.get(self._url, headers=h, stream=True)
+            r.raise_for_status()
 
             self._iter = r.iter_content(1024 * 1024)
             self._new_buffer()

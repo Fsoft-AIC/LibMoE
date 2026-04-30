@@ -10,7 +10,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 # preprocessing based on https://github.com/EleutherAI/lm-evaluation-harness/blob/86319a9b14ddae2030bc6e0fdddd47fc7d0bb525/lm_eval/tasks/hellaswag/utils.py
 
 class HellaSwag:
-    URL = "https://raw.githubusercontent.com/rowanz/hellaswag/master/data/hellaswag_val.jsonl"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/hellaswag/hellaswag_val.jsonl"
     CLEANUP_REGEX = re.compile(r"\\[.*?\\]")
 
     def __init__(self, vocabulary: data_structures.vocabulary.Vocabulary, cache_dir: str = "./cache") -> None:
@@ -38,9 +38,9 @@ class HellaSwag:
         return len(self.data)
 
     def download(self):
-        if not os.path.exists(self.cache_dir+"data/hellaswag_val.json"):
+        if not os.path.exists(self.cache_dir+"data/hellaswag_val.jsonl"):
             os.makedirs(self.cache_dir+"data/", exist_ok=True)
-            # utils.download(self.URL, self.cache_dir+"data/", ignore_if_exists=True)
+            utils.download(self.URL, self.cache_dir+"data/", ignore_if_exists=True)
 
     def preprocess(self, text):
         text = text.strip()

@@ -94,6 +94,8 @@ Common configurations include model size, batch size, learning rate, sequence le
 
 **For complete list of arguments and hyperparameters**, see [Model Guide](../docs/pretrain_llm/model_guide.md).
 
+For a concrete “read before pretraining” walkthrough of a MoE language-model config, see the [MoE Pretraining Configuration Guide](../docs/pretrain_llm/moe_pretraining_config_guide.md).
+
 ## Datasets
 
 The framework uses **SlimPajama** datasets that stream shards from Hugging Face and perform on-the-fly SentencePiece tokenization. Tokenized data is cached under `cache/` directory for reuse.
@@ -162,10 +164,14 @@ checkpoint_path="/path/to/checkpoint"
 - `lambada`, `cbt`, `hellaswag`, `piqa`, `blimp`, `ai2arc`
 - `mmlu`, `openbookqa`, `winogrande`, `siqa`, `commonsenseqa`, `race`
 
+**Analyzing Results:**
+Once the evaluation is finished, it is recommended to use the [analyze_result](assets/analyze_result_model_1000.ipynb) notebook to extract and visualize the results.
+
 ## Further Reading
 
 For detailed documentation on specific topics:
 
 - **[Model Guide](../docs/pretrain_llm/model_guide.md)** — MoE architecture, parameters, adding custom variants, Triton utilities, and complete hyperparameter reference
 - **[Dataset Guide](../docs/pretrain_llm/dataset_guide.md)** — Dataset setup, tokenization, caching, adding custom datasets, and configuration options
+- **[MoE Pretraining Configuration Guide](../docs/pretrain_llm/moe_pretraining_config_guide.md)** — exact hyperparameters and run checklist
 - **[Checkpoint List](../docs/pretrain_llm/checkpoint_list.md)** — Pre-trained model checkpoints and configurations

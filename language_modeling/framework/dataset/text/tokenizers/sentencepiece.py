@@ -14,21 +14,7 @@ class SentencepieceVocabulary:
             if isinstance(train_data, str):
                 spm.SentencePieceTrainer.train(input=train_data, model_prefix=path, vocab_size=vocab_size, split_digits=True, model_type="bpe")
             else:
-                # spm.SentencePieceTrainer.train(sentence_iterator=train_data, model_prefix=path, vocab_size=vocab_size, split_digits=True, model_type="bpe")
-
-                # Debugging: Check if train_data is empty
-                if not train_data:
-                    raise ValueError("Training data is empty. Please check the data source.")
-
-                # Print the first few sentences for verification
-                for i, sentence in enumerate(train_data):
-                    if i < 5:  # Print only the first 5 sentences
-                        print(f"Sample sentence {i}: {sentence}")
-                    else:
-                        break
-
                 spm.SentencePieceTrainer.train(sentence_iterator=train_data, model_prefix=path, vocab_size=vocab_size, split_digits=True, model_type="bpe")
-                # end debug
 
         self.path = path
         self.tokenizer = spm.SentencePieceProcessor()

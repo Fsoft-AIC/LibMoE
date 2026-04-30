@@ -20,7 +20,6 @@
   LibMoE: A LIBRARY FOR COMPREHENSIVE BENCHMARKING MIXTURE OF EXPERTS IN LARGE LANGUAGE MODELS
 </h1>
 
-
 <!-- 📌 Authors -->
 <p align="center">
   <b>Authors:</b> Nam V. Nguyen*, Thong T. Doan*, Luong Tran, Van Nguyen, Quang Pham
@@ -31,12 +30,14 @@ Mixture of experts (MoE) architectures have become a cornerstone for scaling up 
 
 ## 📢 Release Notes
 
-| Date       | Release Notes                                                                                              |
-|------------|------------------------------------------------------------------------------------------------------------|
-| 2025-12-30 | - Release LibMoE v2.0: added analysis tools and loss tracking for MoE methods; extended support to language model pretraining tasks.
-| 2024-12-30 | - Release LibMoE v1.1:  <br>   - Reduced training time by 70%, from approximately ~30h to ~9h.  <br>   - Provides more detailed information on MoE algorithms, including balancing loss, z-loss, training time per step, FLOPs, language loss, total loss, aux loss, and more customizable metrics. <br>   - Updated balance_loss_coef and router_z_loss_coef for better performance [More details](https://github.com/Fsoft-AIC/LibMoE/blob/main/scripts/train/phi35mini/siglip/sft.sh). |
-| 2024-11-04 | - New feature: Metric analysis for MoE algorithms, as detailed in the [LibMoE](#) paper ✅ |
-| 2024-11-01 | - Released LibMoE v1.0 preprint report: [Read Here](https://arxiv.org/pdf/2411.00918) ✅  <br>   - LibMoE webpage: [Visit Here](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/) ✅  <br>   - Publicly available checkpoints ✅ |
+LibMoE follows a rolling release log, with the newest milestone listed first.
+
+| Date | Release | Highlights |
+|------|---------|------------|
+| 2025-12-30 | **LibMoE v2.0** | Added MoE analysis tools, loss tracking, and extended support for language-model pretraining workflows. |
+| 2024-12-30 | **LibMoE v1.1** | Reduced training time by approximately 70% from ~30h to ~9h; added richer MoE diagnostics including balancing loss, z-loss, per-step training time, FLOPs, language loss, total loss, auxiliary loss, and customizable metrics; updated `balance_loss_coef` and `router_z_loss_coef` for improved performance. [More details](https://github.com/Fsoft-AIC/LibMoE/blob/main/scripts/train/phi35mini/siglip/sft.sh). |
+| 2024-11-04 | **MoE metric analysis** | Introduced metric analysis utilities for MoE algorithms, aligned with the LibMoE paper. |
+| 2024-11-01 | **LibMoE v1.0 preprint** | Released the LibMoE preprint, project webpage, and public checkpoints. [Paper](https://arxiv.org/pdf/2411.00918) · [Webpage](https://fsoft-aic.github.io/fsoft-LibMoE.github.io/) |
 
 
 ---

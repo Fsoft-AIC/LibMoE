@@ -10,7 +10,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 # Format based on https://github.com/EleutherAI/lm-evaluation-harness/blob/86319a9b14ddae2030bc6e0fdddd47fc7d0bb525/lm_eval/tasks/arc/arc_easy.yaml
 
 class AI2ARC:
-    URL = "https://s3-us-west-2.amazonaws.com/ai2-website/data/ARC-V1-Feb2018.zip"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/ai2arc/ARC-V1-Feb2018.zip"
 
     def __init__(self, vocabulary: data_structures.vocabulary.Vocabulary, cache_dir: str = "./cache") -> None:
         self.cache_dir = f"{cache_dir}/{self.__class__.__name__}/"

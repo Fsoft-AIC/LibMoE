@@ -6,7 +6,7 @@ from framework import data_structures, utils
 
 
 class ChildrenBooksTest:
-    URL = "https://huggingface.co/datasets/cbt/resolve/7503a0643517afe02a86e4750d375a9686008efa/data/CBTest.tgz"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/cbt/CBTest.tgz"
 
     def detokenize(self, text):
         # from https://github.com/declare-lab/instruct-eval/blob/main/lm_eval/tasks/cbt.py

@@ -26,9 +26,9 @@ def get_info(tasks: str, patch_ckpt=None, save_dir: str = None, bs: Optional[int
         else:
             bs = f"--batch_size {bs}"
 
-        cmd = f"python3 main.py --name validate --log tb --restore {ckpt_path} --test_only 1 -reset 1 -lm.eval.enabled 1 {tasks} --keep_alive 0 {bs}"
+        cmd = f"python3 -u main.py --name validate --log tb --restore {ckpt_path} --test_only 1 -reset 1 -lm.eval.enabled 1 {tasks} --keep_alive 0 {bs}"
         print("Validate command: ", cmd)
-        out = lib.run_command(cmd)
+        out = lib.run_command(cmd, stream_output=True)
         lines = out.splitlines()
         start_line = lines.index('Validate returned:')
         end_line = None

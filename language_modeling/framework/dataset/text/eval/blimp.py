@@ -4,7 +4,7 @@ from .probability_compare_dataset import ProbabilityCompareDataset, ProbabilityC
 
 
 class BLiMP(ProbabilityCompareDataset):
-    URL = "https://github.com/alexwarstadt/blimp/raw/master/BLiMP.zip"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/blimp/BLiMP.zip"
 
     def load_dataset(self):
         for f in os.listdir(f"{self.cache_dir}data/data/"):

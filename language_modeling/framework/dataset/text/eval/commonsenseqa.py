@@ -18,7 +18,7 @@ from .probability_compare_dataset import ProbabilityCompareTest
 
 
 class CommonsenseQA:
-    URL = "https://s3.amazonaws.com/commensenseqa/dev_rand_split.jsonl"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/commonsenseqa/dev_rand_split.jsonl"
     SUPPORTS_DISTRIBUTED = True
     VERSION = "1.0"
 
@@ -103,4 +103,3 @@ class CommonsenseQA:
 
     def start_test(self):
         return ProbabilityCompareTest(self.splits, n_ways=5, normalize_by_length=True)
-

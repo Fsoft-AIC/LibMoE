@@ -10,8 +10,8 @@ from .probability_compare_dataset import ProbabilityCompareTest
 # preprocessing based on https://github.com/EleutherAI/lm-evaluation-harness/blob/86319a9b14ddae2030bc6e0fdddd47fc7d0bb525/lm_eval/tasks/piqa/piqa.yaml
 
 class PIQA:
-    URL = "https://raw.githubusercontent.com/ybisk/ybisk.github.io/master/piqa/data/valid.jsonl"
-    URL_LABELS = "https://raw.githubusercontent.com/ybisk/ybisk.github.io/master/piqa/data/valid-labels.lst"
+    URL = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/piqa/valid.jsonl"
+    URL_LABELS = "https://huggingface.co/datasets/DavidNguyen/LLAVA-LibMoE/resolve/main/eval/piqa/valid-labels.lst"
 
     def __init__(self, vocabulary: data_structures.vocabulary.Vocabulary, cache_dir: str = "./cache") -> None:
         self.cache_dir = f"{cache_dir}/{self.__class__.__name__}/"
@@ -28,7 +28,7 @@ class PIQA:
         self.data = []
 
         # with utils.LockFile(self.cache_dir+"lock"):
-            # self.download()
+        self.download()
 
         self.load_dataset()
 
