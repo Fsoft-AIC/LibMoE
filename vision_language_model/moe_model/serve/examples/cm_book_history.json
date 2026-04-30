@@ -1,0 +1,7 @@
+[
+    {
+        "user": "Who took the famous photograph of Abraham Lincoln?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/book_history.png",
+        "reponse": "The famous photograph of Abraham Lincoln was taken by Alexander Gardner. <|end|>"
+    }
+]

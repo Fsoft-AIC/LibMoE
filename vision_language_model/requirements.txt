@@ -1,0 +1,5 @@
+# Legacy shim for the vision-language stack.
+# Prefer installing from the repository root:
+#   pip install -e .
+#   pip install -e .[vlm,eval]
+-e ..[vlm,eval]

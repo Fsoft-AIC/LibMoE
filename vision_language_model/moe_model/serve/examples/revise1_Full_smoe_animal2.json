@@ -1,0 +1,52 @@
+[
+    {
+        "user": "Please describe the picture above.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The image features a scene from a movie, with a man and two children sitting on a couch. The man is holding a laptop, and the children are looking at the screen. The man appears to be a character from the movie \"Despicable Me,\" as he is wearing a distinctive bald head and a striped scarf.\n\nThe children are also dressed in costumes, with one of them wearing a pink hat. The couch they are sitting on is red, and the room has a window in the background. The overall atmosphere of the scene is playful and engaging, as the characters interact with the laptop and each other. <|end|>"
+    },
+    {
+        "user": "How many people are in the image?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "There are three people in the image: a man, a girl, and a boy. <|end|>"
+    },
+    {
+        "user": "How many people are in the image?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "There are three people in the image: a man, a girl, and a boy. <|end|>"
+    },
+    {
+        "user": "Whose shoulder is the man touching?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The man is touching the shoulder of the girl. <|end|>"
+    },
+    {
+        "user": "What is the girl with glasses doing?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The girl with glasses is sitting on a couch and looking at a laptop.  <|end|>"
+    },
+    {
+        "user": "Where is the girl in the pink striped outfit?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The girl in the pink striped outfit is sitting on a couch with the man and the boy. <|end|>"
+    },
+    {
+        "user": "What\u2019s special about the background wall?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The background wall has a patterned design, which adds visual interest and depth to the scene. <|end|>"
+    },
+    {
+        "user": "Please describe the picture above.",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The image features a scene from a movie, with a man and two children sitting on a couch. The man is holding a laptop, and the children are looking at the screen. The man appears to be a character from the movie \"Despicable Me,\" as he is wearing a distinctive bald head and a striped scarf.\n\nThe children are also dressed in costumes, with one of them wearing a pink hat. The couch they are sitting on is red, and the room has a window in the background. The overall atmosphere of the scene is playful and engaging, as the characters interact with the laptop and each other. <|end|>"
+    },
+    {
+        "user": "How many people are in the image?",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "There are three people in the image: a man and two children. <|end|>"
+    },
+    {
+        "user": "What is the girl with glasses doing?\t",
+        "image_path": "/cm/shared/anonymous_H102/toolkitmoe/moe_model/serve/examples/animal2.png",
+        "reponse": "The girl with glasses is sitting on the couch, looking at the laptop that the man is holding. She seems to be engaged in whatever content is displayed on the screen. <|end|>"
+    }
+]
