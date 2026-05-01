@@ -158,11 +158,14 @@ def parse_eval_args() -> argparse.Namespace:
 def cli_evaluate(args: Union[argparse.Namespace, None] = None) -> None:
     from huggingface_hub import login
     from envparse import env
+    
     env.read_envfile()
-    try:
-        login(token=env('KEY_HF'))
-    except:
-        print("Invalid HF token passed!")
+    hf_token = os.getenv("HF_TOKEN") or os.getenv("KEY_HF")
+    if hf_token:
+        try:
+            login(token=hf_token)
+        except Exception:
+            print("Invalid HF token passed!")
     if not args:
         args = parse_eval_args()
     # Check if no arguments were passed after parsing
