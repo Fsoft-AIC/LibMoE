@@ -36,12 +36,18 @@ We are making our entire experiment checkpoints publicly available to contribute
     ```
 
 2. **Install FlashAttention:**
+    ```bash
+    pip install flash-attn --no-build-isolation
+    ```
+    or 
 
     Choose the release that matches your CUDA / Torch build from the [FlashAttention releases](https://github.com/Dao-AILab/flash-attention/releases/). Example:
 
+    
     ```bash
     pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.6.3/flash_attn-2.6.3+cu118torch2.1cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
     ```
+   
 
 ### Troubleshooting: FusedAdam Issues
 
