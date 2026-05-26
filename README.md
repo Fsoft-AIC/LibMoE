@@ -34,6 +34,7 @@ LibMoE follows a rolling release log, with the newest milestone listed first.
 
 | Date | Release | Highlights |
 |------|---------|------------|
+| 2026-05-26 | 🎉 **LibMoE v2.0** | Accepted to **TMLR 2026**, marking a major milestone for the LibMoE framework and its contributions to reproducible and accessible MoE research. |
 | 2025-12-30 | **LibMoE v2.0** | Added MoE analysis tools, loss tracking, and extended support for language-model pretraining workflows. |
 | 2024-12-30 | **LibMoE v1.1** | Reduced training time by approximately 70% from ~30h to ~9h; added richer MoE diagnostics including balancing loss, z-loss, per-step training time, FLOPs, language loss, total loss, auxiliary loss, and customizable metrics; updated `balance_loss_coef` and `router_z_loss_coef` for improved performance. [More details](https://github.com/Fsoft-AIC/LibMoE/blob/main/scripts/train/phi35mini/siglip/sft.sh). |
 | 2024-11-04 | **MoE metric analysis** | Introduced metric analysis utilities for MoE algorithms, aligned with the LibMoE paper. |
